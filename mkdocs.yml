@@ -1,0 +1,56 @@
+# Pyslvs Documentation Configuration
+
+site_name: Pyslvs Documentation
+repo_url: https://github.com/KmolYuan/Pyslvs-UI
+copyright: Copyright &copy 2016-2020 <a href="https://github.com/KmolYuan">Yuan Chang</a>
+site_description: The manual of Pyslvs, an open source planar linkage mechanism simulation and mechanical synthesis system.
+
+theme:
+  name: material
+  favicon: img/favicon.png
+  logo: img/favicon.png
+  nav_style: dark
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - toc:
+      permalink: true
+  - admonition
+  - smarty
+  - attr_list
+  - codehilite
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+nav:
+  - What is Pyslvs?: index.md
+  - Getting Start:
+      - Introduction: intro.md
+      - Environment: environment.md
+  - User Interface:
+      - Build a Planar Linkage Mechanism: mechanism.md
+      - Mechanism Variables: inputs.md
+      - Mechanism Synthesis: synthesis.md
+      - File Format of Pyslvs: io.md
+      - Settings: settings.md
+  - Libraries & API:
+      - Annotations: typing.md
+      - Pyslvs Libraries: pyslvs-lib.md
+      - Pyslvs API: pyslvs-api.md
+      - Python-Solvespace Library: python-solvespace-lib.md
+      - Python-Solvespace API: python-solvespace-api.md
+  - About:
+      - References: references.md
+      - Powered By: powered-by.md
+      - Changelog: changelog.md

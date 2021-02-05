@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Pyslvs - Untitled</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../icons.qrc">
+    <normaloff>:/icons/main.png</normaloff>:/icons/main.png</iconset>
+  </property>
+  <widget class="QWidget" name="central_widget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QSplitter" name="main_splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QTabWidget" name="main_panel">
+       <property name="tabPosition">
+        <enum>QTabWidget::West</enum>
+       </property>
+       <widget class="QWidget" name="mechanism_tab">
+        <attribute name="icon">
+         <iconset resource="../icons.qrc">
+          <normaloff>:/icons/mechanism.png</normaloff>:/icons/mechanism.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Mechanism</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_27">
+         <property name="leftMargin">
+          <number>3</number>
+         </property>
+         <property name="topMargin">
+          <number>3</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QSplitter" name="mechanism_panel_splitter">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QWidget" name="EntitiesTabWidget" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_29">
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QTabWidget" name="entities_tab">
+               <widget class="QWidget" name="PointsTab">
+                <attribute name="icon">
+                 <iconset resource="../icons.qrc">
+                  <normaloff>:/icons/bearing.png</normaloff>:/icons/bearing.png</iconset>
+                </attribute>
+                <attribute name="title">
+                 <string>Points</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <property name="leftMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>6</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="entities_point_widget" native="true">
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::CustomContextMenu</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="entities_point_layout">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="LinksTab">
+                <attribute name="icon">
+                 <iconset resource="../icons.qrc">
+                  <normaloff>:/icons/link.png</normaloff>:/icons/link.png</iconset>
+                </attribute>
+                <attribute name="title">
+                 <string>Links</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <property name="leftMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>6</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>6</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="entities_link_widget" native="true">
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::CustomContextMenu</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="entities_link_layout">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="tab">
+                <attribute name="icon">
+                 <iconset resource="../icons.qrc">
+                  <normaloff>:/icons/configure.png</normaloff>:/icons/configure.png</iconset>
+                </attribute>
+                <attribute name="title">
+                 <string>Calculation</string>
+                </attribute>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <item>
+                  <widget class="QWidget" name="EntitiesExpr_widget" native="true">
+                   <property name="contextMenuPolicy">
+                    <enum>Qt::CustomContextMenu</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="entities_expr_layout">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="MechanismsTabWidget" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_21">
+             <item>
+              <widget class="Line" name="MechanismPanelSplitterLine">
+               <property name="lineWidth">
+                <number>3</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_11">
+                   <item>
+                    <widget class="QLabel" name="mechanism_storage_name_tag_text">
+                     <property name="text">
+                      <string>Mechanism name:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="mechanism_storage_name_tag">
+                     <property name="placeholderText">
+                      <string>Prototype</string>
+                     </property>
+                     <property name="clearButtonEnabled">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <widget class="QListWidget" name="mechanism_storage">
+                   <property name="statusTip">
+                    <string>All expressions of this project. They will be saving with database.</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_20">
+                 <item>
+                  <widget class="QPushButton" name="mechanism_storage_add">
+                   <property name="statusTip">
+                    <string>Capture the current expression then save to the list.</string>
+                   </property>
+                   <property name="text">
+                    <string>Add</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../icons.qrc">
+                     <normaloff>:/icons/data.png</normaloff>:/icons/data.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="mechanism_storage_restore">
+                   <property name="statusTip">
+                    <string>Restore the selected expression.</string>
+                   </property>
+                   <property name="text">
+                    <string>Restore</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../icons.qrc">
+                     <normaloff>:/icons/data_update.png</normaloff>:/icons/data_update.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="mechanism_storage_copy">
+                   <property name="statusTip">
+                    <string>Copy the specified mechanism expression as string format.</string>
+                   </property>
+                   <property name="text">
+                    <string>Copy</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../icons.qrc">
+                     <normaloff>:/icons/copy.png</normaloff>:/icons/copy.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="mechanism_storage_paste">
+                   <property name="statusTip">
+                    <string>Append a new expression to list by string format.</string>
+                   </property>
+                   <property name="text">
+                    <string>Paste</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../icons.qrc">
+                     <normaloff>:/icons/paste.png</normaloff>:/icons/paste.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="mechanism_storage_delete">
+                   <property name="statusTip">
+                    <string>Delete the specified mechanism.</string>
+                   </property>
+                   <property name="text">
+                    <string>Delete</string>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../icons.qrc">
+                     <normaloff>:/icons/delete.png</normaloff>:/icons/delete.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="inputs_tab">
+        <attribute name="icon">
+         <iconset resource="../icons.qrc">
+          <normaloff>:/icons/motor.png</normaloff>:/icons/motor.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Inputs</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="inputs_tab_layout"/>
+       </widget>
+       <widget class="QWidget" name="synthesis_tab">
+        <attribute name="icon">
+         <iconset resource="../icons.qrc">
+          <normaloff>:/icons/synthesis.png</normaloff>:/icons/synthesis.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Synthesis</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QTabWidget" name="synthesis_tab_widget">
+           <property name="currentIndex">
+            <number>-1</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="project_tab">
+        <attribute name="icon">
+         <iconset resource="../icons.qrc">
+          <normaloff>:/icons/id.png</normaloff>:/icons/id.png</iconset>
+        </attribute>
+        <attribute name="title">
+         <string>Project</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="project_layout"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <layout class="QHBoxLayout" name="right_layout">
+        <item>
+         <widget class="Line" name="middle_line">
+          <property name="lineWidth">
+           <number>5</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSplitter" name="canvas_splitter">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QWidget" name="verticalLayoutWidget">
+           <layout class="QVBoxLayout" name="canvas_layout">
+            <item>
+             <widget class="QWidget" name="zoom_widget" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="zoom_cus_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Customize zooming.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/example.png</normaloff>:/icons/example.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="zoom_bar">
+                 <property name="statusTip">
+                  <string>Adjust the slider to change demo size.</string>
+                 </property>
+                 <property name="minimum">
+                  <number>50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>10000</number>
+                 </property>
+                 <property name="singleStep">
+                  <number>50</number>
+                 </property>
+                 <property name="pageStep">
+                  <number>50</number>
+                 </property>
+                 <property name="sliderPosition">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="invertedControls">
+                  <bool>false</bool>
+                 </property>
+                 <property name="tickPosition">
+                  <enum>QSlider::TicksBelow</enum>
+                 </property>
+                 <property name="tickInterval">
+                  <number>200</number>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="nav_toolbar" native="true">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <layout class="QHBoxLayout" name="nav_layout">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="zoom_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Show zooming settings.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/fullscreen.png</normaloff>:/icons/fullscreen.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="reset_canvas_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Zoom to fit.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/aim.png</normaloff>:/icons/aim.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="grid_mode_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Grid mode: Snap the mouse when dragging.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/grid.png</normaloff>:/icons/grid.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="alignment_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Point alignment: Align the selected points with a value of x or y axis.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/vertical_align.png</normaloff>:/icons/vertical_align.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="popupMode">
+                  <enum>QToolButton::MenuButtonPopup</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="free_move_button">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Free mode: Allow selected point coordinates to be edited by dragging.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/free_move_off.png</normaloff>:/icons/free_move_off.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_3">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="dof_lable">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="toolTip">
+                  <string>Degree of Freedom</string>
+                 </property>
+                 <property name="text">
+                  <string>DOF</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="dof_view">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="conflict">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="statusTip">
+                  <string>Show Conflict Guide tool tips.</string>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width='30' src=&quot;:/icons/conflict.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::RichText</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="console_widget" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <property name="leftMargin">
+             <number>3</number>
+            </property>
+            <property name="topMargin">
+             <number>3</number>
+            </property>
+            <property name="rightMargin">
+             <number>3</number>
+            </property>
+            <property name="bottomMargin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="console_toolbar" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width='30' src=&quot;:/icons/konsole.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="console_disconnect_button">
+                 <property name="statusTip">
+                  <string>Disconnect from GUI console.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/disconnect.png</normaloff>:/icons/disconnect.png</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="console_connect_button">
+                 <property name="statusTip">
+                  <string>Connect to GUI console.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/connect.png</normaloff>:/icons/connect.png</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="clear_console">
+                 <property name="statusTip">
+                  <string>Clear GUI console.</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="../icons.qrc">
+                   <normaloff>:/icons/clean.png</normaloff>:/icons/clean.png</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTextBrowser" name="console_widget_browser"/>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>928</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_new_project"/>
+    <addaction name="action_load_file"/>
+    <addaction name="action_example"/>
+    <addaction name="separator"/>
+    <addaction name="action_save"/>
+    <addaction name="action_save_as"/>
+    <addaction name="action_screenshot"/>
+    <addaction name="separator"/>
+    <addaction name="action_full_screen"/>
+    <addaction name="action_new_window"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_mechanism">
+    <property name="title">
+     <string>&amp;Mechanism</string>
+    </property>
+    <addaction name="action_new_point"/>
+    <addaction name="action_new_link"/>
+    <addaction name="separator"/>
+    <addaction name="action_edit_point"/>
+    <addaction name="action_edit_link"/>
+    <addaction name="separator"/>
+    <addaction name="action_delete_point"/>
+    <addaction name="action_delete_link"/>
+    <addaction name="separator"/>
+    <addaction name="action_scale_points"/>
+    <addaction name="action_set_link_length"/>
+   </widget>
+   <widget class="QMenu" name="menu_options">
+    <property name="title">
+     <string>&amp;Options</string>
+    </property>
+    <addaction name="action_show_console"/>
+    <addaction name="separator"/>
+    <addaction name="action_zoom_to_fit"/>
+    <addaction name="action_show_point_mark"/>
+    <addaction name="action_show_dimensions"/>
+    <addaction name="action_path_style"/>
+    <addaction name="separator"/>
+    <addaction name="action_preference"/>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="action_pyslvs_com"/>
+    <addaction name="action_github_repository"/>
+    <addaction name="action_documentation"/>
+    <addaction name="action_mde_tw"/>
+    <addaction name="separator"/>
+    <addaction name="action_check_update"/>
+    <addaction name="action_report_issue"/>
+    <addaction name="separator"/>
+    <addaction name="action_about_qt"/>
+    <addaction name="action_about"/>
+   </widget>
+   <widget class="QMenu" name="menu_edit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_edit"/>
+   <addaction name="menu_mechanism"/>
+   <addaction name="menu_options"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <widget class="QStatusBar" name="status_bar"/>
+  <action name="action_new_project">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/new_file.png</normaloff>:/icons/new_file.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;New Project</string>
+   </property>
+   <property name="statusTip">
+    <string>Reset to a new wrokbook.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_new_point">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/bearing.png</normaloff>:/icons/bearing.png</iconset>
+   </property>
+   <property name="text">
+    <string>New &amp;Point</string>
+   </property>
+   <property name="statusTip">
+    <string>Add a new point representative of a node on a machine.</string>
+   </property>
+   <property name="shortcut">
+    <string>P</string>
+   </property>
+  </action>
+  <action name="action_new_link">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/link.png</normaloff>:/icons/link.png</iconset>
+   </property>
+   <property name="text">
+    <string>New &amp;Link</string>
+   </property>
+   <property name="statusTip">
+    <string>Add  a link between two points.</string>
+   </property>
+   <property name="shortcut">
+    <string>L</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/exit.png</normaloff>:/icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="statusTip">
+    <string>Exit Pyslvs.</string>
+   </property>
+  </action>
+  <action name="action_mde_tw">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/kmol.png</normaloff>:/icons/kmol.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;MDE.tw</string>
+   </property>
+   <property name="statusTip">
+    <string>Goto Kmolab learn about more.</string>
+   </property>
+  </action>
+  <action name="action_github_repository">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/github.png</normaloff>:/icons/github.png</iconset>
+   </property>
+   <property name="text">
+    <string>Git&amp;hub Repository</string>
+   </property>
+   <property name="statusTip">
+    <string>Goto Github storage of Pyslvs.</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/main.png</normaloff>:/icons/main.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;About Pyslvs</string>
+   </property>
+   <property name="statusTip">
+    <string>Version and introduction of Pyslvs.</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="action_full_screen">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/fullscreen.png</normaloff>:/icons/fullscreen.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Full Screen</string>
+   </property>
+   <property name="statusTip">
+    <string>Let the window truns to full screen.</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+F1</string>
+   </property>
+  </action>
+  <action name="action_delete_point">
+   <property name="text">
+    <string>&amp;Delete Point</string>
+   </property>
+   <property name="statusTip">
+    <string>Delete an existing point.</string>
+   </property>
+  </action>
+  <action name="action_delete_link">
+   <property name="text">
+    <string>Delete Li&amp;nk</string>
+   </property>
+   <property name="statusTip">
+    <string>Delete an existing link.</string>
+   </property>
+  </action>
+  <action name="action_edit_point">
+   <property name="text">
+    <string>&amp;Edit Point</string>
+   </property>
+   <property name="statusTip">
+    <string>Edit an existing point.</string>
+   </property>
+  </action>
+  <action name="action_edit_link">
+   <property name="text">
+    <string>Ed&amp;it Link</string>
+   </property>
+   <property name="statusTip">
+    <string>Edit an existing link.</string>
+   </property>
+  </action>
+  <action name="action_show_dimensions">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Display &amp;Dimensions</string>
+   </property>
+   <property name="statusTip">
+    <string>Display dimensions in the canvas.</string>
+   </property>
+   <property name="shortcut">
+    <string>F11</string>
+   </property>
+  </action>
+  <action name="action_show_point_mark">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Display Point &amp;Mark</string>
+   </property>
+   <property name="statusTip">
+    <string>Display point mark in canvas.</string>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="action_about_qt">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/qt.png</normaloff>:/icons/qt.png</iconset>
+   </property>
+   <property name="text">
+    <string>About &amp;Qt</string>
+   </property>
+   <property name="statusTip">
+    <string>Show Qt about.</string>
+   </property>
+  </action>
+  <action name="action_load_file">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/loadfile.png</normaloff>:/icons/loadfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>L&amp;oad File</string>
+   </property>
+   <property name="statusTip">
+    <string>Load Project from *.pyslvs project or *.slvs file.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_zoom_to_fit">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/aim.png</normaloff>:/icons/aim.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Zoom to Fit</string>
+   </property>
+   <property name="statusTip">
+    <string>Zoom in as mechanism size.</string>
+   </property>
+   <property name="shortcut">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="action_path_style">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Solid Style &amp;Path</string>
+   </property>
+   <property name="statusTip">
+    <string>Show path in solid line style, otherwise will be isolated dots.</string>
+   </property>
+  </action>
+  <action name="action_pyslvs_com">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/main.png</normaloff>:/icons/main.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Pyslvs.com</string>
+   </property>
+   <property name="statusTip">
+    <string>Goto Pyslvs home page.</string>
+   </property>
+  </action>
+  <action name="action_show_console">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/konsole.png</normaloff>:/icons/konsole.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Show GUI Console</string>
+   </property>
+   <property name="statusTip">
+    <string>Open a widget to show console output.</string>
+   </property>
+   <property name="shortcut">
+    <string>F12</string>
+   </property>
+  </action>
+  <action name="action_example">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/example.png</normaloff>:/icons/example.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Example ...</string>
+   </property>
+   <property name="statusTip">
+    <string>Load a example.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="action_check_update">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/github.png</normaloff>:/icons/github.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Check for Updates</string>
+   </property>
+   <property name="statusTip">
+    <string>Check the lastest version of Pyslvs from Github.</string>
+   </property>
+  </action>
+  <action name="action_new_window">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/new_window.png</normaloff>:/icons/new_window.png</iconset>
+   </property>
+   <property name="text">
+    <string>New &amp;Window</string>
+   </property>
+   <property name="statusTip">
+    <string>Open a new Pyslvs window.</string>
+   </property>
+  </action>
+  <action name="action_scale_points">
+   <property name="text">
+    <string>&amp;Scale Mechanism</string>
+   </property>
+   <property name="statusTip">
+    <string>Scale the mechanism by specified factor.</string>
+   </property>
+  </action>
+  <action name="action_save">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/yaml.png</normaloff>:/icons/yaml.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="statusTip">
+    <string>Save to a YAML-based format.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_save_as">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/yaml.png</normaloff>:/icons/yaml.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save &amp;As ...</string>
+   </property>
+   <property name="statusTip">
+    <string>Save to another YAML file.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="action_documentation">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/collections.png</normaloff>:/icons/collections.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Documentation</string>
+   </property>
+   <property name="statusTip">
+    <string>See the documentation on Readthedocs.</string>
+   </property>
+  </action>
+  <action name="action_set_link_length">
+   <property name="text">
+    <string>Se&amp;t Link Length</string>
+   </property>
+  </action>
+  <action name="action_preference">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>P&amp;references</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="action_screenshot">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/capture.png</normaloff>:/icons/capture.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;creenshot</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_report_issue">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/github.png</normaloff>:/icons/github.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Report Issue</string>
+   </property>
+   <property name="statusTip">
+    <string>Report an issue or see the current issues on GitHub.</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>action_exit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>action_show_console</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>console_widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>822</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clear_console</sender>
+   <signal>clicked()</signal>
+   <receiver>console_widget_browser</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>959</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>762</x>
+     <y>480</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoom_button</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>zoom_widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>508</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>55</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

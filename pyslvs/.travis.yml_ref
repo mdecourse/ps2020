@@ -1,0 +1,84 @@
+# Travis-Ci for Pyslvs
+language: python
+os: linux
+dist: xenial
+
+jobs:
+  include:
+    - &linux
+      python: "3.7"
+
+    - <<: *linux
+      python: "3.8"
+
+    - <<: *linux
+      python: "3.9"
+
+    - &win
+      os: windows
+      # 'generic' will cause infinity loop
+      language: shell
+      env:
+        - PYTHON=3.7.7
+        - PY=37
+        - COMPILER=mingw32
+      before_install:
+        # Install Python
+        - choco install -y python --version ${PYTHON}
+        - export PYDIR=/c/Python${PY}
+        - export PATH=${PYDIR}:${PYDIR}/Scripts:${PATH}
+        - sh ./platform/set_pycompiler.sh ${PYDIR} ${COMPILER}
+        - cp ${PYDIR}/python.exe ${PYDIR}/python3.exe
+        - python3 -m pip install pip -U
+        - python3 --version
+        - python3 -m pip --version
+        - python3 -m pip install -r requirements.txt -U
+        # Select Msys2
+        - export PATH=/c/tools/msys64/mingw64/bin:${PATH}
+      before_cache:
+        - ${msys2} pacman --sync --clean --noconfirm
+      cache:
+        directories:
+          - ${HOME}/AppData/Local/Temp/chocolatey
+          - /c/tools/msys64
+
+    - <<: *win
+      env:
+        - PYTHON=3.8.5
+        - PY=38
+        - COMPILER=mingw32
+
+    - <<: *win
+      env:
+        - PYTHON=3.9.0
+        - PY=39
+        - COMPILER=mingw32
+
+    - <<: *win
+      env:
+        - PYTHON=3.7.0
+        - PY=37
+        - COMPILER=msvc
+
+    - <<: *win
+      env:
+        - PYTHON=3.8.5
+        - PY=38
+        - COMPILER=msvc
+
+    - <<: *win
+      env:
+        - PYTHON=3.9.0
+        - PY=39
+        - COMPILER=msvc
+
+script:
+  - python3 setup.py install
+  - python3 test
+
+before_cache:
+  - rm -rf $HOME/.cache/pip/log
+
+cache:
+  directories:
+    - $HOME/.cache/pip
