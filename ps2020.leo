@@ -1590,23 +1590,114 @@
 </v>
 </v>
 </v>
-<v t="leo.20210209144219.1"><vh>all .c files</vh>
-<v t="leo.20210209144219.2"><vh>@path ./</vh>
-<v t="leo.20210209144219.3"><vh>@path docs</vh></v>
-<v t="leo.20210209144219.6"><vh>@path pyslvs</vh>
-<v t="leo.20210209144219.8"><vh>@path pyslvs</vh></v>
+<v t="leo.20210210095724.1"><vh>all .pyx and pxd</vh>
+<v t="leo.20210210095724.2"><vh>@path ./</vh>
+<v t="leo.20210210095724.6"><vh>@path pyslvs</vh>
+<v t="leo.20210210095724.8"><vh>@path pyslvs</vh>
+<v t="leo.20210210095724.9"><vh>@@clean bfgs.pxd</vh></v>
+<v t="leo.20210210095724.10"><vh>@@clean bfgs.pyx</vh></v>
+<v t="leo.20210210095724.11"><vh>@@clean expression.pxd</vh></v>
+<v t="leo.20210210095724.12"><vh>@@clean expression.pyx</vh></v>
+<v t="leo.20210210095724.13"><vh>@@clean planar_linkage.pyx</vh></v>
+<v t="leo.20210210095724.14"><vh>@@clean sketch_solve.pxd</vh></v>
+<v t="leo.20210210095724.15"><vh>@@clean tinycadlib.pxd</vh></v>
+<v t="leo.20210210095724.16"><vh>@@clean tinycadlib.pyx</vh></v>
+<v t="leo.20210210095724.17"><vh>@@clean topo_config.pxd</vh></v>
+<v t="leo.20210210095724.18"><vh>@@clean topo_config.pyx</vh></v>
+<v t="leo.20210210095724.19"><vh>@@clean __init__.pxd</vh></v>
+<v t="leo.20210210095724.21"><vh>@path graph</vh>
+<v t="leo.20210210095724.22"><vh>@@clean graph.pxd</vh></v>
+<v t="leo.20210210095724.23"><vh>@@clean graph.pyx</vh></v>
+<v t="leo.20210210095724.24"><vh>@@clean layout.pyx</vh></v>
+<v t="leo.20210210095724.25"><vh>@@clean planar.pxd</vh></v>
+<v t="leo.20210210095724.26"><vh>@@clean planar.pyx</vh></v>
+<v t="leo.20210210095724.27"><vh>@@clean structural.pyx</vh></v>
+<v t="leo.20210210095724.28"><vh>@@clean __init__.pxd</vh></v>
 </v>
-<v t="leo.20210209144220.4"><vh>@path pyslvs_ui</vh>
-<v t="leo.20210209144220.9"><vh>@path io</vh></v>
-<v t="leo.20210209144220.12"><vh>@path synthesis</vh>
-<v t="leo.20210209144220.13"><vh>@path collections</vh></v>
-<v t="leo.20210209144220.15"><vh>@path dimensional_synthesis</vh></v>
+<v t="leo.20210210095724.29"><vh>@path metaheuristics</vh>
+<v t="leo.20210210095724.30"><vh>@@clean de.pyx</vh></v>
+<v t="leo.20210210095724.31"><vh>@@clean firefly.pyx</vh></v>
+<v t="leo.20210210095724.32"><vh>@@clean rga.pyx</vh></v>
+<v t="leo.20210210095724.33"><vh>@@clean test.pyx</vh></v>
+<v t="leo.20210210095724.34"><vh>@@clean tlbo.pyx</vh></v>
+<v t="leo.20210210095724.35"><vh>@@clean utility.pxd</vh></v>
+<v t="leo.20210210095725.1"><vh>@@clean utility.pyx</vh></v>
+<v t="leo.20210210095725.2"><vh>@@clean __init__.pxd</vh></v>
 </v>
-<v t="leo.20210209144220.18"><vh>@path widgets</vh></v>
 </v>
 </v>
 </v>
-<v t="leo.20210209144326.1"><vh>newHeadline</vh></v>
+</v>
+<v t="leo.20210210095901.1"><vh>all .cpp, .h and .hpp</vh>
+<v t="leo.20210210095901.2"><vh>@path ./</vh>
+<v t="leo.20210210095901.6"><vh>@path pyslvs</vh>
+<v t="leo.20210210095901.8"><vh>@path pyslvs</vh>
+<v t="leo.20210210095901.9"><vh>@path bfgs_solver</vh>
+<v t="leo.20210210095901.10"><vh>@@clean calc.cpp</vh>
+<v t="leo.20210210095901.11"><vh>auto point_on_point (calc.cpp)</vh></v>
+<v t="leo.20210210095901.12"><vh>auto p2p_distance (calc.cpp)</vh></v>
+<v t="leo.20210210095901.13"><vh>auto point_on_line (calc.cpp)</vh>
+<v t="leo.20210210095901.14"><vh>auto t (calc.cpp)</vh>
+<v t="leo.20210210095901.15"><vh>auto tmp (calc.cpp)</vh></v>
+</v>
+</v>
+<v t="leo.20210210095901.16"><vh>auto calc (calc.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.17"><vh>@@clean calc.h</vh></v>
+<v t="leo.20210210095901.18"><vh>@@clean constraints.cpp</vh>
+<v t="leo.20210210095901.19"><vh>auto p2p_distance_constraint (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.20"><vh>auto point_line_constraint (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.21"><vh>auto line_constraint (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.22"><vh>auto angle_constraint (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.23"><vh>auto point_on_point (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.24"><vh>auto p2p_distance (constraints.cpp)</vh></v>
+<v t="leo.20210210095901.25"><vh>int ernal_angle (constraints.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.26"><vh>@@clean derivatives.cpp</vh>
+<v t="leo.20210210095901.27"><vh>void derivatives (derivatives.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.28"><vh>@@clean derivatives.h</vh></v>
+<v t="leo.20210210095901.29"><vh>@@clean main.cpp</vh>
+<v t="leo.20210210095901.30"><vh>auto printpoints (main.cpp)</vh></v>
+<v t="leo.20210210095901.31"><vh>auto main (main.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.32"><vh>@@clean solve.cpp</vh>
+<v t="leo.20210210095901.33"><vh>auto cal_grad (solve.cpp)</vh></v>
+<v t="leo.20210210095901.34"><vh>auto solve (solve.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.35"><vh>@@clean solve.h</vh>
+<v t="leo.20210210095901.36"><vh>extern "C" { (solve.h)</vh></v>
+</v>
+</v>
+<v t="leo.20210210095901.39"><vh>@path tinycadlib</vh>
+<v t="leo.20210210095901.40"><vh>@@clean main.cpp</vh>
+<v t="leo.20210210095901.41"><vh>int main (main.cpp)</vh>
+<v t="leo.20210210095901.42"><vh>auto stack (main.cpp)</vh></v>
+<v t="leo.20210210095901.43"><vh>auto join_pos (main.cpp)</vh></v>
+<v t="leo.20210210095901.44"><vh>auto param (main.cpp)</vh></v>
+</v>
+</v>
+<v t="leo.20210210095901.45"><vh>@@clean solver.cpp</vh>
+<v t="leo.20210210095901.46"><vh>auto distance (solver.cpp)</vh></v>
+<v t="leo.20210210095901.47"><vh>auto slope_angle (solver.cpp)</vh></v>
+<v t="leo.20210210095901.48"><vh>auto cpxy (solver.cpp)</vh></v>
+<v t="leo.20210210095901.49"><vh>auto cppp (solver.cpp)</vh></v>
+<v t="leo.20210210095901.50"><vh>auto cplap (solver.cpp)</vh></v>
+<v t="leo.20210210095901.51"><vh>auto cpllp (solver.cpp)</vh></v>
+<v t="leo.20210210095901.52"><vh>auto cplpp (solver.cpp)</vh></v>
+<v t="leo.20210210095901.53"><vh>auto cpalp (solver.cpp)</vh></v>
+<v t="leo.20210210095901.54"><vh>auto ExprSolver::solve (solver.cpp)</vh></v>
+</v>
+<v t="leo.20210210095901.55"><vh>@@clean solver.h</vh>
+<v t="leo.20210210095902.1"><vh>class ExprSolver</vh></v>
+</v>
+<v t="leo.20210210095902.2"><vh>@@clean swappable_pair.hpp</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20210209144326.1"><vh>recursive importer</vh></v>
 </vnodes>
 <tnodes>
 <t tx="leo.20210209143646.1">'''Recursively import all python files in a directory and clean the result.'''
@@ -65702,24 +65793,7784 @@ def __plot(self) -&gt; None:
     QtCore.QMetaObject.connectSlotsByName(Form)
 
 </t>
-<t tx="leo.20210209144219.1"></t>
-<t tx="leo.20210209144219.2"></t>
-<t tx="leo.20210209144219.3"></t>
-<t tx="leo.20210209144219.6"></t>
-<t tx="leo.20210209144219.8"></t>
-<t tx="leo.20210209144220.12"></t>
-<t tx="leo.20210209144220.13"></t>
-<t tx="leo.20210209144220.15"></t>
-<t tx="leo.20210209144220.18"></t>
-<t tx="leo.20210209144220.4"></t>
-<t tx="leo.20210209144220.9"></t>
 <t tx="leo.20210209144326.1">'''Recursively import all python files in a directory and clean the result.'''
 
 c.recursiveImport(
     dir_ = r'./',
     kind = '@clean', # The new best practice.
     safe_at_file = True,
-    theTypes = ['.pyx', '.pxd'] # Same as ['.py']
+    theTypes = ['.cpp', '.h', '.hpp'] # Same as ['.py']
 )</t>
+<t tx="leo.20210210095724.1"></t>
+<t tx="leo.20210210095724.10">@path ./pyslvs/pyslvs/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Wrapper of BFGS algorithm.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from typing import Sequence, Set
+cimport cython
+from cpython.mem cimport PyMem_Malloc, PyMem_Free
+from libc.math cimport M_PI, cos, sin
+from libcpp.pair cimport pair
+from .sketch_solve cimport (
+    point_on_point,
+    p2p_distance,
+    internal_angle,
+    point_on_line,
+    line_internal_angle,
+    solve,
+)
+from .expression cimport get_vlinks, VJoint, VPoint, Coord
+
+
+cdef inline double *de_refer_post_inc(clist[double].iterator &amp;it):
+    """Implement &amp;(*it++) in C++."""
+    return &amp;cython.operator.dereference(cython.operator.postincrement(it))
+
+
+cdef inline void _sort_pairs(dict data_dict):
+    """Sort the pairs in data_dict."""
+    for k in data_dict:
+        if isinstance(k, (Sequence, Set)) and len(k) == 2:
+            data_dict[frozenset(k)] = data_dict.pop(k)
+
+
+cdef inline double _radians(double degree):
+    """Degrees to radians."""
+    return degree / 180 * M_PI
+
+
+cdef class SolverSystem:
+    """Sketch Solve solver.
+
+    !!! note
+        The object attributes of such type are unable to access.
+    """
+
+    def __cinit__(self, object vpoints_, dict inputs = None, dict data_dict = None):
+        self.vpoints = list(vpoints_)
+        self.vlinks = {vlink.name: vlink for vlink in get_vlinks(self.vpoints)}
+        self.inputs = {} if inputs is None else inputs
+        self.data_dict = {} if data_dict is None else data_dict
+        _sort_pairs(self.data_dict)
+        self.build_expression()
+
+    cpdef bint same_points(self, object vpoints_):
+        """Return true if two expressions are same."""
+        cdef int i
+        cdef VPoint p1, p2
+        for i, p1 in enumerate(vpoints_):
+            p2 = self.vpoints[i]
+            if p1.links != p2.links:
+                return False
+        return True
+
+    cpdef frozenset show_inputs(self):
+        """Show the current input pairs keys from original constructor."""
+        return frozenset(self.inputs)
+
+    cpdef frozenset show_data(self):
+        """Show the current keys of `data_dict` parameter from original
+        constructor.
+        """
+        return frozenset(self.data_dict)
+
+    cdef Point *point_ptr(self, int i, VLink vlink):
+        """Pick Point pointers."""
+        cdef VPoint vp = self.vpoints[i]
+        if i not in self.data_dict and vp.is_slot_link(vlink.name):
+            return &amp;self.slider_bases[self.sliders[i]]
+        else:
+            return &amp;self.points[i]
+
+    cdef void build_expression(self):
+        """Build the expression for solver at first time."""
+        # Point parameters
+        cdef int i
+        cdef double x, y
+        cdef double *tmp_ptr
+        cdef VPoint vpoint
+        cdef Coord coord
+        for i, vpoint in enumerate(self.vpoints):
+            if vpoint.no_link():
+                x = vpoint.c[0, 0]
+                y = vpoint.c[0, 1]
+                self.constants.push_back(x)
+                tmp_ptr = &amp;self.constants.back()
+                self.constants.push_back(y)
+                self.points.push_back([tmp_ptr, &amp;self.constants.back()])
+                continue
+            if vpoint.grounded():
+                if self.check_known(i):
+                    continue
+                x = vpoint.c[0, 0]
+                y = vpoint.c[0, 1]
+                self.constants.push_back(x)
+                tmp_ptr = &amp;self.constants.back()
+                self.constants.push_back(y)
+                if vpoint.type in {VJoint.P, VJoint.RP}:
+                    self.sliders[i] = &lt;int&gt;self.slider_bases.size()
+                    # Base point (slot) is fixed
+                    self.slider_bases.push_back([tmp_ptr, &amp;self.constants.back()])
+                    # Slot point (slot) is movable
+                    self.params.push_back(x + cos(vpoint.angle))
+                    tmp_ptr = &amp;self.params.back()
+                    self.params.push_back(y + sin(vpoint.angle))
+                    self.slider_slots.push_back([tmp_ptr, &amp;self.params.back()])
+                    # Pin is movable
+                    x = vpoint.c[1, 0]
+                    y = vpoint.c[1, 1]
+                    if vpoint.has_offset() and vpoint.true_offset() &lt;= 0.1:
+                        if vpoint.offset() &gt; 0:
+                            x += 0.1
+                            y += 0.1
+                        else:
+                            x -= 0.1
+                            y -= 0.1
+                    self.params.push_back(x)
+                    tmp_ptr = &amp;self.params.back()
+                    self.params.push_back(y)
+                    self.points.push_back([tmp_ptr, &amp;self.params.back()])
+                else:
+                    self.points.push_back([tmp_ptr, &amp;self.constants.back()])
+                continue
+            if self.check_known(i):
+                continue
+            x = vpoint.c[0, 0]
+            y = vpoint.c[0, 1]
+            self.params.push_back(x)
+            tmp_ptr = &amp;self.params.back()
+            self.params.push_back(y)
+            if vpoint.type in {VJoint.P, VJoint.RP}:
+                self.sliders[i] = &lt;int&gt;self.slider_bases.size()
+                # Base point (slot) is movable
+                self.slider_bases.push_back([tmp_ptr, &amp;self.params.back()])
+                # Slot point (slot) is movable
+                self.params.push_back(x + cos(vpoint.angle))
+                tmp_ptr = &amp;self.params.back()
+                self.params.push_back(y + sin(vpoint.angle))
+                self.slider_slots.push_back([tmp_ptr, &amp;self.params.back()])
+                if vpoint.pin_grounded():
+                    # Pin is fixed
+                    x = vpoint.c[1, 0]
+                    y = vpoint.c[1, 1]
+                    self.constants.push_back(x)
+                    tmp_ptr = &amp;self.constants.back()
+                    self.constants.push_back(y)
+                    self.points.push_back([tmp_ptr, &amp;self.constants.back()])
+                else:
+                    # Pin is movable
+                    x = vpoint.c[1, 0]
+                    y = vpoint.c[1, 1]
+                    if vpoint.has_offset() and vpoint.true_offset() &lt;= 0.1:
+                        if vpoint.offset() &gt; 0:
+                            x += 0.1
+                            y += 0.1
+                        else:
+                            x -= 0.1
+                            y -= 0.1
+                    self.params.push_back(x)
+                    tmp_ptr = &amp;self.params.back()
+                    self.params.push_back(y)
+                    self.points.push_back([tmp_ptr, &amp;self.params.back()])
+                continue
+            # Point is movable
+            self.points.push_back([tmp_ptr, &amp;self.params.back()])
+        # Link constraints
+        # (automatic fill up the link length options of data keys)
+        cdef int a, b, c, d
+        cdef VPoint vp1, vp2
+        cdef Point *p1
+        cdef Point *p2
+        cdef VLink vlink
+        for vlink in self.vlinks.values():
+            if len(vlink.points) &lt; 2 or vlink.name == VLink.FRAME:
+                continue
+            a = vlink.points[0]
+            b = vlink.points[1]
+            if (a not in self.data_dict) or (b not in self.data_dict):
+                vp1 = self.vpoints[a]
+                vp2 = self.vpoints[b]
+                p1 = self.point_ptr(a, vlink)
+                p2 = self.point_ptr(b, vlink)
+                frozen_pair = frozenset({a, b})
+                if frozen_pair in self.data_dict:
+                    x = self.data_dict[frozen_pair]
+                else:
+                    x = vp1.distance(vp2)
+                    self.data_dict[frozen_pair] = x
+                self.data_values.push_back(x)
+                self.cons_list.push_back(p2p_distance(p1, p2, &amp;self.data_values.back()))
+            for c in vlink.points[2:]:
+                if c in self.data_dict:
+                    # Known coordinate
+                    continue
+                for d in (a, b):
+                    vp1 = self.vpoints[c]
+                    vp2 = self.vpoints[d]
+                    p1 = self.point_ptr(c, vlink)
+                    p2 = self.point_ptr(d, vlink)
+                    frozen_pair = frozenset({c, d})
+                    if frozen_pair in self.data_dict:
+                        x = self.data_dict[frozen_pair]
+                    else:
+                        x = vp1.distance(vp2)
+                        self.data_dict[frozen_pair] = x
+                    self.data_values.push_back(x)
+                    self.cons_list.push_back(p2p_distance(p1, p2, &amp;self.data_values.back()))
+        # Slider constraints
+        cdef Line *slider_slot
+        cdef pair[int, int] slider
+        for slider in self.sliders:
+            a = slider.first
+            b = slider.second
+            # Base point
+            vp1 = self.vpoints[a]
+            p1 = &amp;self.points[a]
+            # Base slot
+            self.slider_lines.push_back([&amp;self.slider_bases[b], &amp;self.slider_slots[b]])
+            slider_slot = &amp;self.slider_lines.back()
+            if vp1.grounded():
+                # Slot is grounded
+                self.constants.push_back(_radians(vp1.angle))
+                self.cons_list.push_back(line_internal_angle(slider_slot, &amp;self.constants.back()))
+                self.cons_list.push_back(point_on_line(p1, slider_slot))
+                if vp1.has_offset():
+                    p2 = &amp;self.slider_bases[b]
+                    if vp1.offset():
+                        self.constants.push_back(vp1.offset())
+                        self.cons_list.push_back(p2p_distance(p2, p1, &amp;self.constants.back()))
+                    else:
+                        self.cons_list.push_back(point_on_point(p2, p1))
+            else:
+                # Slider between links
+                for name in vp1.links[:1]:
+                    vlink = self.vlinks[name]
+                    # A base link friend
+                    c = vlink.points[0]
+                    if c == a:
+                        if len(vlink.points) &lt; 2:
+                            # If no any friend
+                            continue
+                        c = vlink.points[1]
+                    vp2 = self.vpoints[c]
+                    if vp2.is_slot_link(vlink.name):
+                        # c is a slider, and it is be connected with slot link
+                        p2 = &amp;self.slider_bases[self.sliders[c]]
+                    else:
+                        # c is a R joint or it is not connected with slot link
+                        p2 = &amp;self.points[c]
+                    self.slider_lines.push_back([&amp;self.slider_bases[b], p2])
+                    self.constants.push_back(_radians(vp1.slope_angle(vp2) - vp1.angle))
+                    self.cons_list.push_back(internal_angle(
+                        slider_slot,
+                        &amp;self.slider_lines.back(),
+                        &amp;self.constants.back()
+                    ))
+                    self.cons_list.push_back(point_on_line(p1, slider_slot))
+                    if vp1.has_offset():
+                        p2 = &amp;self.slider_bases[b]
+                        if vp1.offset():
+                            self.constants.push_back(vp1.offset())
+                            self.cons_list.push_back(p2p_distance(p2, p1, &amp;self.constants.back()))
+                        else:
+                            self.cons_list.push_back(point_on_point(p2, p1))
+            if vp1.type != VJoint.P:
+                continue
+            for name in vp1.links[1:]:
+                vlink = self.vlinks[name]
+                # A base link friend
+                c = vlink.points[0]
+                if c == a:
+                    if len(vlink.points) &lt; 2:
+                        # If no any friend
+                        continue
+                    c = vlink.points[1]
+                vp2 = self.vpoints[c]
+                if vp2.is_slot_link(vlink.name):
+                    # c is a slider, and it is be connected with slot link
+                    p2 = &amp;self.slider_bases[self.sliders[c]]
+                else:
+                    # c is a R joint or it is not connected with slot link
+                    p2 = &amp;self.points[c]
+                self.slider_lines.push_back([p1, p2])
+                self.constants.push_back(_radians(vp1.slope_angle(vp2) - vp1.angle))
+                self.cons_list.push_back(internal_angle(
+                    slider_slot,
+                    &amp;self.slider_lines.back(),
+                    &amp;self.constants.back()
+                ))
+        # Angle constraints
+        cdef double angle
+        for (b, d), angle in self.inputs.items():
+            if b == d:
+                continue
+            self.handles.push_back([&amp;self.points[b], &amp;self.points[d]])
+            self.inputs_angle.push_back(_radians(angle))
+            self.cons_list.push_back(line_internal_angle(
+                &amp;self.handles.back(),
+                &amp;self.inputs_angle.back()
+            ))
+
+    cdef bint check_known(self, int i):
+        """Check known coordinates."""
+        if i not in self.data_dict:
+            return False
+        coord = self.data_dict[i]
+        self.data_values.push_back(coord.x)
+        tmp_ptr = &amp;self.data_values.back()
+        self.data_values.push_back(coord.y)
+        self.points.push_back([tmp_ptr, &amp;self.data_values.back()])
+        return True
+
+    cpdef void set_inputs(self, dict inputs):
+        """Set the values of `inputs` parameter from original constructor.
+        Two groups of `dict` keys must be the same or subset.
+        """
+        if self.inputs is None or inputs is None:
+            raise ValueError(f"do not accept modifications")
+        if not self.show_inputs() &gt;= set(inputs):
+            raise ValueError(f"format must be {set(self.inputs)}, not {set(inputs)}")
+        self.inputs.update(inputs)
+        # Set values
+        cdef int b, d
+        cdef double angle
+        cdef double *handle
+        cdef clist[double].iterator it = self.inputs_angle.begin()
+        for (b, d), angle in self.inputs.items():
+            if b == d:
+                continue
+            handle = de_refer_post_inc(it)
+            handle[0] = _radians(angle)
+
+    cpdef void set_data(self, dict data_dict):
+        """Set the values of `data_dict` parameter from original constructor.
+        Two groups of `dict` keys must be the same or subset.
+        """
+        if self.data_dict is None or data_dict is None:
+            raise ValueError(f"do not accept modifications")
+        _sort_pairs(data_dict)
+        if not self.show_data() &gt;= set(data_dict):
+            raise ValueError(f"format must be {set(self.data_dict)}, not {set(data_dict)}")
+        self.data_dict.update(data_dict)
+        cdef size_t n = 0
+        # Set values
+        cdef int i
+        cdef double *handle
+        cdef VPoint vpoint
+        cdef Coord coord
+        cdef clist[double].iterator it = self.data_values.begin()
+        for i, vpoint in enumerate(self.vpoints):
+            if vpoint.grounded():
+                if i in self.data_dict:
+                    # Known coordinates
+                    coord = self.data_dict[i]
+                    handle = de_refer_post_inc(it)
+                    handle[0] = coord.x
+                    handle = de_refer_post_inc(it)
+                    handle[0] = coord.y
+            if i in self.data_dict:
+                # Known coordinates
+                coord = self.data_dict[i]
+                handle = de_refer_post_inc(it)
+                handle[0] = coord.x
+                handle = de_refer_post_inc(it)
+                handle[0] = coord.y
+        cdef int a, b, c, d
+        cdef VLink vlink
+        for vlink in self.vlinks.values():
+            if len(vlink.points) &lt; 2:
+                continue
+            if vlink.name == VLink.FRAME:
+                continue
+            a = vlink.points[0]
+            b = vlink.points[1]
+            if (a not in self.data_dict) or (b not in self.data_dict):
+                handle = de_refer_post_inc(it)
+                handle[0] = self.data_dict[frozenset({a, b})]
+            for c in vlink.points[2:]:
+                if c in self.data_dict:
+                    # Known coordinate
+                    continue
+                for d in (a, b):
+                    handle = de_refer_post_inc(it)
+                    handle[0] = self.data_dict[frozenset({c, d})]
+
+    cpdef list solve(self):
+        """Solve the conditions and return the result, raise ValueError if
+        not succeeded.
+        The joint position will returned by its index correspondingly.
+
+        + Revolute joints: Tuple[float, float]
+        + Slider joints: Tuple[Tuple[float, float], Tuple[float, float]]
+        """
+        # Pointer of parameters
+        cdef size_t params_count = &lt;int&gt;self.params.size()
+        cdef double **params_ptr = &lt;double **&gt;PyMem_Malloc(sizeof(double *) * params_count)
+        cdef clist[double].iterator it = self.params.begin()
+        cdef size_t i
+        for i in range(params_count):
+            params_ptr[i] = de_refer_post_inc(it)
+        # Pointer of constraints
+        cdef size_t cons_count = &lt;int&gt;self.cons_list.size()
+        cdef Constraint *cons = &lt;Constraint *&gt;PyMem_Malloc(sizeof(Constraint) * cons_count)
+        i = 0
+        cdef Constraint con
+        for con in self.cons_list:
+            cons[i] = con
+            i += 1
+        # Solve
+        cdef bint flag = solve(params_ptr, params_count, cons, cons_count, False)
+        cdef VPoint vp
+        cdef Coord c
+        cdef Point p1, p2
+        if flag:
+            solved_points = []
+            for i, vp in enumerate(self.vpoints):
+                if i in self.data_dict or vp.no_link():
+                    if vp.no_link():
+                        c = Coord.__new__(Coord, vp.c[0, 0], vp.c[0, 1])
+                    else:
+                        c = self.data_dict[i]
+                    if vp.type == VJoint.R:
+                        solved_points.append((c.x, c.y))
+                    else:
+                        solved_points.append(((c.x, c.y), (c.x, c.y)))
+                    continue
+                p1 = self.points[i]
+                if vp.type == VJoint.R:
+                    solved_points.append((p1.x[0], p1.y[0]))
+                else:
+                    p2 = self.slider_bases[self.sliders[i]]
+                    solved_points.append(((p2.x[0], p2.y[0]),
+                                          (p1.x[0], p1.y[0])))
+        PyMem_Free(params_ptr)
+        PyMem_Free(cons)
+        if flag:
+            return solved_points
+        else:
+            raise ValueError("no valid solutions were found from initialed values")
+</t>
+<t tx="leo.20210210095724.11">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""PMKS symbolics.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cdef double distance(double x1, double y1, double x2, double y2) nogil
+cdef double slope_angle(double x1, double y1, double x2, double y2) nogil
+cpdef list get_vlinks(object vpoints)
+
+cdef struct CCoord:
+    double x, y
+
+cdef class Coord:
+    # Coordinate data type.
+    # Needs to replaced at backend with c-struct type CCoord.
+    cdef public double x, y
+
+    cpdef double distance(self, Coord p)
+    cpdef double slope_angle(self, Coord p)
+    cpdef bint is_nan(self)
+
+cpdef enum VJoint:
+    # Joint types.
+    # Actually "class VJoint(IntEnum)" in Python but "enum" in C++.
+    R  # Rotate pair
+    P  # Prismatic pair
+    RP  # Rotate and prismatic pair
+
+cdef class VPoint:
+    # VPoint(links, type_int, angle, color_str, x, y, color_func=None)
+
+    cdef readonly tuple links
+    cdef readonly double[:, :] c
+    cdef readonly VJoint type
+    cdef readonly tuple color
+    cdef readonly str color_str
+    cdef readonly str type_str
+    cdef readonly double x, y, angle
+    cdef double __offset
+    cdef bint __has_offset
+
+    @staticmethod
+    cdef VPoint c_r_joint(object links, double x, double y)
+    @staticmethod
+    cdef VPoint c_slider_joint(object links, VJoint type_int, double angle, double x, double y)
+
+    # Copy method
+    cpdef VPoint copy(self)
+
+    # Set values
+    cpdef void set_links(self, object links) except *
+    cpdef void replace_link(self, str link1, str link2) except *
+    cpdef void move(self, object c1, object c2 = *) except *
+    cpdef void locate(self, double x, double y) except *
+    cpdef void rotate(self, double angle)
+    cpdef void set_offset(self, double offset)
+    cpdef void disable_offset(self)
+
+    # Get or calculate values
+    cpdef bint is_slider(self)
+    cpdef double distance(self, VPoint p)
+    cpdef bint has_offset(self)
+    cpdef double offset(self)
+    cpdef double true_offset(self)
+    cpdef double slope_angle(self, VPoint p, int num1 = *, int num2 = *)
+    cpdef Coord link_pos(self, str link)
+
+    # Link operators
+    cpdef bint grounded(self)
+    cpdef bint pin_grounded(self)
+    cpdef bint same_link(self, VPoint p)
+    cpdef bint no_link(self)
+    cpdef bint is_slot_link(self, str link)
+
+    # Expression
+    cpdef str expr(self)
+    cpdef Coord to_coord(self, size_t ind)
+
+cdef class VLink:
+    # VLink(name, color_str, points, color_func=None)
+
+    cdef readonly str name, color_str
+    cdef readonly tuple color
+    cdef readonly long[:] points
+
+    # Set values
+    cpdef void set_points(self, object points) except *
+    cpdef Coord[:] points_pos(self, object vpoints) except *
+</t>
+<t tx="leo.20210210095724.12">@path ./pyslvs/pyslvs/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""PMKS symbolics.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from libc.math cimport M_PI, atan2, hypot
+from cpython.object cimport Py_EQ, Py_NE
+from numpy import array, zeros, float64 as f64
+
+
+cdef double distance(double x1, double y1, double x2, double y2) nogil:
+    """Distance of two coordinates."""
+    return hypot(x2 - x1, y2 - y1)
+
+
+cdef double slope_angle(double x1, double y1, double x2, double y2) nogil:
+    """Slope angle of two coordinates."""
+    return atan2(y1 - y2, x1 - x2)
+
+
+cpdef list get_vlinks(object vpoints):
+    """Get VLinks from a list of VPoint `vpoints`."""
+    links = {}
+    cdef int i
+    cdef VPoint vpoint
+    for i, vpoint in enumerate(vpoints):
+        for name in vpoint.links:
+            if name not in links:
+                links[name] = {i}
+            else:
+                links[name].add(i)
+    vlinks = []
+    for name, points in links.items():
+        vlinks.append(VLink(name, "", points))
+    return vlinks
+
+
+@cython.final
+cdef class Coord:
+    """A data class used to store coordinates."""
+
+    def __cinit__(self, double x, double y):
+        self.x = x
+        self.y = y
+
+    cpdef double distance(self, Coord p):
+        """Return the distance between two coordinates."""
+        return distance(self.x, self.y, p.x, p.y)
+
+    cpdef double slope_angle(self, Coord p):
+        """Slope angle of two coordinates."""
+        return slope_angle(self.x, self.y, p.x, p.y)
+
+    cpdef bint is_nan(self):
+        """Return true if the coordinate value is not a number."""
+        return self.x != self.x
+
+    def __repr__(self):
+        return f"Coord({self.x:.02f}, {self.y:.02f})"
+
+
+@cython.final
+cdef class VPoint:
+    """Mechanism expression class."""
+    HOLDER = VPoint([], VJoint.R, 0., "", 0., 0.)
+
+    def __cinit__(
+        self,
+        object links,
+        VJoint j_type,
+        double angle,
+        str color_str,
+        double x,
+        double y,
+        object color_func=None
+    ):
+        self.set_links(links)
+        self.type = j_type
+        self.type_str = ('R', 'P', 'RP')[j_type]
+        self.angle = angle
+        self.color_str = color_str
+        if color_func is None:
+            self.color = None
+        else:
+            self.color = color_func(color_str)
+        self.x = x
+        self.y = y
+        self.c = zeros((2, 2), dtype=f64)
+        if self.type in {VJoint.P, VJoint.RP}:
+            # Slider current coordinates
+            # [0]: Current node on slot
+            # [1]: Pin
+            self.c[0, 0] = self.c[1, 0] = self.x
+            self.c[0, 1] = self.c[1, 1] = self.y
+        else:
+            self.c[0, 0] = self.x
+            self.c[0, 1] = self.y
+        self.__has_offset = False
+        self.__offset = 0
+
+    @staticmethod
+    def r_joint(links, x, y):
+        """A fast constructor of revolute joints."""
+        return VPoint.c_r_joint(links, x, y)
+
+    @staticmethod
+    cdef VPoint c_r_joint(object links, double x, double y):
+        return VPoint.__new__(VPoint, links, VJoint.R, 0., '', x, y)
+
+    @staticmethod
+    def slider_joint(links, type_int, angle, x, y):
+        """A fast constructor of slider joints."""
+        return VPoint.c_slider_joint(links, type_int, angle, x, y)
+
+    @staticmethod
+    cdef VPoint c_slider_joint(object links, VJoint type_int, double angle, double x, double y):
+        return VPoint.__new__(VPoint, links, type_int, angle, '', x, y)
+
+    cpdef VPoint copy(self):
+        """The copy method of the VPoint object."""
+        return self.__copy__()
+
+    @property
+    def sx(self):
+        """X value of slot coordinate."""
+        return self.c[0, 0]
+
+    @property
+    def sy(self):
+        """Y value of slot coordinate."""
+        return self.c[0, 1]
+
+    @property
+    def cx(self):
+        """X value of current coordinate.
+        If it's slider, the pin coordinate will be returned.
+        """
+        if self.type == VJoint.R:
+            return self.c[0, 0]
+        else:
+            return self.c[1, 0]
+
+    @property
+    def cy(self):
+        """Y value of current coordinate.
+        If it's slider, the pin coordinate will be returned.
+        """
+        if self.type == VJoint.R:
+            return self.c[0, 1]
+        else:
+            return self.c[1, 1]
+
+    cpdef void set_links(self, object links) except *:
+        """The update function of links attribute."""
+        self.links = tuple([s for s in links if s])
+
+    cpdef void replace_link(self, str link1, str link2) except *:
+        """Replace the value in links attribute."""
+        self.set_links([link2 if link == link1 else link for link in self.links])
+
+    cpdef void move(self, object c1, object c2 = None) except *:
+        """The update function of current coordinate(s).
+        The 2nd placement is the pin coordinate of slider joints.
+
+        If there is only one argument for a slider joint,
+        the slot and pin coordinates will be set to the same position.
+        """
+        cdef double x, y
+        x, y = c1
+        self.c[0, 0] = x
+        self.c[0, 1] = y
+        if self.type in {VJoint.P, VJoint.RP}:
+            if c2 is not None:
+                x, y = c2
+            self.c[1, 0] = x
+            self.c[1, 1] = y
+
+    cpdef void locate(self, double x, double y) except *:
+        """The update function of original coordinate."""
+        self.x = x
+        self.y = y
+        self.c[0, 0] = x
+        self.c[0, 1] = y
+
+    cpdef void rotate(self, double angle):
+        """The update function of angle attribute."""
+        self.angle = angle % 180
+
+    cpdef void set_offset(self, double offset):
+        """The update function of slider offset.
+        It will also enable offset value after called.
+        """
+        self.__has_offset = True
+        self.__offset = offset
+
+    cpdef void disable_offset(self):
+        """Disable offset setting of the joint."""
+        self.__has_offset = False
+
+    cpdef bint is_slider(self):
+        """Return true for slider type."""
+        return self.type in {VJoint.P, VJoint.RP}
+
+    cpdef double distance(self, VPoint p):
+        """Return the distance between two VPoint objects."""
+        on_links = tuple(set(self.links) &amp; set(p.links))
+        cdef double m_x = 0
+        cdef double m_y = 0
+        cdef double p_x = 0
+        cdef double p_y = 0
+        if on_links:
+            if self.type == VJoint.R or self.links[0] == on_links[0]:
+                # self is R joint or at base link
+                m_x = self.c[0, 0]
+                m_y = self.c[0, 1]
+            else:
+                # At pin joint
+                m_x = self.c[1, 0]
+                m_y = self.c[1, 1]
+            if p.type == VJoint.R or p.links[0] == on_links[0]:
+                # p is R joint or at base link
+                p_x = p.c[0, 0]
+                p_y = p.c[0, 1]
+            else:
+                # At pin joint
+                p_x = p.c[1, 0]
+                p_y = p.c[1, 1]
+        else:
+            m_x = self.c[0, 0]
+            m_y = self.c[0, 1]
+            p_x = p.c[0, 0]
+            p_y = p.c[0, 1]
+        return hypot(p_x - m_x, p_y - m_y)
+
+    cpdef bint has_offset(self):
+        """Return true if the offset setting is enabled."""
+        return self.__has_offset
+
+    cpdef double offset(self):
+        """Return the offset constraint value of the joint."""
+        return self.__offset
+
+    cpdef double true_offset(self):
+        """Return the current offset value of the joint."""
+        return hypot(self.c[1, 0] - self.c[0, 0], self.c[1, 1] - self.c[0, 1])
+
+    cpdef double slope_angle(self, VPoint p, int num1 = 2, int num2 = 2):
+        """Return the value `hypot(p_x - m_x, p_y - m_y)`,
+        where `m_x`, `m_y` is the value of the joint,
+        and `p_x`, `p_y` is the value of `p`.
+
+        The option `num1` and `num2` is the position of current coordinate
+        attribute.
+        """
+        cdef double x1, y1, x2, y2
+        if num1 &gt; 1:
+            x2, y2 = self.x, self.y
+        else:
+            x2 = self.c[num2, 0]
+            y2 = self.c[num2, 1]
+        if num2 &gt; 1:
+            x1, y1 = p.x, p.y
+        else:
+            x1 = p.c[num2, 0]
+            y1 = p.c[num2, 1]
+        return slope_angle(x1, y1, x2, y2) / M_PI * 180
+
+    cpdef Coord link_pos(self, str link):
+        """Return the position for the vlink."""
+        cdef size_t ind
+        if self.type == VJoint.R or self.is_slot_link(link):
+            ind = 0
+        else:
+            ind = 1
+        return self.to_coord(ind)
+
+    cpdef bint grounded(self):
+        """Return true if the joint pin is connected to ground link."""
+        if self.type == VJoint.R:
+            return VLink.FRAME in self.links
+        elif self.type in {VJoint.P, VJoint.RP}:
+            if self.links:
+                return self.is_slot_link(VLink.FRAME)
+            else:
+                return False
+
+    cpdef bint pin_grounded(self):
+        """Return true if the point is at the same link."""
+        return VLink.FRAME in self.links[1:]
+
+    cpdef bint same_link(self, VPoint p):
+        """Return true if the point is at the same link."""
+        return bool(set(self.links) &amp; set(p.links))
+
+    cpdef bint no_link(self):
+        """Return true if there is no any link in links attribute."""
+        return not self.links
+
+    cpdef bint is_slot_link(self, str link):
+        """Return true if the slot is on the link `link_name`."""
+        if self.type == VJoint.R:
+            return False
+        if self.links:
+            return link == self.links[0]
+        else:
+            return False
+
+    cpdef str expr(self):
+        """Return the literal mechanism expression of the joint."""
+        if self.type != VJoint.R:
+            type_text = f"{self.type_str}, A[{self.angle}]"
+        else:
+            type_text = 'R'
+        if self.color_str:
+            color = f", color[{self.color_str}]"
+        else:
+            color = ""
+        links_text = ", ".join([name for name in self.links])
+        x_text = f"{self.x:.4f}".rstrip('0').rstrip('.')
+        y_text = f"{self.y:.4f}".rstrip('0').rstrip('.')
+        return f"J[{type_text}{color}, P[{x_text}, {y_text}], L[{links_text}]]"
+
+    cpdef Coord to_coord(self, size_t ind):
+        """Obtain coordinate by Coord object."""
+        return Coord.__new__(Coord, self.c[ind, 0], self.c[ind, 1])
+
+    def __copy__(self):
+        cdef VPoint vpoint = VPoint.__new__(
+            VPoint,
+            self.links,
+            self.type,
+            self.angle,
+            self.color_str,
+            self.x,
+            self.y
+        )
+        vpoint.c[:] = self.c[:]
+        return vpoint
+
+    def __richcmp__(self, rhs, int op):
+        cdef VPoint other = rhs
+        cdef bint different = (
+            self.links != other.links or
+            self.c[0, 0] != other.c[0, 0] or
+            self.c[0, 1] != other.c[0, 1] or
+            self.c[1, 1] != other.c[1, 1] or
+            self.c[1, 1] != other.c[1, 1] or
+            self.type != other.type or
+            self.x != other.x or
+            self.y != other.y or
+            self.angle != other.angle
+        )
+        if op == Py_EQ:
+            return not different
+        elif op == Py_NE:
+            return different
+        else:
+            raise TypeError(
+                f"'{op}' not support between instances of "
+                f"{type(self)} and {type(other)}"
+            )
+
+    def __getitem__(self, ind):
+        cdef int i = ind
+        if self.type == VJoint.R:
+            return self.c[0, i]
+        else:
+            return self.c[1, i]
+
+    def __repr__(self):
+        return f"VPoint({self.links}, {int(self.type)}, {self.angle}, {array(self.c).tolist()})"
+
+
+@cython.final
+cdef class VLink:
+    """Mechanism expression class in link's view."""
+    HOLDER = VLink("", "", [])
+    FRAME = 'ground'
+
+    def __cinit__(
+        self,
+        str name,
+        str color_str,
+        object points,
+        object color_func=None
+    ):
+        self.name = name
+        self.color_str = color_str
+        if color_func is None:
+            self.color = None
+        else:
+            self.color = color_func(color_str)
+        self.points = array(list(points), dtype=int)
+
+    cpdef void set_points(self, object points) except *:
+        """The update function of points attribute."""
+        self.points = array(list(points), dtype=int)
+
+    cpdef Coord[:] points_pos(self, object vpoints) except *:
+        """Get link positions from a VPoint list."""
+        coords = []
+        cdef int i
+        cdef Coord c
+        cdef VPoint vpoint
+        for i in self.points:
+            vpoint = vpoints[i]
+            coords.append(vpoint.link_pos(self.name))
+        return array(coords, dtype=object)
+
+    def __contains__(self, point: int):
+        return point in self.points
+
+    def __repr__(self):
+        return f"VLink('{self.name}', {tuple(self.points)}, color_qt)"
+</t>
+<t tx="leo.20210210095724.13">@path ./pyslvs/pyslvs/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""The callable classes of the validation in the algorithm.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from collections import OrderedDict
+from logging import getLogger
+from numpy import (
+    zeros, array, arange, interp, argmax, concatenate, float64 as f64,
+)
+from numpy.core.multiarray import correlate
+from libc.math cimport (
+    cos, sin, atan2, isnan, log, INFINITY as INF, HUGE_VAL, M_PI,
+)
+from libcpp.pair cimport pair
+from libcpp.map cimport map
+from libcpp.vector cimport vector
+from libcpp.set cimport set as cset
+from .expression cimport Coord, VPoint, distance
+from .metaheuristics.utility cimport ObjFunc
+from .tinycadlib cimport (
+    quick_solve, I_LABEL, A_LABEL, P_LABEL, PLA, PLAP, PLLP, preprocessing,
+    CCoord, Sym, SwappablePair,
+)
+from .topo_config cimport t_config, EStack, Expr
+from .bfgs cimport SolverSystem
+
+try:
+    from scipy.signal import fftconvolve
+except ImportError:
+    fftconvolve = None
+
+logger = getLogger()
+
+
+def norm_path(path, scale=1):
+    """Python wrapper of normalization function."""
+    cdef double[:, :] path_m = array(path, dtype=f64)
+    _norm(path_m, scale)
+    return [(x, y) for x, y in path_m]
+
+
+cdef void _norm(double[:, :] path, double scale) nogil:
+    """Normalization implementation inplace."""
+    cdef CCoord centre = CCoord(0, 0)
+    cdef double x, y
+    cdef int i
+    for i in range(len(path)):
+        centre.x += path[i, 0]
+        centre.y += path[i, 1]
+    cdef int end = len(path)
+    centre.x /= end
+    centre.y /= end
+    cdef vector[double] angle = vector[double](end + 1)
+    cdef vector[double] length = vector[double](end + 1)
+    cdef int sp = 0
+    for i in range(len(path)):
+        x = path[i, 0]
+        y = path[i, 1]
+        angle[i] = atan2(y - centre.y, x - centre.x)
+        length[i] = distance(centre.x, centre.y, x, y)
+        if length[i] &gt; length[end]:
+            length[end] = length[i]
+            angle[end] = angle[i]
+            sp = end
+    _aligned(path, sp)
+    cdef CCoord bound = CCoord(INF, -INF)
+    cdef double a
+    for i in range(len(path)):
+        a = angle[i] - angle[end]
+        path[i, 0] = length[i] * cos(a)
+        path[i, 1] = length[i] * sin(a)
+        if path[i, 0] &lt; bound.x:
+            bound.x = path[i, 0]
+        if path[i, 0] &gt; bound.y:
+            bound.y = path[i, 0]
+    scale /= (bound.y - bound.x)
+    _mul1d(path[:, 0], scale)
+    _mul1d(path[:, 1], scale)
+
+
+cdef void _aligned(double[:, :] path, int sp) nogil:
+    """Split 1D path from sp, concatenate to end."""
+    if sp == 0:
+        return
+    cdef double[:, :] tmp
+    with gil:
+        tmp = zeros((sp, 2), dtype=f64)
+    cdef int i
+    for i in range(sp):
+        tmp[i, 0] = path[i, 0]
+        tmp[i, 1] = path[i, 1]
+    for i in range(sp, len(path)):
+        path[i - sp, 0] = path[i, 0]
+        path[i - sp, 1] = path[i, 1]
+    for i in range(sp):
+        path[len(path) - sp + i, 0] = tmp[i, 0]
+        path[len(path) - sp + i, 1] = tmp[i, 1]
+
+
+def curvature(path):
+    r"""Calculate the signed curvature and return as an array.
+
+    $$
+    \kappa(t) = \frac{x'y'' - x''y'}{(x'^2 + y'^2)^\frac{3}{2}}
+    $$
+    """
+    cdef double[:, :] path_m = array(path, dtype=f64)
+    return array(_curvature(path_m))
+
+
+cdef double[:] _curvature(double[:, :] path) nogil:
+    """Calculate the signed curvature."""
+    cdef double[:, :] p1d = _derivative(path)
+    cdef double[:, :] p2d = _derivative(p1d)
+    cdef double[:] k
+    with gil:
+        k = zeros(len(path) - 2, dtype=f64)
+    cdef int i
+    for i in range(len(path) - 2):
+        k[i] = ((p1d[i, 0] * p2d[i, 1] - p2d[i, 0] * p1d[i, 1])
+                / (p1d[i, 0] * p1d[i, 0] + p1d[i, 1] * p1d[i, 1]) ** 1.5)
+    return k
+
+
+def derivative(double[:, :] p):
+    """Differential function. Return $p'$."""
+    return array(_derivative(p))
+
+
+cdef double[:, :] _derivative(double[:, :] p) nogil:
+    """Differential function backend."""
+    cdef double[:, :] pd
+    with gil:
+        pd = zeros((len(p), 2), dtype=f64)
+    cdef double max0 = 0
+    cdef double max1 = 0
+    cdef int i, j
+    for i in range(len(p)):
+        j = i + 1
+        if j &gt;= len(p):
+            j = 0
+        pd[i, 0] = p[j, 0] - p[i, 0]
+        pd[i, 1] = p[j, 1] - p[i, 1]
+        if pd[i, 0] &gt; max0:
+            max0 = pd[i, 0]
+        if pd[i, 1] &gt; max1:
+            max1 = pd[i, 1]
+    i = len(p) - 1
+    if max0 == pd[i, 0] or max1 == pd[i, 1]:
+        return pd[:i]
+    else:
+        return pd
+
+
+def path_signature(double[:] k, double maximum = 100):
+    r"""Require a curvature, return path signature.
+    It's composed by curvature $\kappa$ and a $K$ value.
+
+    $$
+    K = \int^t_0 |\kappa(t)| dt
+    $$
+
+    &gt;&gt;&gt; path_signature(curvature(...))
+    """
+    return array(_path_signature(k, maximum))
+
+
+cdef double[:, :] _path_signature(double[:] k, double maximum) nogil:
+    """Require a curvature, return path signature."""
+    cdef double[:, :] s
+    with gil:
+        s = zeros((len(k), 2), dtype=f64)
+    cdef double interval = maximum / len(k)
+    cdef double v = 0
+    cdef int i
+    for i in range(len(k)):
+        s[i] = v
+        v += interval
+    s[:, 1] = k
+    return s
+
+
+def cross_correlation(double[:, :] p1, double[:, :] p2, double t = 0.1):
+    r"""Compare signature and return as an 1d array.
+
+    $$
+    \begin{aligned}
+    C_n(j, W, P) &amp;= \left|\sum_i^{l_P} \frac{(W_{i + j}
+    - \overline{W}_{j\rightarrow j + l_P})(P_i-\overline{P})}{
+    \sqrt{\sum_i^{l_P}(W_{i + j} - \overline{W}_{j\rightarrow j + l_P})^2
+    \sum_i^{l_P}(P_i - \overline{P})^2}}\right|
+    \\
+    S &amp;= \arg\max\{C_n(j)\} t
+    \end{aligned}
+    $$
+
+    &gt;&gt;&gt; ps1 = path_signature(curvature(...))
+    &gt;&gt;&gt; ps2 = path_signature(curvature(...))
+    &gt;&gt;&gt; cc = cross_correlation(ps1, ps2)
+    """
+    return array(_cross_correlation(p1, p2, t), dtype=f64)
+
+
+cdef double[:] _cross_correlation(double[:, :] ps1, double[:, :] ps2, double t):
+    """Compare path signature."""
+    cdef double[:] p1 = interp(arange(0, _extr1d(ps1[:, 0], 1), t),
+                               ps1[:, 0], ps1[:, 1])
+    cdef double[:] p2 = interp(arange(0, _extr1d(ps2[:, 0], 1), t),
+                               ps2[:, 0], ps2[:, 1])
+    p1 = concatenate((p1, p1))
+    cdef int s1 = len(p1)
+    cdef int s2 = len(p2)
+    cdef int n = s1 + s2 - 1
+    if s2 &gt;= s1:
+        s1, s2 = s2, s1
+    if (fftconvolve is not None and 1.89095737e-9 * 3 * n * log(n)
+        &lt; 2.1364985e-10 * (s1 - s2 + 1) * s2 - 1e-3
+    ):
+        return fftconvolve(p1, p2[::-1], mode='valid')
+    else:
+        return correlate(p1, p2)
+
+
+cdef double _extr1d(double[:] s, bint op) nogil:
+    """Max value of 1D slice."""
+    cdef double m = -INF if op else INF
+    for v in s:
+        if op:
+            if v &gt; m:
+                m = v
+        elif v &lt; m:
+            m = v
+    return m
+
+
+cdef void _mul1d(double[:] s, double v) nogil:
+    """Inplace multiplication assignment of 1D slice."""
+    cdef int i
+    for i in range(len(s)):
+        s[i] *= v
+
+
+cdef double[:, :] _slice_nan2d(double[:, :] s) nogil:
+    """Slice continuous view without NaN."""
+    cdef int first = -1
+    cdef int second = -1
+    cdef int i
+    cdef double v
+    for i in range(len(s)):
+        v = s[i, 1]
+        if i == first + 1 and isnan(v):
+            # The first of slice
+            first = i
+        elif isnan(v):
+            # The end of slice
+            second = i
+            break
+    if first == -1:
+        first = 0
+    if second == -1:
+        second = len(s) - 1
+    return s[first:second]
+
+
+@cython.final
+cdef class FMatch(ObjFunc):
+    """This class is used to verified kinematics of the linkage mechanism.
+
+    A fast matching method that adds mapping angles to variables.
+    """
+    cdef bint bfgs_mode, shape_only, use_curvature, full_path, ordered
+    cdef int target_count, target_len, input_count, l_base
+    cdef list vpoints
+    cdef long[:] target_nodes, pivots
+    cdef double[:, :, :] target
+    cdef EStack exprs
+    cdef cset[int] slider
+    cdef map[Sym, CCoord] joint_pos
+    cdef map[Sym, double] param
+
+    def __cinit__(self, dict mech):
+        # mech = {
+        #     'expression': List[VPoint],
+        #     'input': OrderedDict([((b0, d0), [start, end]), ...]),
+        #     'placement': {pt: (x, y, r)},
+        #     'target': {pt: [(x0, y0), (x1, y1), ...]},
+        #     'same': {pt: match_to_pt},
+        #     # Bounds of base link length
+        #     'upper': float,
+        #     'lower': float,
+        #     'shape_only': bool,
+        #     'use_curvature': bool,
+        #     'full_path': bool,
+        # }
+        placement = mech.get('placement', {})
+        if len(placement) == 0:
+            raise ValueError("no grounded joint")
+        target = mech.get('target', {})
+        if len(target) == 0:
+            raise ValueError("no target joint")
+        check_set = {len(t) for t in target.values()}
+        if len(check_set) != 1:
+            raise ValueError("target paths should be in the same size")
+        self.target_len = check_set.pop()
+        # Change the target paths into memory view
+        self.target_count = len(target)
+        self.target_nodes = zeros(self.target_count, dtype=int)
+        self.target = zeros((self.target_count, self.target_len, 2), dtype=f64)
+        same = mech.get('same', {})
+        self.shape_only = mech.get('shape_only', False)
+        self.use_curvature = mech.get('use_curvature', False)
+        self.full_path = mech.get('full_path', False)
+        if self.use_curvature:
+            self.shape_only = False
+        cdef int i, j
+        cdef double[:, :] path
+        for i, j in enumerate(target):
+            self.target_nodes[i] = j
+            path = array(target[j], dtype=f64)
+            if self.shape_only:
+                _norm(path, 1)
+            if self.use_curvature:
+                path = _path_signature(_curvature(path), 100)
+            self.target[i, :, :] = path
+        # Expressions (must be readonly)
+        self.vpoints = list(mech.get('expression', []))
+        self.pivots = array([i for i, vp in enumerate(self.vpoints)
+                             if (&lt;VPoint&gt;vp).grounded()], dtype=int)
+        self.slider = {i for i, vp in enumerate(self.vpoints)
+                       if (&lt;VPoint&gt;vp).is_slider()}
+        inputs = OrderedDict(mech.get('input', {}))
+        self.input_count = len(inputs)
+        status = {}
+        self.exprs = t_config(self.vpoints, tuple(inputs.keys()), status)
+        self.bfgs_mode = not all(status.values())
+        if not preprocessing(self.exprs, self.vpoints, {p: 0. for p in inputs},
+                             self.joint_pos, map[SwappablePair, double](),
+                             self.param):
+            raise ValueError("wrong number of input parameters")
+        # Bounds
+        ub = []
+        lb = []
+        # Position
+        cdef double x, y, r
+        for i in self.pivots:
+            x, y, r = placement[i]
+            ub.append(x + r)
+            ub.append(y + r)
+            lb.append(x - r)
+            lb.append(y - r)
+        # Length of links
+        link_upper = float(mech.get('upper', 100))
+        link_lower = float(mech.get('lower', 0))
+        cdef Expr expr
+        for expr in self.exprs.stack:
+            ub.append(link_upper)
+            lb.append(link_lower)
+            if expr.func in {PLA, PLAP} and expr.v2.first == A_LABEL:
+                # The included angle of the link
+                ub.append(2 * M_PI)
+                lb.append(0)
+            elif expr.func == PLLP:
+                ub.append(link_upper)
+                lb.append(link_lower)
+        # The start of the angle parameters
+        self.l_base = len(ub)
+        if self.use_curvature and self.full_path:
+            # Scale factor
+            ub.append(1)
+            lb.append(1e-12)
+        else:
+            # Input nodes
+            for start, end in inputs.values():
+                ub.append(start / 180 * M_PI)
+                lb.append(end / 180 * M_PI)
+            # Angle rage (input count * target count)
+            ub[self.l_base:] *= self.target_len
+            lb[self.l_base:] *= self.target_len
+        self.ub = array(ub, dtype=f64)
+        self.lb = array(lb, dtype=f64)
+        # Swap upper and lower bound if reversed
+        for i in range(len(self.ub)):
+            if self.ub[i] &lt; self.lb[i]:
+                self.ub[i], self.lb[i] = self.lb[i], self.ub[i]
+
+    cpdef bint is_two_kernel(self):
+        """Input a generic data (variable array), return the mechanism
+        expression.
+        """
+        return self.bfgs_mode
+
+    cdef double fitness(self, double[:] v) nogil:
+        """Return the difference of the path signature.
+
+        + Position of fix joints.
+        + Link lengths.
+        + Angle corresponding to the target points.
+        """
+        cdef map[int, vector[CCoord]] target
+        cdef map[Sym, double] param = map[Sym, double](self.param)
+        cdef map[Sym, CCoord] joint_pos = map[Sym, CCoord](self.joint_pos)
+        cdef bint ok
+        cdef int i, j, node, vi
+        cdef double x, y
+        cdef Expr expr
+        cdef CCoord c
+        cdef pair[Sym, CCoord] jp
+        for i in range(self.target_len):
+            vi = 0
+            for node in self.pivots:
+                joint_pos[Sym(P_LABEL, node)] = CCoord(v[vi], v[vi + 1])
+                vi += 2
+            # Input parameters (length)
+            for expr in self.exprs.stack:
+                param[expr.v1] = v[vi]
+                vi += 1
+                if expr.v2.first == I_LABEL:
+                    continue
+                param[expr.v2] = v[vi]
+                vi += 1
+            # Input parameters (angles)
+            for vi in range(self.input_count):
+                param[Sym(I_LABEL, vi)] = v[self.l_base + vi
+                                            + i * self.target_count]
+            # Solve
+            ok, joint_pos = quick_solve(self.exprs.stack, joint_pos, param)
+            if not ok:
+                return HUGE_VAL
+            if self.bfgs_mode:
+                with gil:
+                    data_dict = {}
+                    for jp in joint_pos:
+                        data_dict[jp.first.second] = Coord.__new__(Coord,
+                                                                   jp.second.x,
+                                                                   jp.second.y)
+                    # Solve
+                    try:
+                        solved_bfgs = SolverSystem(self.vpoints, {}, data_dict).solve()
+                    except ValueError:
+                        return HUGE_VAL
+            # Collecting
+            for node in self.target_nodes:
+                if self.bfgs_mode:
+                    with gil:
+                        x, y = solved_bfgs[node][0]
+                    target[node].push_back(CCoord(x, y))
+                else:
+                    c = joint_pos[Sym(P_LABEL, node)]
+                    target[node].push_back(c)
+        # Compare
+        cdef double fitness = 0
+        cdef double scale
+        cdef double[:, :] path1, path2
+        for vi, node in enumerate(self.target_nodes):
+            if self.use_curvature:
+                with gil:
+                    path1 = zeros((self.target_len, 2), dtype=f64)
+                    path2 = array(self.target[vi], dtype=f64)
+                for i in range(self.target_len):
+                    c = target[node][i]
+                    path1[i, 0] = c.x
+                    path1[i, 1] = c.y
+                path1 = _slice_nan2d(path1)
+                if len(path1) == 0:
+                    return HUGE_VAL
+                path1 = _path_signature(_curvature(path1), 100)
+                scale = 1 / v[len(v) - 1]
+                if not self.full_path:
+                    scale *= _extr1d(path1[:, 0], 1) / _extr1d(path2[:, 0], 1)
+                _mul1d(path2[:, 0], scale)
+                with gil:
+                    j = argmax(_cross_correlation(path2, path1, 0.1))
+                for i in range(len(path2)):
+                    path2[i, 0] += j
+                for i in range(self.target_len):
+                    fitness += path1[i, 0] - path2[i, 0]
+            else:
+                if self.shape_only:
+                    with gil:
+                        path1 = zeros((self.target_len, 2), dtype=f64)
+                    for i in range(self.target_len):
+                        c = target[node][i]
+                        path1[i, 0] = c.x
+                        path1[i, 1] = c.y
+                    _norm(path1, 1)
+                    for i in range(self.target_len):
+                        target[node][i].x = path1[i, 0]
+                        target[node][i].y = path1[i, 1]
+                for i in range(self.target_len):
+                    c = target[node][i]
+                    fitness += distance(c.x, c.y,
+                                        self.target[vi, i, 0],
+                                        self.target[vi, i, 1])
+        return fitness
+
+    cpdef object result(self, double[:] v):
+        """Input a generic data (variable array), return the mechanism
+        expression.
+        """
+        cdef map[Sym, double] param = map[Sym, double](self.param)
+        cdef map[Sym, CCoord] joint_pos = map[Sym, CCoord](self.joint_pos)
+        cdef int vi = 0
+        cdef int node
+        for node in self.pivots:
+            joint_pos[Sym(P_LABEL, node)] = CCoord(v[vi], v[vi + 1])
+            vi += 2
+        cdef Expr expr
+        for expr in self.exprs.stack:
+            param[expr.v1] = v[vi]
+            vi += 1
+            if expr.v2.first == I_LABEL:
+                continue
+            param[expr.v2] = v[vi]
+            vi += 1
+        # Input parameters (angles)
+        for vi in range(self.input_count):
+            param[Sym(I_LABEL, vi)] = v[self.l_base + vi]
+        # Solve
+        _, joint_pos = quick_solve(self.exprs.stack, joint_pos, param)
+        cdef pair[Sym, CCoord] jp
+        if self.bfgs_mode:
+            data_dict = {}
+            for jp in joint_pos:
+                data_dict[jp.first.second] = Coord.__new__(Coord,
+                                                           jp.second.x,
+                                                           jp.second.y)
+            # Solve
+            solved_bfgs = SolverSystem(self.vpoints, {}, data_dict).solve()
+        # Collecting
+        cdef CCoord c
+        cdef VPoint vp
+        cdef double x, y
+        for node in range(len(self.vpoints)):
+            vp = self.vpoints[node]
+            if self.bfgs_mode:
+                x, y = solved_bfgs[node][0]
+                vp.locate(x, y)
+                if vp.is_slider():
+                    vp.move(solved_bfgs[node][0], solved_bfgs[node][1])
+            else:
+                c = joint_pos[Sym(P_LABEL, node)]
+                if vp.is_slider():
+                    vp.locate(vp.c[0, 0], vp.c[0, 1])
+                    vp.move((vp.c[0, 0], vp.c[0, 1]), (c.x, c.y))
+                else:
+                    vp.locate(c.x, c.y)
+        expr_str = "M[" + ", ".join([(&lt;VPoint&gt; vp).expr()
+                                     for vp in self.vpoints]) + "]"
+        logger.debug(f"Result: {expr_str}")
+        return expr_str
+</t>
+<t tx="leo.20210210095724.14">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Wrapper header of BFGS algorithm.
+If you need to use container to carry floating point data,
+std::list is recommended instead of std::vector.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cdef extern from "bfgs_solver/solve.h" nogil:
+    struct Point:
+        double *x
+        double *y
+
+    struct Line:
+        Point *p1
+        Point *p2
+
+    struct Constraint:
+        unsigned type
+        Point *point1
+        Point *point2
+        Line *line1
+        Line *line2
+        double *parameter
+
+    Constraint point_on_point(Point *, Point *)
+    Constraint p2p_distance(Point *, Point *, double *)
+    Constraint point_on_line(Point *, Line *)
+    Constraint internal_angle(Line *, Line *, double *)
+    Constraint line_internal_angle(Line *, double *)
+    bint solve(double **, size_t, Constraint *, size_t, bint)
+</t>
+<t tx="leo.20210210095724.15">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Sharing position analysis function.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libcpp.pair cimport pair
+from libcpp.map cimport map
+from libcpp.vector cimport vector
+from .topo_config cimport EStack
+
+cdef extern from "tinycadlib/solver.h" nogil:
+    struct SwappablePair:
+        int first, second
+
+    enum Label:
+        P_LABEL
+        L_LABEL
+        I_LABEL
+        A_LABEL
+        S_LABEL
+
+    enum Func:
+        PXY
+        PPP
+        PLA
+        PLAP
+        PLLP
+        PLPP
+        PALP
+
+    struct CCoord:
+        double x, y
+
+    CCoord cpxy(CCoord c1, double x, double y)
+    CCoord cppp(CCoord c1, CCoord c2, CCoord c3)
+    CCoord cplap(CCoord c1, double d0, double a0, CCoord c2, bint inverse)
+    CCoord cpllp(CCoord c1, double d0, double d1, CCoord c2, bint inverse)
+    CCoord cplpp(CCoord c1, double d0, CCoord c2, CCoord c3, bint inverse)
+    CCoord cpalp(CCoord c1, double a0, double d0, CCoord c2, bint inverse)
+
+    ctypedef pair[int, int] Sym
+
+    struct Expr:
+        bint op
+        Func func
+        Sym v1, v2, c1, c2, c3, target
+
+    cppclass ExprSolver:
+        map[Sym, CCoord] joint_pos
+
+        ExprSolver()
+        ExprSolver(vector[Expr] stack, map[Sym, CCoord] joint_pos,
+                   map[Sym, double] param)
+        bint solve()
+
+cdef bint preprocessing(EStack exprs, object vpoints, object inputs,
+                        map[Sym, CCoord] &amp; joint_pos,
+                        map[SwappablePair, double] &amp; link_len,
+                        map[Sym, double] &amp; param)
+cpdef list expr_solving(EStack exprs, object vpoints, object inputs=*)
+cdef (bint, map[Sym, CCoord]) quick_solve(vector[Expr] stack,
+                                          map[Sym, CCoord] joint_pos,
+                                          map[Sym, double] param) nogil
+</t>
+<t tx="leo.20210210095724.16">@path ./pyslvs/pyslvs/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Tiny CAD library of PMKS symbolic and position analysis.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libc.math cimport M_PI, NAN, sin, cos
+from .expression cimport Coord, VJoint, VPoint, VLink, distance, slope_angle
+from .bfgs cimport SolverSystem
+from numpy import zeros, arange, array
+from numpy.random import uniform
+
+
+def pxy(Coord c1, double x, double y):
+    """The PXY function requires one point and offset values, get the
+    position of second point.
+
+    In the following picture, `c1` correspond to "A", `d0` correspond to "X",
+    `d1` correspond to "Y", `return` correspond to "B", the sign of value are
+    correspond to coordinate system.
+
+    ![pxy](img/pxy.png)
+    """
+    cdef CCoord c = cpxy(CCoord(c1.x, c1.y), x, y)
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+def ppp(Coord c1, Coord c2, Coord c3):
+    """The PPP function is used to solve parallel linkage.
+
+    In the following picture, `c1` correspond to "A", `c2` correspond to "B",
+    `c3` correspond to "C", `return` correspond to "D".
+
+    ![ppp](img/ppp.png)
+    """
+    cdef CCoord c = cppp(CCoord(c1.x, c1.y), CCoord(c2.x, c2.y),
+                         CCoord(c3.x, c3.y))
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+def plap(
+    Coord c1,
+    double d0,
+    double a0,
+    Coord c2 = None,
+    bint inverse = False
+):
+    """The PLAP function requires two points, one distance and one angle,
+    obtained the position of third point. The unit of `a0` is degree.
+
+    In the following picture, `c1` correspond to "A", `c2` correspond to "B",
+    `d0` correspond to "L0", `a0` correspond to "beta", `return` correspond
+    to "C".
+    If `c2` is not given, "alpha" will be set to zero.
+
+    ![plap](img/plap.png)
+
+    Set `inverse` option to `True` can make `a0` value as negative.
+    """
+    if c2 is None:
+        c2 = c1
+    cdef CCoord c = cplap(CCoord(c1.x, c1.y), d0, a0, CCoord(c2.x, c2.y), inverse)
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+def pllp(
+    Coord c1,
+    double d0,
+    double d1,
+    Coord c2,
+    bint inverse = False
+):
+    """The PLLP function requires two points and two distances, obtained the
+    position of third point.
+
+    In the following picture, `c1` correspond to "A", `c2` correspond to "B",
+    `d0` correspond to "L0", `d1` correspond to "L1", `return` correspond to
+    "C".
+
+    ![pllp](img/pllp.png)
+
+    Set `inverse` option to `True` can make the result upside down.
+    """
+    cdef CCoord c = cpllp(CCoord(c1.x, c1.y), d0, d1, CCoord(c2.x, c2.y), inverse)
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+def plpp(
+    Coord c1,
+    double d0,
+    Coord c2,
+    Coord c3,
+    bint inverse = False
+):
+    """The PLPP function requires three points and one distance, obtained the
+    position of fourth point.
+
+    In the following picture, `c1` correspond to "A", `c2` correspond to "B",
+    `c3` correspond to "C", `d0` correspond to "L0", `return` correspond to "D".
+
+    ![plpp](img/plpp.png)
+
+    Set `inverse` option to `True` can make the result to the another side
+    between `c1` and line `c2` `c3`.
+    """
+    cdef CCoord c = cplpp(CCoord(c1.x, c1.y), d0, CCoord(c2.x, c2.y),
+                          CCoord(c3.x, c3.y), inverse)
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+def palp(
+    Coord c1,
+    double a0,
+    double d0,
+    Coord c2,
+    bint inverse = False
+):
+    """The PALP function requires two points, one angle and one distance,
+    obtained the position of fourth point.
+
+    In the following picture, `c1` correspond to "A", `c2` correspond to "B",
+    `d0` correspond to "L0", `a0` correspond to "alpha", `return` correspond
+    to "C".
+
+    ![palp](img/palp.png)
+
+    Set `inverse` option to `True` can make the result upside down.
+    """
+    cdef CCoord c = cpalp(CCoord(c1.x, c1.y), a0, d0, CCoord(c2.x, c2.y), inverse)
+    return Coord.__new__(Coord, c.x, c.y)
+
+
+cpdef int vpoint_dof(object vpoints):
+    """Return the DOF of the mechanism expression `vpoints`."""
+    # Joint with DOF 1
+    cdef int j1 = 0
+    # Joint with DOF 2
+    cdef int j2 = 0
+    # First link is frame
+    vlinks = {VLink.FRAME}
+    cdef int link_count
+    cdef VPoint vp
+    for vp in vpoints:
+        link_count = len(vp.links)
+        if link_count &lt; 2:
+            # If a point doesn't have two more links, it can not be call a 'joint'.
+            continue
+        vlinks.update(vp.links)
+        if vp.type in {VJoint.R, VJoint.P}:
+            j1 += link_count - 1
+        elif vp.type == VJoint.RP:
+            j1 += link_count - 2
+            j2 += 1
+    return 3 * (len(vlinks) - 1) - 2 * j1 - j2
+
+
+cdef inline int base_friend(int node, object vpoints):
+    cdef int i
+    cdef VPoint vpoint
+    for i, vpoint in enumerate(vpoints):
+        if not vpoints[node].links:
+            continue
+        if vpoints[node].links[0] in vpoint.links:
+            return i
+
+
+cdef bint preprocessing(EStack exprs, object vpoints, object inputs,
+                        map[Sym, CCoord] &amp;joint_pos,
+                        map[SwappablePair, double] &amp;link_len,
+                        map[Sym, double] &amp;param):
+    """Data extraction. Return true if input angle is matched DOF.
+
+    Use "exprs", "vpoints", "angles" and "link_len" to generate solver
+    required data. Please pre-allocate the "joint_pos" and "param".
+
+    C++ objects
+    + "exprs.stack" used for the position solution.
+    + "joint_pos" used for joint position.
+    + "link_len" used for custom link length except from calculation.
+      (The link pairs must be exist in the solution.)
+    + "param" used for store angles and link length.
+    """
+    vpoints = list(vpoints)
+    cdef int vp_dof = vpoint_dof(vpoints)
+    # First, we create a "VLinks" that can help us to
+    # find a relationship just like adjacency matrix
+    cdef int node, base
+    cdef VPoint vp, vp2
+    vlinks = {}
+    for node, vp in enumerate(vpoints):
+        for link in vp.links:
+            # Add as vlink.
+            if link not in vlinks:
+                vlinks[link] = [node]
+            else:
+                vlinks[link].append(node)
+    # Replace the P joints and their friends with RP joint
+    # DOF must be same after properties changed
+    cdef double x, y, angle
+    for base in range(len(vpoints)):
+        vp = vpoints[base]
+        if vp.type != VJoint.P:
+            continue
+        for link in vp.links[1:]:
+            for node in vlinks[link]:
+                vp2 = vpoints[node]
+                if node == base or vp2.is_slider():
+                    continue
+                x = vp2.c[0, 0]
+                y = vp2.c[0, 1]
+                vpoints[node] = VPoint.c_slider_joint([vp.links[0]] + [
+                    link_ for link_ in vp2.links
+                    if link_ not in vp.links
+                ], VJoint.RP, vp.angle, x, y)
+    # Assign joint positions
+    for node, vp in enumerate(vpoints):
+        base = 1 if vp.is_slider() else 0
+        joint_pos[Sym(P_LABEL, node)] = CCoord(vp.c[base, 0], vp.c[base, 1])
+    # Add slider slot virtual coordinates
+    for node, vp in enumerate(vpoints):
+        # PLPP dependencies
+        if vp.type != VJoint.RP:
+            continue
+        base = base_friend(node, vpoints)
+        angle = (vp.angle
+                 - vp.slope_angle(vpoints[base], 1, 0)
+                 + vp.slope_angle(vpoints[base], 0, 0)) / 180 * M_PI
+        joint_pos[Sym(S_LABEL, node)] = CCoord(vp.c[1, 0] + cos(angle),
+                                               vp.c[1, 1] + sin(angle))
+    # Scan again to check if the parameter exists
+    # Especially link lengths and angles
+    cdef int dof = 0
+    cdef Expr e
+    cdef SwappablePair pair1, pair2
+    for e in exprs.stack:
+        pair1 = SwappablePair(e.c1.second, e.target.second)
+        pair2 = SwappablePair(e.c2.second, e.target.second)
+        if e.func == PXY:
+            param[e.v1] = joint_pos[e.target].x - joint_pos[e.c1].x
+            param[e.v2] = joint_pos[e.target].y - joint_pos[e.c1].y
+            continue
+        if e.func in {PLLP, PALP}:
+            param[e.v2] = (link_len[pair2]
+                           if link_len.find(pair2) != link_len.end() else
+                           distance(joint_pos[e.c2].x,
+                                    joint_pos[e.c2].y,
+                                    joint_pos[e.target].x,
+                                    joint_pos[e.target].y))
+        if e.func in {PLLP, PLA, PLAP, PLPP}:
+            param[e.v1] = (link_len[pair1]
+                           if link_len.find(pair1) != link_len.end() else
+                           distance(joint_pos[e.c1].x,
+                                    joint_pos[e.c1].y,
+                                    joint_pos[e.target].x,
+                                    joint_pos[e.target].y))
+            if e.func in {PLA, PLAP}:
+                if e.v2.first == I_LABEL:
+                    # Input angles
+                    angle = inputs[pair1.first, pair1.second]
+                    param[e.v2] = angle / 180 * M_PI
+                    dof += 1
+                else:
+                    # A_LABEL
+                    param[e.v2] = slope_angle(joint_pos[e.c1].x,
+                                              joint_pos[e.c1].y,
+                                              joint_pos[e.target].x,
+                                              joint_pos[e.target].y)
+                    if e.func == PLAP:
+                        param[e.v2] -= slope_angle(joint_pos[e.c1].x,
+                                                   joint_pos[e.c1].y,
+                                                   joint_pos[e.c2].x,
+                                                   joint_pos[e.c2].y)
+                if (
+                    (&lt;VPoint&gt;vpoints[e.c1.second]).grounded()
+                    and (&lt;VPoint&gt;vpoints[e.target.second]).grounded()
+                ):
+                    raise ValueError("wrong driver definition")
+    return dof &lt;= len(inputs) &lt;= vp_dof
+
+
+cpdef list expr_solving(
+    EStack exprs,
+    object vpoints,
+    object inputs = None
+):
+    """Solver function of Triangular method and BFGS method, for mechanism
+    expression `vpoints`.
+
+    The triangle expression stack `expr` is generated from
+    [`t_config`](#t_config).
+
+    Solver function will not handle slider input pairs in argument `angles`,
+    which is only support revolute joints. In another way, the slider input
+    pairs can be set by [`VPoint.disable_offset()`](#vpointdisable_offset)
+    method.
+    """
+    # Blank sequences
+    if inputs is None:
+        inputs = {}
+    cdef map[Sym, CCoord] joint_pos
+    cdef map[SwappablePair, double] link_len
+    cdef map[Sym, double] param
+    if not preprocessing(exprs, vpoints, inputs, joint_pos, link_len, param):
+        raise ValueError("wrong number of input parameters")
+    # Check coverage
+    status = {i: False for i in range(len(vpoints))}
+    cdef Expr e
+    for e in exprs.stack:
+        status[e.c1.second] = status[e.target.second] = True
+        if e.func in {PLAP, PLLP, PLPP, PALP}:
+            status[e.c2.second] = True
+            if e.func == PLPP:
+                status[e.c3.second] = True
+    cdef bint bfgs_mode = not all(status.values())
+    # Solve
+    cdef ExprSolver solver = ExprSolver(exprs.stack, joint_pos, param)
+    if not solver.solve():
+        raise ValueError("solve failed")
+    # Use BFGS mode
+    cdef pair[Sym, CCoord] jp
+    if bfgs_mode:
+        data_dict = {}
+        for jp in solver.joint_pos:
+            if (
+                jp.first.first == P_LABEL
+                and status[jp.first.second]
+            ):
+                data_dict[jp.first.second] = Coord.__new__(Coord, jp.second.x,
+                                                           jp.second.y)
+        return SolverSystem(vpoints, inputs, data_dict).solve()
+    rt = []
+    cdef int i
+    cdef CCoord c
+    cdef VPoint vp
+    for i, vp in enumerate(vpoints):
+        c = solver.joint_pos[Sym(P_LABEL, i)]
+        if vp.is_slider():
+            rt.append(((vp.c[0, 0], vp.c[0, 1]), (c.x, c.y)))
+        else:
+            rt.append((c.x, c.y))
+    return rt
+
+
+cdef (bint, map[Sym, CCoord]) quick_solve(
+    vector[Expr] stack,
+    map[Sym, CCoord] joint_pos,
+    map[Sym, double] param
+) nogil:
+    """Quick solving function.
+
+    !! Cython can not expose C external function to another pyx.
+    """
+    cdef ExprSolver s = ExprSolver(stack, joint_pos, param)
+    cdef bint ok = s.solve()
+    return ok, s.joint_pos
+
+
+def uniform_four_bar(double ml, int n):
+    """Generate n four bar mechanisms from maximum lengths.
+
+    These mechanisms have coupling points.
+    Normalized parameters are $[L_0, L_2, L_3, L_4, \alpha]$.
+
+    ![pxy](img/uniform_four_bar.png)
+    """
+    return array(_uniform_four_bar(ml, n))
+
+
+cdef double[:, :] _uniform_four_bar(double ml, int n):
+    """Uniform four-bar implementation."""
+    cdef double[:, :] d = uniform(1., ml, (n, 5))
+    cdef int i
+    for i in range(n):
+        while not d[i, 0] + d[i, 2] &gt; 1 + d[i, 1]:
+            for j in range(4):
+                d[i, j] = uniform(1., ml)
+        d[i, 4] = uniform(1., 2 * M_PI)
+    return d
+
+
+def uniform_path(double[:, :] dimension, int n):
+    """Generate path with four-bar dimensions.
+
+    Normalized parameters are $[L_0, L_2, L_3, L_4, \alpha]$.
+    """
+    return array(_uniform_path(dimension, n))
+
+
+cdef double[:, :, :] _uniform_path(double[:, :] dimension, int n):
+    """Uniform path implementation."""
+    cdef double[:, :, :] p = zeros((dimension.shape[0], n, 2))
+    cdef vector[Expr] stack
+    stack.push_back(Expr(False, PLA, Sym(L_LABEL, 1), Sym(I_LABEL, 0),
+                         Sym(P_LABEL, 0), Sym(), Sym(), Sym(P_LABEL, 2)))
+    stack.push_back(Expr(False, PLLP, Sym(L_LABEL, 2), Sym(L_LABEL, 3),
+                         Sym(P_LABEL, 2), Sym(P_LABEL, 1), Sym(),
+                         Sym(P_LABEL, 3)))
+    stack.push_back(Expr(False, PLAP, Sym(L_LABEL, 4), Sym(A_LABEL, 0),
+                         Sym(P_LABEL, 2), Sym(P_LABEL, 3), Sym(),
+                         Sym(P_LABEL, 4)))
+    cdef map[Sym, CCoord] joint_pos
+    joint_pos[Sym(P_LABEL, 0)] = CCoord(0, 0)
+    cdef map[Sym, double] param
+    param[Sym(L_LABEL, 1)] = 1.
+    cdef bint ok
+    cdef int i, j, k
+    cdef double a
+    cdef CCoord c
+    cdef map[Sym, CCoord] ans
+    for i in range(len(dimension)):
+        joint_pos[Sym(P_LABEL, 1)] = CCoord(dimension[i, 0], 0)
+        for k in range(1, 4):
+            param[Sym(L_LABEL, k + 1)] = dimension[i, k]
+        param[Sym(A_LABEL, 0)] = dimension[i, 5]
+        for j, a in enumerate(arange(0, 2 * M_PI, 2 * M_PI / n)):
+            param[Sym(I_LABEL, 0)] = a
+            ok, ans = quick_solve(stack, joint_pos, param)
+            if ok:
+                c = ans[Sym(P_LABEL, 4)]
+                p[i, j, 0] = c.x
+                p[i, j, 1] = c.y
+            else:
+                p[i, j, 0] = NAN
+                p[i, j, 1] = NAN
+    return p
+</t>
+<t tx="leo.20210210095724.17">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Triangular expressions.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libcpp.pair cimport pair
+from libcpp.vector cimport vector
+from .tinycadlib cimport Expr
+
+ctypedef pair[int, int] Sym
+
+cpdef EStack t_config(object vpoints_, object inputs_, object status_=*)
+
+cdef class EStack:
+    cdef vector[Expr] stack
+
+    cdef void add_pxy(self, Sym c1, Sym v1, Sym v2, Sym t) nogil
+    cdef void add_ppp(self, Sym c1, Sym c2, Sym c3, Sym t) nogil
+    cdef void add_pla(self, Sym c1, Sym v1, Sym v2, Sym t) nogil
+    cdef void add_plap(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t) nogil
+    cdef void add_pllp(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t) nogil
+    cdef void add_plpp(self, Sym c1, Sym v1, Sym c2, Sym c3, Sym t, bint op) nogil
+    cdef void add_palp(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t, bint op) nogil
+    cpdef list as_list(self)
+</t>
+<t tx="leo.20210210095724.18">@path ./pyslvs/pyslvs/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Triangular expressions.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libc.math cimport sin, cos, M_PI
+from libcpp.map cimport map
+from numpy import zeros, float64 as f64
+from .expression cimport VJoint, VPoint, VLink
+from .tinycadlib cimport (
+    PXY, PPP, PLA, PLAP, PLLP, PLPP, PALP, P_LABEL, L_LABEL, I_LABEL,
+    A_LABEL, S_LABEL
+)
+
+ctypedef vector[Sym] Inputs
+ctypedef map[int, bint] Status
+
+
+cdef str symbol_str(Sym p):
+    """The match pattern of the symbols."""
+    if p.first == P_LABEL:
+        return f"P{p.second}"
+    elif p.first == L_LABEL:
+        return f"L{p.second}"
+    elif p.first == I_LABEL:
+        return f"I{p.second}"
+    elif p.first == A_LABEL:
+        return f"A{p.second}"
+    elif p.first == S_LABEL:
+        return f"S{p.second}"
+    else:
+        return ""
+
+
+cdef class EStack:
+    """Triangle solution stack, generated from [`t_config`](#t_config).
+    It is pointless to call the constructor.
+    """
+
+    cdef void add_pxy(self, Sym c1, Sym v1, Sym v2, Sym t) nogil:
+        cdef Expr e
+        e.func = PXY
+        e.c1 = c1
+        e.v1 = v1
+        e.v2 = v2
+        e.target = t
+        e.op = False
+        self.stack.push_back(e)
+
+    cdef void add_ppp(self, Sym c1, Sym c2, Sym c3, Sym t) nogil:
+        cdef Expr e
+        e.func = PPP
+        e.c1 = c1
+        e.c2 = c2
+        e.c3 = c3
+        e.target = t
+        self.stack.push_back(e)
+
+    cdef void add_pla(self, Sym c1, Sym v1, Sym v2, Sym t) nogil:
+        cdef Expr e
+        e.func = PLA
+        e.c1 = c1
+        e.v1 = v1
+        e.v2 = v2
+        e.target = t
+        e.op = False
+        self.stack.push_back(e)
+
+    cdef void add_plap(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t) nogil:
+        cdef Expr e
+        e.func = PLAP
+        e.c1 = c1
+        e.v1 = v1
+        e.v2 = v2
+        e.c2 = c2
+        e.target = t
+        e.op = False
+        self.stack.push_back(e)
+
+    cdef void add_pllp(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t) nogil:
+        cdef Expr e
+        e.func = PLLP
+        e.c1 = c1
+        e.v1 = v1
+        e.v2 = v2
+        e.c2 = c2
+        e.target = t
+        e.op = False
+        self.stack.push_back(e)
+
+    cdef void add_plpp(self, Sym c1, Sym v1, Sym c2, Sym c3, Sym t, bint op) nogil:
+        cdef Expr e
+        e.func = PLPP
+        e.c1 = c1
+        e.v1 = v1
+        e.c2 = c2
+        e.c3 = c3
+        e.target = t
+        e.op = op
+        self.stack.push_back(e)
+
+    cdef void add_palp(self, Sym c1, Sym v1, Sym v2, Sym c2, Sym t, bint op) nogil:
+        cdef Expr e
+        e.func = PALP
+        e.c1 = c1
+        e.v1 = v1
+        e.v2 = v2
+        e.c2 = c2
+        e.target = t
+        e.op = op
+        self.stack.push_back(e)
+
+    cpdef list as_list(self):
+        """Copy the dataset as list object."""
+        stack = []
+        cdef Expr expr
+        for expr in self.stack:
+            if expr.func == PXY:
+                stack.append((
+                    "PXY",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.v2),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PPP:
+                stack.append((
+                    "PPP",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.c2),
+                    symbol_str(expr.c3),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PLA:
+                stack.append((
+                    "PLA",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.v2),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PLAP:
+                stack.append((
+                    "PLAP",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.v2),
+                    symbol_str(expr.c2),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PLLP:
+                stack.append((
+                    "PLLP",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.v2),
+                    symbol_str(expr.c2),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PLPP:
+                stack.append((
+                    "PLPP",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.c2),
+                    symbol_str(expr.c3),
+                    symbol_str(expr.target),
+                ))
+            elif expr.func == PALP:
+                stack.append((
+                    "PALP",
+                    symbol_str(expr.c1),
+                    symbol_str(expr.v1),
+                    symbol_str(expr.v2),
+                    symbol_str(expr.c2),
+                    symbol_str(expr.target),
+                ))
+        return stack
+
+    def __repr__(self):
+        return f"{type(self).__name__}({self.as_list()})"
+
+
+cdef bint _is_all_lock(Status &amp;status):
+    """Test is all status done."""
+    cdef bint n_status
+    for _, n_status in status:
+        if not n_status:
+            return False
+    return True
+
+
+cdef bint _is_parallel(VPoint p1, VPoint p2, VPoint p3, VPoint p4):
+    """Check parallel four bar loop."""
+    return (abs(p1.distance(p3) - p2.distance(p4)) &lt; 1e-12
+            and abs(p2.distance(p3) - p1.distance(p4)) &lt; 1e-12)
+
+
+cdef bint _clockwise(double[:] c1, double[:] c2, double[:] c3):
+    """Check the orientation of three points."""
+    cdef double val = (c2[1] - c1[1]) * (c3[0] - c2[0]) - (c2[0] - c1[0]) * (c3[1] - c2[1])
+    return val == 0 or val &gt; 0
+
+
+cdef (bint, int, int) _get_reliable_friends(
+    int node,
+    VPoint vpoint,
+    object vlinks,
+    Status &amp;status
+):
+    """Return two "has been solved" nodes on the same link."""
+    cdef int fa = -1
+    cdef int fb = -1
+    cdef int f
+    for link in vpoint.links:
+        if len(vlinks[link]) &lt; 2:
+            continue
+        for f in vlinks[link]:
+            if status[f] and f != node:
+                if fa == -1:
+                    fa = f
+                elif fb == -1:
+                    fb = f
+                    return True, fa, fb
+    return False, -1, -1
+
+
+cdef int _get_intersection(
+    int node1,
+    int node2,
+    object vpoints,
+    object vlinks,
+    Status &amp;status
+):
+    """Get a configured node between two nodes."""
+    cdef int node
+    cdef VPoint vp
+    for node, vp in enumerate(vpoints):
+        if (set(vp.links) &amp; set((&lt;VPoint&gt;vpoints[node1]).links)
+            and set(vp.links) &amp; set((&lt;VPoint&gt; vpoints[node2]).links)
+            and status[node]
+        ):
+            return node
+    return -1
+
+
+cdef int _get_not_base_friend(VPoint vpoint, object vlinks, Status &amp;status):
+    """Get a configured node from other links."""
+    if (vpoint.pin_grounded()
+        or not vpoint.grounded()
+        or vpoint.has_offset()
+        or len(vpoint.links) &lt; 2
+    ):
+        return -1
+    cdef int f
+    for f in vlinks[vpoint.links[1]]:
+        if status[f]:
+            return f
+    return -1
+
+
+cdef (bint, int, int) _get_base_friend(VPoint vpoint, object vlinks):
+    """Get two configured nodes on the same links."""
+    if len(vpoint.links) &lt; 1:
+        return False, -1, -1
+    cdef int fa = -1
+    cdef int f
+    for f in vlinks[vpoint.links[0]]:
+        if fa == -1:
+            fa = f
+        else:
+            return True, fa, f
+    return False, -1, -1
+
+
+cdef int _get_input_base(int node, Inputs &amp;inputs):
+    """Get the base node for input pairs."""
+    cdef int base, node_
+    for base, node_ in inputs:
+        if node == node_:
+            return base
+    return -1
+
+
+cpdef EStack t_config(
+    object vpoints_,
+    object inputs_,
+    object status_ = None
+):
+    """Generate the Triangle solution stack by mechanism expression `vpoints_`.
+
+    The argument `inputs` is a list of input pairs.
+    The argument `status` will track the configuration of each point,
+    which is optional.
+    """
+    # For VPoint list:
+    # + vpoints_: [vpoint0, vpoint1, ...]
+    # + inputs: [(p0, p1), (p0, p2), ...]
+    # + status: Dict[int, bint]
+    # vpoints will make a copy that we don't want to modified itself
+    cdef bint has_input = True
+    cdef bint has_status = True
+    if inputs_ is None or not inputs_:
+        has_input = False
+    if status_ is None:
+        has_status = False
+    cdef EStack exprs = EStack.__new__(EStack)
+    if not vpoints_ or not has_input:
+        return exprs
+
+    vpoints = list(vpoints_)
+    cdef Inputs inputs
+    cdef Status status
+
+    cdef bint ok
+    cdef int node, base
+    if has_input:
+        for node, base in inputs_:
+            inputs.push_back(Sym(node, base))
+    if has_status:
+        for node, ok in status_.items():
+            status[node] = ok
+    # First, we create a "VLinks" that can help us to
+    # find a relationship just like adjacency matrix
+    cdef VPoint vp1, vp2, vp3
+    vlinks = {}
+    for node, vp1 in enumerate(vpoints):
+        status[node] = False
+        if vp1.links:
+            for link in vp1.links:
+                # Connect on the ground and it is not a slider
+                if link == VLink.FRAME and vp1.type == VJoint.R:
+                    status[node] = True
+                # Add as vlink
+                if link not in vlinks:
+                    vlinks[link] = {node}
+                else:
+                    vlinks[link].add(node)
+        else:
+            status[node] = True
+    # Replace the P joints and their friends with RP joint
+    # DOF must be same after properties changed
+    for base, vp1 in enumerate(vpoints):
+        if vp1.type != VJoint.P or not vp1.grounded():
+            continue
+        for link in vp1.links[1:]:
+            for node in vlinks[link]:
+                vp2 = vpoints[node]
+                if node == base or vp2.type != VJoint.R:
+                    continue
+                vpoints[node] = VPoint.c_slider_joint([vp1.links[0]] + [
+                    link_ for link_ in vp2.links
+                    if link_ not in vp1.links
+                ], VJoint.RP, vp1.angle, vp2.x, vp2.y)
+    # Add positions parameters
+    cdef double[:, :] pos = zeros((len(vpoints), 2), dtype=f64)
+    for base, vp1 in enumerate(vpoints):
+        node = 0 if vp1.type == VJoint.R else 1
+        pos[base, 0] = vp1.c[node, 0]
+        pos[base, 1] = vp1.c[node, 1]
+    cdef int link_symbol = 0
+    cdef int input_symbol = 0
+    cdef int angle_symbol = 0
+    # Input joints (R) that was connect with ground
+    for base, node in inputs:
+        if status[base]:
+            exprs.add_pla(
+                [P_LABEL, base],
+                [L_LABEL, link_symbol],
+                [I_LABEL, input_symbol],
+                [P_LABEL, node]
+            )
+            status[node] = True
+            link_symbol += 1
+            input_symbol += 1
+    # Now let we search around all the points, until we find the solutions
+    # that we could
+    input_targets = {node for _, node in inputs}
+    node = 0
+    cdef int skip_times = 0
+    cdef int around = len(status)
+    cdef int fa, fb, fc, fd
+    cdef double angle
+    cdef double[:] tmp = zeros(2, dtype=f64)
+    # Friend iterator
+    while not _is_all_lock(status):
+        if status.find(node) == status.end():
+            node = 0
+            continue
+        # Check and break the loop if it's re-scan again
+        if skip_times &gt;= around:
+            break
+        if status[node]:
+            node += 1
+            skip_times += 1
+            continue
+        vp1 = vpoints[node]
+        if vp1.type == VJoint.R:
+            # R joint
+            # + Is input node?
+            # + Normal revolute joint
+            if node in input_targets:
+                base = _get_input_base(node, inputs)
+                if status[base]:
+                    exprs.add_pla(
+                        Sym(P_LABEL, base),
+                        Sym(L_LABEL, link_symbol),
+                        Sym(I_LABEL, input_symbol),
+                        Sym(P_LABEL, node)
+                    )
+                    status[node] = True
+                    link_symbol += 1
+                    input_symbol += 1
+                else:
+                    skip_times += 1
+            else:
+                ok, fa, fb = _get_reliable_friends(node, vp1, vlinks, status)
+                if not ok:
+                    skip_times += 1
+                else:
+                    if not _clockwise(pos[fa], pos[node], pos[fb]):
+                        fa, fb = fb, fa
+                    vp2 = vpoints[fa]
+                    vp3 = vpoints[fb]
+                    if vp2.same_link(vp3) and not (vp2.grounded() and vp3.grounded()):
+                        exprs.add_plap(
+                            Sym(P_LABEL, fa),
+                            Sym(L_LABEL, link_symbol),
+                            Sym(A_LABEL, angle_symbol),
+                            Sym(P_LABEL, fb),
+                            Sym(P_LABEL, node)
+                        )
+                        link_symbol += 1
+                        angle_symbol += 1
+                    else:
+                        # Decide when to solve parallel linkage
+                        fc = _get_intersection(fa, fb, vpoints, vlinks, status)
+                        if (fc != -1 and _is_parallel(
+                            vpoints[fa], vpoints[fb], vpoints[fc], vpoints[node]
+                        )):
+                            exprs.add_ppp(
+                                Sym(P_LABEL, fc),
+                                Sym(P_LABEL, fa),
+                                Sym(P_LABEL, fb),
+                                Sym(P_LABEL, node)
+                            )
+                        else:
+                            exprs.add_pllp(
+                                Sym(P_LABEL, fa),
+                                Sym(L_LABEL, link_symbol),
+                                Sym(L_LABEL, link_symbol + 1),
+                                Sym(P_LABEL, fb),
+                                Sym(P_LABEL, node)
+                            )
+                            link_symbol += 2
+                    status[node] = True
+                    skip_times = 0
+        elif vp1.type == VJoint.P:
+            # Need to solve P joint itself here (only grounded)
+            fa = _get_not_base_friend(vp1, vlinks, status)
+            if fa == -1:
+                skip_times += 1
+            else:
+                exprs.add_pxy(
+                    Sym(P_LABEL, fa),
+                    Sym(L_LABEL, link_symbol),
+                    Sym(L_LABEL, link_symbol + 1),
+                    Sym(P_LABEL, node)
+                )
+                status[node] = True
+                link_symbol += 2
+                # Solution for all friends
+                for link in vp1.links[1:]:
+                    for fb in vlinks[link]:
+                        if status[fb]:
+                            continue
+                        exprs.add_pxy(
+                            Sym(P_LABEL, node),
+                            Sym(L_LABEL, link_symbol),
+                            Sym(L_LABEL, link_symbol + 1),
+                            Sym(P_LABEL, fb)
+                        )
+                        status[fb] = True
+                        link_symbol += 2
+                skip_times = 0
+        elif vp1.type == VJoint.RP:
+            # Copy as 'fc'
+            fc = node
+            # 'S' point
+            tmp[:] = pos[node, :]
+            angle = vp1.angle / 180 * M_PI
+            tmp[0] += cos(angle)
+            tmp[1] += sin(angle)
+            fa = _get_not_base_friend(vp1, vlinks, status)
+            ok, fb, fd = _get_base_friend(vp1, vlinks)
+            if fa == -1 or not ok:
+                skip_times += 1
+            else:
+                # Slot is not grounded
+                if not vp1.grounded():
+                    if not _clockwise(pos[fb], tmp, pos[fd]):
+                        fb, fd = fd, fb
+                    exprs.add_pllp(
+                        Sym(P_LABEL, fb),
+                        Sym(L_LABEL, link_symbol),
+                        Sym(L_LABEL, link_symbol + 1),
+                        Sym(P_LABEL, fd),
+                        Sym(P_LABEL, node)
+                    )
+                    link_symbol += 2
+                # PLPP
+                # [PLLP]
+                # Set 'S' (slider) point to define second point of slider
+                # + A 'friend' from base link
+                # + Get distance from me and friend
+                # [PLPP]
+                # Re-define coordinate of target point by self and 'S' point
+                # + A 'friend' from other link
+                # + Solve
+                if not _clockwise(pos[fb], tmp, pos[fc]):
+                    fb, fc = fc, fb
+                exprs.add_pllp(
+                    Sym(P_LABEL, fb),
+                    Sym(L_LABEL, link_symbol),
+                    Sym(L_LABEL, link_symbol + 1),
+                    Sym(P_LABEL, fc),
+                    Sym(S_LABEL, node)
+                )
+                # Two conditions
+                exprs.add_plpp(
+                    Sym(P_LABEL, fa),
+                    Sym(L_LABEL, link_symbol + 2),
+                    Sym(P_LABEL, node),
+                    Sym(S_LABEL, node),
+                    Sym(P_LABEL, node),
+                    (pos[fa, 0] - pos[node, 0] &gt; 0) != (vp1.angle &gt; 90)
+                )
+                status[node] = True
+                link_symbol += 3
+                skip_times = 0
+        node += 1
+    if has_status:
+        for node, ok in status:
+            status_[node] = ok
+    return exprs
+</t>
+<t tx="leo.20210210095724.19">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+</t>
+<t tx="leo.20210210095724.2"></t>
+<t tx="leo.20210210095724.21"></t>
+<t tx="leo.20210210095724.22">@path ./pyslvs/pyslvs/graph/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Graph class.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libcpp.map cimport map
+
+ctypedef unsigned long long ullong
+ctypedef map[int, int] imap
+
+cpdef list link_assortment(Graph g)
+cpdef list contracted_link_assortment(Graph g)
+
+cdef class Graph:
+    # Graph(edges)
+
+    cdef readonly tuple edges
+    cdef readonly tuple vertices
+    cdef dict adj
+
+    cpdef void add_vertices(self, object new_nodes)
+    cpdef void add_edge(self, int n1, int n2)
+    cpdef void add_path(self, object new_nodes)
+    cpdef void remove_edge(self, int n1, int n2)
+
+    cpdef int dof(self)
+    cpdef tuple neighbors(self, int n)
+    cpdef dict degrees(self)
+    cpdef ullong degree_code(self)
+    cpdef double[:, :] adjacency_matrix(self)
+
+    cpdef bint is_connected(self, int without=*)
+    cpdef bint has_cut_link(self)
+    cpdef bint is_degenerate(self)
+    cpdef bint has_triangle(self)
+    cpdef bint is_isomorphic(self, Graph g)
+    cpdef bint is_isomorphic_vf2(self, Graph g)
+    cpdef bint is_isomorphic_degree_code(self, Graph g)
+
+    cpdef Graph duplicate(self, object vertices, int times)
+    cpdef Graph copy(self)
+</t>
+<t tx="leo.20210210095724.23">@path ./pyslvs/pyslvs/graph/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Graph class.
+
+The algorithm reference:
++ NetworkX
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from libcpp.pair cimport pair
+import sys
+from typing import Tuple, Dict, Iterator
+from itertools import permutations, groupby
+from numpy import zeros, uint8 as np_uint
+
+ctypedef pair[int, int] ipair
+
+
+cpdef list link_assortment(Graph g):
+    """Return link assortment of the graph."""
+    assortment = [0]
+    if not g.edges:
+        return assortment
+    cdef int d, n
+    for n in g.degrees().values():
+        if n &lt; 2:
+            continue
+        d = n - 2
+        while d &gt;= len(assortment):
+            assortment.append(0)
+        assortment[d] += 1
+    return assortment
+
+
+cpdef list contracted_link_assortment(Graph g):
+    """Return contracted link assortment of the graph."""
+    if not g.edges:
+        return [0]
+    assortment = [0] * link_assortment(g)[0]
+    counted = set()
+    for mcl in _multi_contracted_links(g, False):
+        counted.update(mcl)
+        assortment[len(mcl) - 1] += 1
+    # For single contracted links
+    cdef int n, d
+    for n, d in g.degrees().items():
+        if d != 2:
+            continue
+        if n not in counted:
+            assortment[0] += 1
+    return assortment
+
+
+cdef list _multi_contracted_links(Graph g, bint only_one):
+    """Return a list of multiple contracted links."""
+    cdef int n1, n2, index, neighbor
+    contracted_links = []
+    counted = set()
+    for n1 in g.vertices:
+        # Only for binary link.
+        if len(g.adj[n1]) != 2:
+            continue
+        # n1 is not collected yet.
+        if n1 in counted:
+            continue
+        index = 0
+        c_links = [n1]
+        while index &lt; len(c_links):
+            for neighbor in g.adj[c_links[index]]:
+                if len(g.adj[neighbor]) == 2 and neighbor not in c_links:
+                    c_links.append(neighbor)
+            index += 1
+        if len(c_links) &gt; 1:
+            if only_one:
+                return c_links
+            counted.update(c_links)
+            contracted_links.append(tuple(c_links))
+    if only_one:
+        return []
+    else:
+        return contracted_links
+
+
+cpdef list labeled_enumerate(Graph g):
+    """Enumerate each node with labeled except isomorphism."""
+    result = []
+    cdef int n1, n2
+    cdef Graph g1, g2
+    for n1 in g.vertices:
+        g1 = Graph.__new__(Graph, [e for e in g.edges if n1 not in e])
+        for n2, g2 in result:
+            if g1.is_isomorphic(g2):
+                break
+        else:
+            result.append((n1, g1))
+    return result
+
+
+@cython.final
+cdef class Graph:
+    """The undirected graph class, support multigraph."""
+
+    def __cinit__(self, object edges):
+        self.edges = tuple(edges)
+        # vertices
+        cdef int p1, p2
+        vertices = []
+        for p1, p2 in self.edges:
+            if p1 not in vertices:
+                vertices.append(p1)
+            if p2 not in vertices:
+                vertices.append(p2)
+        self.vertices = tuple(vertices)
+        # adj
+        self.adj = {n: self.neighbors(n) for n in self.vertices}
+
+    cpdef void add_vertices(self, object vertices):
+        """Add vertices from iterable object `vertices`."""
+        self.vertices = tuple(set(self.vertices) | set(vertices))
+
+    cpdef void add_edge(self, int n1, int n2):
+        """Add edge `n1` to `n2`."""
+        self.edges += ((n1, n2),)
+        self.vertices = tuple(set(self.vertices) | {n1, n2})
+        cdef int n
+        for n in (n1, n2):
+            self.adj[n] = self.neighbors(n)
+
+    cpdef void add_path(self, object new_nodes):
+        edges = list(self.edges)
+        vertices = set(self.vertices)
+        cdef int n1 = -1
+        cdef int n2
+        for n2 in new_nodes:
+            if n1 != -1:
+                edges.append((n1, n2))
+                vertices.update((n1, n2))
+            n1 = n2
+        self.edges = tuple(edges)
+        self.vertices = tuple(vertices)
+        for n1 in vertices:
+            self.adj[n1] = self.neighbors(n1)
+
+    cpdef void remove_edge(self, int n1, int n2):
+        """Remove edge(s) {n1, n2} once if exist, otherwise do nothing."""
+        vertices = set()
+        edges = []
+        cdef bint once = False
+        for edge in self.edges:
+            if {n1, n2} != set(edge) or once:
+                vertices.update(edge)
+                edges.append(edge)
+            else:
+                once = True
+        self.edges = tuple(edges)
+        self.vertices = tuple(vertices)
+        cdef int n
+        for n in self.vertices:
+            edge = self.neighbors(n)
+            if edge:
+                self.adj[n] = edge
+            else:
+                self.adj.pop(n, None)
+
+    cpdef int dof(self):
+        """Return DOF of the graph.
+
+        !!! note
+            DOF is the Degree of Freedoms to a mechanism.
+
+            In the [Graph] objects, all vertices will assumed as revolute
+            joints (1 DOF).
+
+            $$
+            F = 3(N_L - 1) - 2N_J
+            $$
+        """
+        return 3 * (len(self.vertices) - 1) - (2 * len(self.edges))
+
+    cpdef inline tuple neighbors(self, int n):
+        """Return the neighbors of the vertex `n`."""
+        neighbors = []
+        cdef int l1, l2
+        for l1, l2 in self.edges:
+            if n == l1:
+                neighbors.append(l2)
+            if n == l2:
+                neighbors.append(l1)
+        return tuple(neighbors)
+
+    cpdef dict degrees(self):
+        """Return the degrees of each vertex."""
+        return {n: len(neighbors) for n, neighbors in self.adj.items()}
+
+    cpdef ullong degree_code(self):
+        """Generate a degree code.
+
+        With a sorted vertices mapping by the degrees of each vertex,
+        regenerate a new adjacency matrix.
+        A binary code can be found by concatenating the upper right elements.
+        The degree code is the maximum value of the permutation.
+        """
+        if len(self.vertices) &lt; 2:
+            return 0
+        # Create a new mapping
+        degrees = self.degrees()
+        # Permute the group to find the max degree code
+        # "per1" is the mapping of the graph
+        # "prefix" is the last choose of the candidate (can be multiple)
+        per1 = []
+        prefix = []
+        cdef int i, n1, n2
+        cdef ullong code, sub_code
+        for _, g in groupby(
+            sorted(degrees, key=degrees.__getitem__, reverse=True),
+            key=degrees.__getitem__
+        ):
+            code = 0
+            order = None
+            g = tuple(g)
+            for pre in iter(prefix if len(prefix) &gt; 1 else [()]):
+                for per2 in permutations(g):
+                    if len(per2) == 1:
+                        order = pre + per2
+                        prefix = [order]
+                        break
+                    sub_code = 0
+                    # Calculate sub code
+                    per3 = tuple(per1) + pre + per2
+                    for i, n1 in enumerate(per3):
+                        for n2 in per3[i + 1:]:
+                            sub_code &lt;&lt;= 1
+                            sub_code += n2 in self.adj[n1]
+                    # Compare sub code
+                    if sub_code &gt; code or order is None:
+                        code = sub_code
+                        order = pre + per2
+                        prefix = [order]
+                    elif sub_code == code:
+                        # Will affect the subsequent arrangement
+                        prefix.append(pre + per2)
+            if len(prefix) == 1:
+                per1.extend(order)
+        # Check the last one prefix candidate
+        if not set(order) &lt;= set(per1):
+            per1.extend(order)
+        # Calculate the degree code
+        code = 0
+        for i, n1 in enumerate(per1):
+            for n2 in per1[i + 1:]:
+                code &lt;&lt;= 1
+                code += n2 in self.adj[n1]
+        return code
+
+    cpdef double[:, :] adjacency_matrix(self):
+        """Generate a adjacency matrix.
+
+        Assume the matrix $A[i, j] = A[j, i]$.
+        Where $A[i, j] = 1$ if edge `(i, j)` exist.
+        """
+        cdef int n = len(self.vertices)
+        cdef double[:, :] am = zeros((n, n), dtype=np_uint)
+        cdef int n1, n2
+        for n1, n2 in self.edges:
+            am[n1, n2] += 1
+            am[n2, n1] += 1
+        return am
+
+    cpdef bint is_connected(self, int without = -1):
+        """Return `True` if the graph is connected.
+        Set the argument `without` to ignore one vertex.
+        """
+        if not self.vertices:
+            return True
+        cdef int neighbors
+        cdef int index = 0
+        vertices = []
+        # Change start node if index zero has been excluded.
+        if without == self.vertices[0]:
+            vertices.append(self.vertices[1])
+        else:
+            vertices.append(self.vertices[0])
+        # Search node by node.
+        while index &lt; len(vertices):
+            for neighbors in self.adj[vertices[index]]:
+                if (neighbors not in vertices) and neighbors != without:
+                    vertices.append(neighbors)
+            index += 1
+        if without != -1:
+            vertices.append(without)
+        return len(vertices) == len(self.vertices)
+
+    cpdef bint has_cut_link(self):
+        """Return true if the graph has any cut links."""
+        cdef int n, d
+        for n, d in self.degrees().items():
+            # Only for multiple links.
+            if d &gt; 2:
+                # Remove a multiple link should be keep connected.
+                if not self.is_connected(n):
+                    return True
+        return False
+
+    cpdef bint is_degenerate(self):
+        """Return true if this kinematic chain is degenerate.
+
+        + Prue all multiple contracted links recursively.
+        + Check the DOF of sub-graph if it is lower then zero.
+        """
+        if self.has_triangle():
+            return True
+        cdef int n1, n2
+        cdef Graph g = self.copy()
+        mcl = set()
+        while True:
+            mcl.update(_multi_contracted_links(g, True))
+            if not mcl:
+                break
+            c_l = []
+            for n1, n2 in g.edges:
+                if not {n1, n2} &amp; mcl:
+                    c_l.append((n1, n2))
+            mcl.clear()
+            # Pruned graph
+            g = Graph.__new__(Graph, c_l)
+            if {n2 for n2 in g.degrees().values()} == {2}:
+                # The graph is a basic loop.
+                break
+        # Check the DOF
+        return g.dof() &lt; 1
+
+    cpdef bint has_triangle(self):
+        """Return true if the graph has triangle."""
+        cdef int n1, n2
+        for neighbors in self.adj.values():
+            for n1 in neighbors:
+                for n2 in neighbors:
+                    if n1 == n2:
+                        continue
+                    if n1 in self.adj[n2]:
+                        return True
+        return False
+
+    cpdef bint is_isomorphic(self, Graph g):
+        """Return true if two graphs is isomorphic.
+
+        Default is using VF2 algorithm.
+        """
+        return self.is_isomorphic_vf2(g)
+
+    cpdef bint is_isomorphic_vf2(self, Graph g):
+        """Compare isomorphism by VF2 algorithm,
+        one of the high performance isomorphic algorithms.
+        """
+        cdef GraphMatcher gm_gh = GraphMatcher.__new__(GraphMatcher, self, g)
+        return gm_gh.is_isomorphic()
+
+    cpdef bint is_isomorphic_degree_code(self, Graph g):
+        """Compare isomorphism by degree code algorithm.
+
+        + &lt;https://doi.org/10.1115/1.2919236&gt;
+        """
+        return self.degree_code() == g.degree_code()
+
+    cpdef Graph duplicate(self, object vertices, int times):
+        """Make graph duplicate by specific `vertices`. Return a new graph."""
+        if times &lt; 1:
+            raise ValueError("please input a number larger than 1.")
+        cdef int max_num = max(self.vertices) + 1
+        mapping = {}
+        cdef int i, n1, n2
+        edges = set(self.edges)
+        for i in range(times):
+            for n1 in sorted(set(vertices)):
+                mapping[n1] = max_num
+                max_num += 1
+            for n1, n2 in self.edges:
+                if n1 in mapping:
+                    n1 = mapping[n1]
+                if n2 in mapping:
+                    n2 = mapping[n2]
+                if n1 &gt; n2:
+                    n1, n2 = n2, n1
+                edges.add((n1, n2))
+        return Graph.__new__(Graph, edges)
+
+    cpdef Graph copy(self):
+        """The copy method of the Graph object."""
+        return Graph.__new__(Graph, self.edges)
+
+    def __repr__(self) -&gt; str:
+        return f"{type(self).__name__}({list(self.edges)})"
+
+
+cdef bint _is_adjacent(Graph g, int u, int v):
+    """Find the distance between u and v."""
+    if v in g.adj[u]:
+        return True
+    return False
+
+
+@cython.final
+cdef class GraphMatcher:
+    """GraphMatcher and GMState class from NetworkX.
+
+    Copyright (C) 2007-2009 by the NetworkX maintainers
+    All rights reserved.
+    BSD license.
+
+    This work was originally coded by Christopher Ellison
+    as part of the Computational Mechanics Python (CMPy) project.
+    James P. Crutchfield, principal investigator.
+    Complexity Sciences Center and Physics Department, UC Davis.
+    """
+    cdef Graph g1, g2
+    cdef set g1_nodes, g2_nodes
+    cdef dict core_1, core_2, inout_1, inout_2, mapping
+    cdef GMState state
+
+    def __cinit__(self, Graph g1, Graph g2):
+        self.g1 = g1
+        self.g2 = g2
+        self.g1_nodes = set(g1.vertices)
+        self.g2_nodes = set(g2.vertices)
+        # Set recursion limit
+        cdef int old_recursion_limit = sys.getrecursionlimit()
+        cdef int expected_max_recursion_level = len(self.g2.vertices)
+        if old_recursion_limit &lt; 1.5 * expected_max_recursion_level:
+            # Give some breathing room
+            sys.setrecursionlimit(int(1.5 * expected_max_recursion_level))
+        # Initialize state
+        self.initialize()
+
+    cdef inline void initialize(self):
+        """Re-initializes the state of the algorithm."""
+        # core_1[n] contains the index of the node paired with n, which is m,
+        #            provided n is in the mapping.
+        # core_2[m] contains the index of the node paired with m, which is n,
+        #            provided m is in the mapping.
+        self.core_1 = {}
+        self.core_2 = {}
+        # See the paper for definitions of M_x and T_x^{y}
+        # inout_1[n]  is non-zero if n is in M_1 or in T_1^{inout}
+        # inout_2[m]  is non-zero if m is in M_2 or in T_2^{inout}
+        #
+        # The value stored is the depth of the SSR tree when the node became
+        # part of the corresponding set.
+        self.inout_1 = {}
+        self.inout_2 = {}
+        # Practically, these sets simply store the nodes in the subgraph.
+        self.state = GMState.__new__(GMState, self)
+        # Provide a convenient way to access the isomorphism mapping.
+        self.mapping = self.core_1.copy()
+
+    def candidate_pairs_iter(self) -&gt; Iterator[Tuple[int, int]]:
+        """Iterator over candidate pairs of nodes in g1 and g2."""
+        # First we compute the inout-terminal sets.
+        s1 = set(self.inout_1) - set(self.core_1)
+        s2 = set(self.inout_2) - set(self.core_2)
+        t1_inout = [node for node in self.g1_nodes if node in s1]
+        t2_inout = [node for node in self.g2_nodes if node in s2]
+        # If t1_inout and t2_inout are both nonempty.
+        # P(s) = t1_inout x {min t2_inout}
+        cdef int node
+        if t1_inout and t2_inout:
+            for node in t1_inout:
+                yield node, min(t2_inout)
+        else:
+            # If t1_inout and t2_inout were both empty....
+            # P(s) = (N_1 - M_1) x {min (N_2 - M_2)}
+            # # if not (t1_inout or t2_inout):
+            # as suggested by  [2], incorrect
+            # as inferred from [1], correct
+            # First we determine the candidate node for g2
+            for node in self.g1.vertices:
+                if node not in self.core_1:
+                    yield node, min(self.g2_nodes - set(self.core_2))
+        # For all other cases, we don't have any candidate pairs.
+
+    cdef bint is_isomorphic(self):
+        """Returns True if g1 and g2 are isomorphic graphs."""
+        # Let's do two very quick checks!
+        # QUESTION: Should we call faster_graph_could_be_isomorphic(g1,g2)?
+        # For now, graph3 just copy the code.
+        # Check global properties
+        if len(self.g1.vertices) != len(self.g2.vertices):
+            return False
+        # Check local properties
+        if (
+            sorted([len(neighbor) for neighbor in self.g1.adj.values()])
+            != sorted([len(neighbor) for neighbor in self.g2.adj.values()])
+        ):
+            return False
+        self.initialize()
+        try:
+            next(self.match())
+            return True
+        except StopIteration:
+            return False
+
+    def match(self) -&gt; Iterator[Dict[int, Tuple[int]]]:
+        """Extends the isomorphism mapping."""
+        cdef int g1_node, g2_node
+        cdef GMState new_state
+        if len(self.core_1) == len(self.g2.vertices):
+            # Save the final mapping, otherwise garbage collection deletes it.
+            self.mapping = self.core_1.copy()
+            # The mapping is complete.
+            yield self.mapping
+        else:
+            for g1_node, g2_node in self.candidate_pairs_iter():
+                if self.syntactic_feasibility(g1_node, g2_node):
+                    # Recursive call, adding the feasible state.
+                    new_state = type(self.state)(self, g1_node, g2_node)
+                    yield from self.match()
+                    # restore data structures
+                    new_state.restore()
+
+    cdef inline bint syntactic_feasibility(self, int g1_node, int g2_node):
+        """Returns True if adding (g1_node, g2_node) is syntactically feasible.
+
+        The VF2 algorithm was designed to work with graphs having, at most,
+        one edge connecting any two nodes.  This is not the case when
+        dealing with an MultiGraphs.
+
+        Basically, when we test the look-ahead rules R_neighbor, we will
+        make sure that the number of edges are checked. We also add
+        a R_self check to verify that the number of self loops is acceptable.
+
+        Users might be comparing Graph instances with MultiGraph instances.
+        So the generic GraphMatcher class must work with MultiGraphs.
+        Care must be taken since the value in the innermost dictionary is a
+        singlet for Graph instances.  For MultiGraphs, the value in the
+        innermost dictionary is a list.
+        """
+
+        # ## Test at each step to get a return value as soon as possible.
+
+        # ## Look ahead 0
+        # R_self
+        # The number of self loops for g1_node must equal the number of
+        # self-loops for g2_node. Without this check, we would fail on
+        # R_neighbor at the next recursion level. But it is good to prune the
+        # search tree now.
+        if (
+            _is_adjacent(self.g1, g1_node, g1_node)
+            != _is_adjacent(self.g2, g2_node, g2_node)
+        ):
+            return False
+        # R_neighbor
+        # For each neighbor n' of n in the partial mapping, the corresponding
+        # node m' is a neighbor of m, and vice versa. Also, the number of
+        # edges must be equal.
+        cdef int neighbor
+        for neighbor in self.g1.adj[g1_node]:
+            if neighbor in self.core_1:
+                if self.core_1[neighbor] not in self.g2.adj[g2_node]:
+                    return False
+                elif (
+                        _is_adjacent(self.g1, neighbor, g1_node)
+                        != _is_adjacent(self.g2, self.core_1[neighbor], g2_node)
+                ):
+                    return False
+        for neighbor in self.g2.adj[g2_node]:
+            if neighbor in self.core_2:
+                if self.core_2[neighbor] not in self.g1.adj[g1_node]:
+                    return False
+                elif (
+                        _is_adjacent(self.g1, self.core_2[neighbor], g1_node)
+                        != _is_adjacent(self.g2, neighbor, g2_node)
+                ):
+                    return False
+
+        # ## Look ahead 1
+        # R_term_inout
+        # The number of neighbors of n that are in T_1^{inout} is equal to the
+        # number of neighbors of m that are in T_2^{inout}, and vice versa.
+        cdef int num1 = 0
+        for neighbor in self.g1.adj[g1_node]:
+            if (neighbor in self.inout_1) and (neighbor not in self.core_1):
+                num1 += 1
+        cdef int num2 = 0
+        for neighbor in self.g2.adj[g2_node]:
+            if (neighbor in self.inout_2) and (neighbor not in self.core_2):
+                num2 += 1
+        if num1 != num2:
+            return False
+
+        # ## Look ahead 2
+        # R_new
+        # The number of neighbors of n that are neither in the core_1 nor
+        # T_1^{inout} is equal to the number of neighbors of m
+        # that are neither in core_2 nor T_2^{inout}.
+        num1 = 0
+        for neighbor in self.g1.adj[g1_node]:
+            if neighbor not in self.inout_1:
+                num1 += 1
+        num2 = 0
+        for neighbor in self.g2.adj[g2_node]:
+            if neighbor not in self.inout_2:
+                num2 += 1
+        return num1 == num2
+
+
+@cython.final
+cdef class GMState:
+    """Graph matcher state."""
+    cdef GraphMatcher gm
+    cdef int g1_node, g2_node, depth
+
+    def __cinit__(
+        self,
+        GraphMatcher gm,
+        int g1_node=-1,
+        int g2_node=-1
+    ):
+        """Initializes GMState object.
+
+        Pass in the GraphMatcher to which this GMState belongs and the
+        new node pair that will be added to the GraphMatcher's current
+        isomorphism mapping.
+        """
+        self.gm = gm
+
+        # Initialize the last stored node pair.
+        self.g1_node = -1
+        self.g2_node = -1
+        self.depth = len(gm.core_1)
+
+        if g1_node == -1 or g2_node == -1:
+            # Then we reset the class variables
+            gm.core_1 = {}
+            gm.core_2 = {}
+            gm.inout_1 = {}
+            gm.inout_2 = {}
+
+        cdef int node
+        # Watch out! g1_node == 0 should evaluate to True.
+        if g1_node != -1 and g2_node != -1:
+            # Add the node pair to the isomorphism mapping.
+            gm.core_1[g1_node] = g2_node
+            gm.core_2[g2_node] = g1_node
+
+            # Store the node that was added last.
+            self.g1_node = g1_node
+            self.g2_node = g2_node
+
+            # Now we must update the other two vectors.
+            # We will add only if it is not in there already!
+            self.depth = len(gm.core_1)
+
+            # First we add the new nodes...
+            if g1_node not in gm.inout_1:
+                gm.inout_1[g1_node] = self.depth
+            if g2_node not in gm.inout_2:
+                    gm.inout_2[g2_node] = self.depth
+
+            # Now we add every other node...
+
+            # Updates for T_1^{inout}
+            new_nodes = set()
+            for node in gm.core_1:
+                new_nodes.update([
+                    neighbor for neighbor in gm.g1.adj[node]
+                    if neighbor not in gm.core_1
+                ])
+            for node in new_nodes:
+                if node not in gm.inout_1:
+                    gm.inout_1[node] = self.depth
+
+            # Updates for T_2^{inout}
+            new_nodes = set()
+            for node in gm.core_2:
+                new_nodes.update([
+                    neighbor for neighbor in gm.g2.adj[node]
+                    if neighbor not in gm.core_2
+                ])
+            for node in new_nodes:
+                if node not in gm.inout_2:
+                    gm.inout_2[node] = self.depth
+
+    cdef void restore(self):
+        """Deletes the GMState object and restores the class variables."""
+        # First we remove the node that was added from the core vectors.
+        # Watch out! g1_node == 0 should evaluate to True.
+        if self.g1_node != -1 and self.g2_node != -1:
+            self.gm.core_1.pop(self.g1_node)
+            self.gm.core_2.pop(self.g2_node)
+
+        # Now we revert the other two vectors.
+        # Thus, we delete all entries which have this depth level.
+        cdef int node
+        for vector in (self.gm.inout_1, self.gm.inout_2):
+            for node in tuple(vector):
+                if vector[node] == self.depth:
+                    vector.pop(node)
+</t>
+<t tx="leo.20210210095724.24">@path ./pyslvs/pyslvs/graph/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Layout functions for graph object.
+
+The algorithms references:
++ NetworkX
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from typing import Set, Iterable, Any
+cimport cython
+from cpython cimport PyDict_Contains, PyIndex_Check
+from cpython.slice cimport PySlice_GetIndicesEx
+from libc.math cimport hypot, M_PI, sin, cos, atan2
+from libcpp.map cimport map
+from .graph cimport Graph
+
+
+cpdef dict external_loop_layout(Graph g, bint node_mode, double scale = 1.):
+    """Layout position decided by outer loop (max cycle).
+
+    Return the layout position decided by external loop.
+    Argument `node_mode` will transform edges into vertices.
+    Argument `scale` will resize the position by scale factor.
+    """
+    pos = _line_polygon_layout(g, scale)
+    # Node mode
+    cdef int i, n1, n2
+    cdef double x1, y1, x2, y2
+    if not node_mode:
+        n_pos = {}
+        edges_view = sorted([((n2, n1) if n2 &lt; n1 else (n1, n2)) for (n1, n2) in g.edges])
+        for i, (n1, n2) in enumerate(edges_view):
+            x1, y1 = pos[n1]
+            x2, y2 = pos[n2]
+            n_pos[i] = _middle_point(x1, y1, x2, y2)
+        pos = n_pos
+
+    return pos
+
+
+cdef inline dict _line_polygon_layout(Graph g, double scale):
+    """Generate position of external loop and inner lines."""
+    cdef OrderedSet o_loop = _external_loop(g)
+    lines = None
+    while lines is None:
+        # Patch function of external cycle
+        lines = _inner_lines(g, o_loop)
+
+    o_loop.roll(min(o_loop), 0)
+    pos = {}
+    _regular_polygon_layout(o_loop, scale, pos)
+    cdef OrderedSet used_nodes = o_loop.copy()
+
+    cdef int start, end
+    cdef OrderedSet line
+    cdef map[int, map[int, int]] line_limit, line_counter
+    for line, start, end in lines:
+        line_limit[start][end] += 1
+
+    cdef int limit
+    cdef double p, x1, y1, x2, y2
+    for line, start, end in lines:
+        x1, y1 = pos[start]
+        x2, y2 = pos[end]
+        # Conditions of linear or bezier curve
+        limit = line_limit[start][end]
+        if limit == 1:
+            _linear_layout(x1, y1, x2, y2, line, pos)
+        else:
+            line_counter[start][end] += 1
+            p = &lt;double&gt;line_counter[start][end] / (limit + 1)
+            _bezier_layout(p, x1, y1, x2, y2, line, pos)
+        used_nodes.update(line)
+
+    # Last check for debug
+    if set(g.vertices) != set(pos):
+        raise ValueError(
+            f"the algorithm is error with {g.edges}\n"
+            f"external loop: {o_loop}\n"
+            f"inner layout: {set(pos) - o_loop}\n"
+            f"node {set(g.vertices) - set(pos)} are not included"
+        )
+
+    return pos
+
+
+cdef inline void _regular_polygon_layout(OrderedSet vertices, double scale, dict pos):
+    """Return position of a regular polygon with radius 5.
+    Start from bottom with clockwise.
+    """
+    cdef int edge_count = len(vertices)
+    scale *= 5
+    cdef int i
+    cdef double angle = M_PI * 1.5
+    cdef double angle_step = M_PI * 2 / edge_count
+    for i in range(edge_count):
+        pos[vertices[i]] = (scale * cos(angle), scale * sin(angle))
+        angle -= angle_step
+
+
+cdef inline void _linear_layout(
+    double x1,
+    double y1,
+    double x2,
+    double y2,
+    OrderedSet vertices,
+    dict pos
+):
+    """Layout position decided by equal division between two points."""
+    cdef int count = len(vertices)
+    if count &lt; 1:
+        raise ValueError(f"Invalid point number {count}")
+
+    count += 1
+    cdef double sx = (x2 - x1) / count
+    cdef double sy = (y2 - y1) / count
+
+    cdef int i
+    for i in range(1, count):
+        pos[vertices[i - 1]] = (x1 + i * sx, y1 + i * sy)
+
+
+cdef inline void _bezier_layout(
+    double p,
+    double x1,
+    double y1,
+    double x2,
+    double y2,
+    OrderedSet vertices,
+    dict pos
+):
+    """Layout position decided by four points bezier curve."""
+    cdef int count = len(vertices)
+    if count &lt; 1:
+        raise ValueError(f"Invalid point number {count}")
+    count += 1
+
+    # Make direction from start and end nodes
+    cdef double sx = x2 - x1
+    cdef double sy = y2 - y1
+    cdef double r = hypot(sx, sy) * 0.45
+    cdef double direction = (p + 0.5) * M_PI + atan2(sy, sx)
+    cdef double cx1 = x1 + r * cos(direction)
+    cdef double cy1 = y1 + r * sin(direction)
+    cdef double cx2 = x2 + r * cos(-direction)
+    cdef double cy2 = y2 + r * sin(-direction)
+
+    cdef int i
+    cdef double u
+    for i in range(1, count):
+        u = &lt;double&gt;i / count
+        pos[vertices[i - 1]] = _bezier_curve(u, x1, y1, cx1, cy1, cx2, cy2, x2, y2)
+
+
+cdef inline tuple _bezier_curve(
+    double u,
+    double x1,
+    double y1,
+    double x2,
+    double y2,
+    double x3,
+    double y3,
+    double x4,
+    double y4
+):
+    """A coordinate on bezier curve."""
+    cdef double mx = _uv(u, x2, x3)
+    cdef double my = _uv(u, y2, y3)
+    return (
+        _uv(u, _uv(u, _uv(u, x1, x2), mx), _uv(u, mx, _uv(u, x3, x4))),
+        _uv(u, _uv(u, _uv(u, y1, y2), my), _uv(u, my, _uv(u, y3, y4)))
+    )
+
+
+cdef inline double _uv(double u, double v1, double v2) nogil:
+    """Return v1 + u * (v2 - v1)"""
+    return v1 + u * (v2 - v1)
+
+
+cdef inline tuple _middle_point(double x1, double y1, double x2, double y2):
+    """Return middle point of two coordinates."""
+    return ((x1 + x2) / 2), ((y1 + y2) / 2)
+
+
+cdef list _inner_lines(Graph g, OrderedSet o_loop):
+    """Layout for inner vertices of graph block."""
+    cdef OrderedSet vertices = OrderedSet(g.vertices) - o_loop
+    if not vertices:
+        return []
+    lines = []
+    cdef OrderedSet used_nodes = o_loop.copy()
+    cdef int n
+    cdef OrderedSet line, inter
+    while vertices:
+        n = vertices.pop(0)
+        if not (used_nodes &amp; g.adj[n]):
+            # Not contacted yet
+            vertices.add(n)
+            continue
+
+        line = OrderedSet.__new__(OrderedSet)
+        line.add(n)
+        inter = OrderedSet(g.adj[n]) - used_nodes
+        while inter:
+            # New vertices to add
+            n = inter.pop()
+            line.add(n)
+            vertices.remove(n)
+            inter = vertices &amp; g.adj[n]
+            if used_nodes &amp; g.adj[n]:
+                # Connected with any used node
+                break
+
+        # Find the intersections of the line
+        if line[0] == line[-1]:
+            inter = used_nodes &amp; g.adj[line[0]]
+            start = inter.pop()
+            end = inter.pop()
+        else:
+            inter = used_nodes &amp; g.adj[line[0]]
+            start = inter.pop()
+            inter = used_nodes &amp; g.adj[line[-1]]
+            end = inter.pop()
+
+        if _split_loop(o_loop, line, start, end):
+            # 'o_loop' has been changed
+            return None
+
+        # A unified format of start node and end node
+        if end &lt; start:
+            end, start = start, end
+            line.reverse()
+
+        # Line is ended
+        used_nodes.update(line)
+        lines.append((line, start, end))
+
+    return lines
+
+
+cdef inline bint _split_loop(OrderedSet o_loop, OrderedSet line, int n1, int n2):
+    """Return false if the line is a chord.
+    Or it is an arc of external cycle.
+    """
+    if n1 == n2:
+        return False
+    loop_list = list(o_loop) * 2
+    cdef int i, n
+    cdef int s0 = -1
+    cdef int s1 = -1
+    cdef int s2 = -1
+    for i, n in enumerate(loop_list):
+        if n not in {n1, n2}:
+            continue
+        if s0 == -1:
+            s0 = i
+        elif s1 == -1:
+            s1 = i
+        else:
+            s2 = i
+            break
+    else:
+        # Split failed
+        return False
+
+    # Remove the last repeated part
+    loop_list = loop_list[:s2 + 1]
+
+    cdef int anchor
+    if len(line) &gt; s1 - (s0 + 1):
+        anchor = s0 + 1
+        del loop_list[anchor:s1]
+        if loop_list[s0] == n2:
+            # reverse
+            loop_list[anchor:anchor] = reversed(line)
+        else:
+            loop_list[anchor:anchor] = line
+    elif len(line) &gt; s2 - (s1 + 1):
+        anchor = s1 + 1
+        del loop_list[anchor:s2]
+        if loop_list[s1] == n2:
+            # reverse
+            loop_list[anchor:anchor] = reversed(line)
+        else:
+            loop_list[anchor:anchor] = line
+    else:
+        # Is a normal chord
+        return False
+
+    o_loop.clear()
+    # Remove the first repeated part
+    o_loop.update(loop_list[s0:])
+    return True
+
+
+cdef inline OrderedSet _external_loop(Graph g):
+    """Return vertices of external loop."""
+    cycles = _cycle_basis(g)
+    if not cycles:
+        raise ValueError(f"invalid graph has no any cycle: {g.edges}")
+
+    cdef OrderedSet c1, c2
+    while len(cycles) &gt; 1:
+        c1 = cycles.pop()
+        for c2 in cycles:
+            if _merge_inter(c1, c2, cycles, g):
+                break
+        else:
+            # Cycles have no contacted
+            # Find connection from edges
+            for c2 in cycles:
+                if _merge_no_inter(c1, c2, cycles, g):
+                    break
+            else:
+                raise ValueError(
+                    f"invalid graph: {g.edges}\n"
+                    f"last one: {c1}\n"
+                    f"with cycle(s): {cycles}"
+                )
+    return cycles.pop()
+
+
+cdef inline bint _merge_inter(
+    OrderedSet c1,
+    OrderedSet c2,
+    list cycles,
+    Graph g
+):
+    """Merge function for intersection strategy."""
+    # Find the intersection
+    if not len(c1 &amp; c2) &gt;= 2:
+        return False
+
+    # Ignore subsets
+    if c1 &gt;= c2:
+        cycles.remove(c2)
+        cycles.append(c1)
+        return True
+    inter_over = c1.ordered_intersections(c2, is_loop=True)
+    # Find the intersection with reversed cycle
+    c2.reverse()
+    inter_tmp = c1.ordered_intersections(c2, is_loop=True)
+    if len(inter_tmp) &lt; len(inter_over):
+        # Choose the longest continuous intersection
+        inter_over = inter_tmp
+    inter_tmp = None
+
+    cdef int start = -1
+    cdef int end = -1
+
+    cdef int i
+    cdef OrderedSet inter
+    for i, inter in enumerate(inter_over):
+        if not inter.is_ordered_subset(c1, is_loop=True):
+            # Intersection and cycle 1 has wrong direction
+            inter.reverse()
+        if inter.is_ordered_subset(c2, is_loop=True) and i == 0:
+            # Cycle 1 and cycle 2 should has different direction
+            c2.reverse()
+
+        # Prune cycle 2 by intersection
+        c2 -= inter[1:-1]
+
+        # Interface nodes
+        if i == 0:
+            start = inter[0]
+        end = inter[-1]
+
+    # Roll to interface
+    c1.roll(end, -1)
+    c2.roll(start, 0)
+
+    # Insert points
+    _compare_insert(
+        c1,
+        c2,
+        c1.index(start),
+        c1.index(end),
+        c2.index(start),
+        c2.index(end),
+        g
+    )
+
+    # The cycle 2 has been merged into cycle 1
+    cycles.remove(c2)
+    cycles.append(c1)
+    return True
+
+
+cdef inline bint _merge_no_inter(
+    OrderedSet c1,
+    OrderedSet c2,
+    list cycles,
+    Graph g
+):
+    """Merge function for the strategy without intersection."""
+    cdef OrderedSet inter = OrderedSet.__new__(OrderedSet)
+    cdef map[int, int] inter_map
+
+    cdef int n1, n2
+    for n1, n2 in g.edges:
+        if (n1 in c1) and (n2 in c2):
+            inter.add(n1)
+            inter_map[n1] = n2
+        elif (n2 in c1) and (n1 in c2):
+            inter.add(n2)
+            inter_map[n2] = n1
+
+    if not inter:
+        return False
+
+    # Resort intersection
+    if not inter.is_ordered_subset(c1, is_loop=True):
+        inter = c1 &amp; inter
+    cdef int start = inter[0]
+    cdef int end = inter[-1]
+    cdef int replace_start = c2.index(inter_map[start])
+    cdef int replace_end = c2.index(inter_map[end])
+    if replace_start &gt; replace_end:
+        c2.reverse()
+
+    # Roll to interface
+    c1.roll(end, -1)
+    c2.roll(inter_map[start], 0)
+
+    # Merge them
+    _compare_insert(
+        c1,
+        c2,
+        c1.index(start),
+        c1.index(end),
+        replace_start,
+        replace_end,
+        g
+    )
+
+    # The cycle 2 has been merged into cycle 1
+    cycles.remove(c2)
+    cycles.append(c1)
+    return True
+
+
+cdef inline void _compare_insert(
+    OrderedSet c1,
+    OrderedSet c2,
+    int insert_start,
+    int insert_end,
+    int replace_start,
+    int replace_end,
+    Graph g
+):
+    """Compare and insert cycle 2 to cycle 1."""
+    cdef int c1_degrees = 0
+    cdef int c2_degrees = 0
+    cdef OrderedSet c1_slice = c1[insert_start:insert_end]
+    cdef OrderedSet c2_slice = c2[replace_start:replace_end]
+
+    cdef int i
+    other_nodes = set(c1_slice | c2_slice)
+    for i in c1_slice:
+        c1_degrees += len(set(g.adj[i]) - other_nodes)
+    for i in c2_slice:
+        c2_degrees += len(set(g.adj[i]) - other_nodes)
+
+    if not (c2_degrees &gt; c1_degrees):
+        return
+
+    # Cycle 2 should longer then intersection
+    del c1[insert_start:insert_end]
+    c1.insert_from(insert_start, c2_slice)
+
+
+cdef inline list _cycle_basis(Graph g):
+    """Returns a list of cycles which form a basis for cycles of G.
+    Reference from NetworkX.
+    """
+    g_nodes = set(g.vertices)
+    cycles = []
+    cdef int root = -1
+    cdef int z, nbr, p
+    cdef OrderedSet cycle
+    while g_nodes:
+        # loop over connected components
+        if root == -1:
+            root = g_nodes.pop()
+        stack = [root]
+        pred = {root: root}
+        used = {root: set()}
+        # walk the spanning tree finding cycles
+        while stack:
+            # use last-in so cycles easier to find
+            z = stack.pop()
+            zused = used[z]
+            for nbr in g.adj[z]:
+                if nbr not in used:
+                    # new node
+                    pred[nbr] = z
+                    stack.append(nbr)
+                    used[nbr] = {z}
+                elif nbr == z:
+                    # self loops
+                    cycles.append(OrderedSet([z]))
+                elif nbr not in zused:
+                    # found a cycle
+                    pn = used[nbr]
+                    cycle = OrderedSet([nbr, z])
+                    p = pred[z]
+                    while p not in pn:
+                        cycle.add(p)
+                        p = pred[p]
+                    cycle.add(p)
+                    cycles.append(cycle)
+                    used[nbr].add(z)
+        g_nodes -= set(pred)
+        root = -1
+    return cycles
+
+
+cdef class _Entry:
+    cdef object key
+    cdef _Entry prev
+    cdef _Entry next
+
+
+cdef inline void _add(OrderedSet oset, object key):
+    if PyDict_Contains(oset.map, key):
+        return
+    cdef _Entry next_entry = _Entry()
+    next_entry.key = key
+    next_entry.prev = oset.end.prev
+    next_entry.next = oset.end
+    oset.end.prev.next = oset.end.prev = oset.map[key] = next_entry
+    oset.os_used += 1
+
+
+cdef void _discard(OrderedSet oset, object key):
+    if not PyDict_Contains(oset.map, key):
+        return
+    cdef _Entry entry = oset.map.pop(key)
+    entry.prev.next = entry.next
+    entry.next.prev = entry.prev
+    oset.os_used -= 1
+
+
+cdef inline bint _isorderedsubset(seq1, seq2, bint is_loop):
+    """Return true if 'seq1' is ordered subset of 'seq2'."""
+    cdef int seq1_len = len(seq1)
+    if not seq1_len &lt;= len(seq2):
+        # 'seq1' is obviously not a subset.
+        return False
+    seq1_list = list(seq1)
+    seq2_list = list(seq2)
+    if is_loop:
+        seq2_list *= 2
+    cdef int matched = 0
+    for self_elem in seq2_list:
+        if self_elem == seq1_list[matched]:
+            matched += 1
+            if matched == seq1_len:
+                return True
+        else:
+            matched = 0
+
+    return matched == seq1_len
+
+
+cdef inline bint _not_subset(OrderedSet o_set, list members):
+    """Return true if 'o_set' is not any subset of members."""
+    cdef OrderedSet member
+    for member in members:
+        if member &lt; o_set:
+            # Is superset
+            members.remove(member)
+            return True
+        if member &gt;= o_set:
+            return False
+    # No subset
+    return True
+
+
+cdef class _OrderedSetIterator:
+    """Ordered set iterator."""
+    cdef OrderedSet oset
+    cdef _Entry curr
+    cdef ssize_t si_used
+
+    def __cinit__(self, OrderedSet oset):
+        self.oset = oset
+        self.curr = oset.end
+        self.si_used = oset.os_used
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        cdef _Entry item
+
+        if self.si_used != self.oset.os_used:
+            # make this state sticky
+            self.si_used = -1
+            raise RuntimeError(f'{type(self.oset).__name__} changed size during iteration')
+
+        item = self.curr.next
+        if item == self.oset.end:
+            raise StopIteration
+        self.curr = item
+        return item.key
+
+
+cdef class _OrderedSetReverseIterator:
+    """Ordered set iterator with reversed order."""
+    cdef OrderedSet oset
+    cdef _Entry curr
+    cdef ssize_t si_used
+
+    def __cinit__(self, OrderedSet oset):
+        self.oset = oset
+        self.curr = oset.end
+        self.si_used = oset.os_used
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.si_used != self.oset.os_used:
+            # make this state sticky
+            self.si_used = -1
+            raise RuntimeError(f'{type(self.oset).__name__} changed size during iteration')
+
+        cdef _Entry item = self.curr.prev
+        if item is self.oset.end:
+            raise StopIteration
+        self.curr = item
+        return item.key
+
+
+@cython.final
+cdef class OrderedSet:
+    """Ordered set container."""
+    cdef dict map
+    cdef _Entry end
+    cdef ssize_t os_used
+
+    def __cinit__(self):
+        self.map = {}
+        self.os_used = 0
+        self.end = end = _Entry()
+        end.prev = end.next = end
+
+    def __init__(self, iterable: Iterable[Any] = None):
+        if iterable is None:
+            return
+        map_d = self.map
+        cdef _Entry next_e
+        cdef _Entry end = self.end
+        for elem in iterable:
+            if not PyDict_Contains(map_d, elem):
+                next_e = _Entry()
+                next_e.key, next_e.prev, next_e.next = elem, end.prev, end
+                end.prev.next = end.prev = map_d[elem] = next_e
+                self.os_used += 1
+
+    @classmethod
+    def _from_iterable(cls, it: Iterable[Any]) -&gt; OrderedSet:
+        if isinstance(it, OrderedSet):
+            return it
+        else:
+            return cls(it)
+
+    ##
+    # set methods
+    ##
+    cpdef void add(self, elem):
+        """Add 'elem' to the set."""
+        _add(self, elem)
+
+    cpdef void insert(self, int index, elem):
+        """Insert 'elem' to 'index'."""
+        self.insert_from(index, (elem,))
+
+    cpdef void insert_from(self, int index, elem):
+        """Insert iterable 'elem' to 'index'."""
+        if not isinstance(elem, Iterable):
+            raise ValueError("extend iterable only")
+        cdef OrderedSet tail = self[index:]
+        del self[index:]
+        self.update(elem)
+        self.update(tail)
+
+    cpdef void discard(self, elem):
+        """Remove element 'elem' from the 'OrderedSet' if it is present."""
+        _discard(self, elem)
+
+    cpdef void roll(self, elem, int index):
+        """Roll the list to 'elem' as 'index' item."""
+        if elem not in self:
+            raise ValueError(f"{elem} is not in {self}")
+
+        while elem != self[index]:
+            # Rolling the list
+            self.add(self.pop(0))
+
+    cpdef object pop(self, int index = -1):
+        """Remove and return the last element or an arbitrary set element.
+        Raises 'KeyError' if the 'OrderedSet' is empty.
+        """
+        if not self:
+            raise KeyError(f'{self} is empty')
+        key = self[index]
+        _discard(self, key)
+        return key
+
+    cpdef void remove(self, elem):
+        """Remove element 'elem' from the 'set'.
+        Raises KeyError if 'elem' is not contained in the set.
+        """
+        if elem not in self:
+            raise KeyError(elem)
+        _discard(self, elem)
+
+    cpdef void clear(self):
+        """Remove all elements from the 'set'."""
+        cdef _Entry end = self.end
+        end.next.prev = end.next = None
+
+        # reinitialize
+        self.map.clear()
+        self.os_used = 0
+        self.end = end = _Entry()
+        end.prev = end.next = end
+
+    cpdef OrderedSet copy(self):
+        """Copy the instance."""
+        return OrderedSet(self)
+
+    def __sub__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '-' operator."""
+        if not isinstance(other, Set):
+            if not isinstance(other, Iterable):
+                return NotImplemented
+            other = OrderedSet._from_iterable(other)
+
+        return OrderedSet._from_iterable(value for value in self if value not in other)
+
+    def __isub__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '-=' operator."""
+        if other is self:
+            self.clear()
+        else:
+            for value in other:
+                self.discard(value)
+        return self
+
+    cpdef OrderedSet intersection(self, other):
+        """Implement of '&amp;' operator."""
+        return self &amp; other
+
+    def __and__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '&amp;' operator."""
+        if not isinstance(other, Set):
+            if not isinstance(other, Iterable):
+                return NotImplemented
+            other = OrderedSet._from_iterable(other)
+
+        return OrderedSet._from_iterable(value for value in self if value in other)
+
+    def __iand__(self, it: Iterable[Any]):
+        """Implement for '&amp;=' operator."""
+        for value in (self - it):
+            self.discard(value)
+        return self
+
+    cpdef list ordered_intersections(self, other, bint is_loop = False):
+        """Find the max length intersection with ordered detection."""
+        if not isinstance(other, Iterable):
+            raise TypeError("object must be iterable")
+
+        self_list = list(self)
+        other_list = list(other)
+        if is_loop:
+            self_list *= 2
+        # Result list
+        subsets = []
+        cdef int matched_self
+        cdef int matched_self_old = -2
+        cdef int matched_other = -2
+        cdef int matched_other_old = -2
+        cdef OrderedSet subset = OrderedSet.__new__(OrderedSet)
+        for matched_self, self_elem in enumerate(self_list):
+            try:
+                matched_other = other_list.index(self_elem)
+            except ValueError:
+                # Not found
+                continue
+
+            match_set = {matched_other_old + 1}
+            if is_loop:
+                match_set.add(matched_other_old + 1 - len(other_list))
+
+            if subset and not (matched_self == matched_self_old + 1 or matched_other in match_set):
+                # Add to results
+                if _not_subset(subset, subsets):
+                    subsets.append(subset)
+                # Start new record
+                subset = OrderedSet.__new__(OrderedSet)
+            subset.add(self_elem)
+            matched_other_old = matched_other
+            matched_self_old = matched_self
+
+        if _not_subset(subset, subsets):
+            subsets.append(subset)
+        return subsets
+
+    cpdef bint isdisjoint(self, other):
+        """Return true if the set has no elements in common with other.
+        Sets are disjoint if and only if their intersection is the empty set.
+        """
+        for value in other:
+            if value in self:
+                return False
+        return True
+
+    cpdef bint issubset(self, other):
+        """Method of '&lt;=' operator."""
+        return self &lt;= other
+
+    cpdef bint issuperset(self, other):
+        """Method of '&gt;=' operator."""
+        return other &lt;= self
+
+    cpdef bint is_ordered_subset(self, other, bint is_loop = False):
+        """Method of '&lt;=' operator with ordered detection."""
+        return _isorderedsubset(self, other, is_loop)
+
+    cpdef bint is_ordered_superset(self, other, bint is_loop = False):
+        """Method of '&gt;=' operator with ordered detection."""
+        return _isorderedsubset(other, self, is_loop)
+
+    def __xor__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '^' operator."""
+        if not isinstance(other, Iterable):
+            return NotImplemented
+
+        cdef OrderedSet o_other = OrderedSet._from_iterable(other)
+        return (self - o_other) | (o_other - self)
+
+    def __ixor__(self, other: Iterable[Any]):
+        """Implement for '^=' operator."""
+        if other is self:
+            self.clear()
+        else:
+            if not isinstance(other, Set):
+                other = self._from_iterable(other)
+            for value in other:
+                if value in self:
+                    self.discard(value)
+                else:
+                    self.add(value)
+        return self
+
+    cpdef OrderedSet union(self, other):
+        """Method of '|' operator."""
+        return self | other
+
+    cpdef void update(self, other):
+        """Method of '|=' operator."""
+        self |= other
+
+    def __or__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '|' operator."""
+        if not isinstance(other, Iterable):
+            return NotImplemented
+        chain = (e for s in (self, other) for e in s)
+        return OrderedSet._from_iterable(chain)
+
+    def __ior__(self, other: Iterable[Any]) -&gt; OrderedSet:
+        """Implement for '|=' operator."""
+        for elem in other:
+            _add(self, elem)
+        return self
+
+    ##
+    # list methods
+    ##
+    cpdef int index(self, elem):
+        """Return the index of 'elem'. Rases :class:'ValueError' if not in the OrderedSet."""
+        if elem not in self:
+            raise ValueError(f"{elem} is not in {type(self).__name__}")
+        cdef _Entry curr = self.end.next
+        cdef ssize_t index = 0
+        while curr.key != elem:
+            curr = curr.next
+            index += 1
+        return index
+
+    cdef list _get_slice_entry(self, slice item):
+        cdef ssize_t start, stop, step, slicelength
+        PySlice_GetIndicesEx(item, len(self), &amp;start, &amp;stop, &amp;step, &amp;slicelength)
+        result = []
+        cdef ssize_t place = start
+        cdef _Entry curr = self.end
+
+        cdef ssize_t i
+        if slicelength &lt;= 0:
+            pass
+        elif step &gt; 0:
+            # normal forward slice
+            i = 0
+            while slicelength &gt; 0:
+                while i &lt;= place:
+                    curr = curr.next
+                    i += 1
+                result.append(curr)
+                place += step
+                slicelength -= 1
+        else:
+            # we're going backwards
+            i = len(self)
+            while slicelength &gt; 0:
+                while i &gt; place:
+                    curr = curr.prev
+                    i -= 1
+                result.append(curr)
+                place += step
+                slicelength -= 1
+        return result
+
+    cdef _Entry _get_index_entry(self, ssize_t index):
+        cdef ssize_t _len = len(self)
+        if index &gt;= _len or (index &lt; 0 and abs(index) &gt; _len):
+            raise IndexError("list index out of range")
+
+        cdef _Entry curr
+        if index &gt;= 0:
+            curr = self.end.next
+            while index:
+                curr = curr.next
+                index -= 1
+        else:
+            index = abs(index) - 1
+            curr = self.end.prev
+            while index:
+                curr = curr.prev
+                index -= 1
+        return curr
+
+    def __getitem__(self, index):
+        """Implement of 'self[index]' operator."""
+        if isinstance(index, slice):
+            return OrderedSet([curr.key for curr in self._get_slice_entry(index)])
+        if not PyIndex_Check(index):
+            raise TypeError(f"{type(self).__name__} indices must be integers, not {type(index)}")
+
+        cdef _Entry curr = self._get_index_entry(index)
+        return curr.key
+
+    def __setitem__(self, index, value):
+        """Implement of 'self[index] = value' operator."""
+        cdef int i
+        cdef _Entry curr
+        if isinstance(index, slice):
+            if not isinstance(value, Iterable):
+                raise TypeError("must assign iterable to extended slice")
+            value_list = list(value)
+            for i, curr in enumerate(self._get_slice_entry(index)):
+                curr.key = value_list[i]
+            return
+
+        if not PyIndex_Check(index):
+            raise TypeError(f"{type(self).__name__} indices must be integers, not {type(index)}")
+        curr = self._get_index_entry(index)
+        curr.key = value
+
+    def __delitem__(self, index):
+        """Implement of 'del self[index]' operator."""
+        cdef _Entry curr
+        if isinstance(index, slice):
+            for curr in self._get_slice_entry(index):
+                self.discard(curr.key)
+            return
+
+        if not PyIndex_Check(index):
+            raise TypeError(f"{type(self).__name__} indices must be integers, not {type(index)}")
+        curr = self._get_index_entry(index)
+        self.discard(curr.key)
+
+    cpdef void reverse(self):
+        """Reverse all elements."""
+        my_iter = list(_OrderedSetReverseIterator(self))
+        self.clear()
+        self.update(my_iter)
+
+    ##
+    # sequence methods
+    ##
+    def __len__(self) -&gt; int:
+        """Implement of 'len(self)' operator."""
+        return len(self.map)
+
+    def __contains__(self, elem: Any) -&gt; bool:
+        """Implement of 'elem in self' operator."""
+        return elem in self.map
+
+    def __iter__(self) -&gt; _OrderedSetIterator:
+        """Return iterator without copy."""
+        return _OrderedSetIterator.__new__(_OrderedSetIterator, self)
+
+    def __reversed__(self) -&gt; _OrderedSetReverseIterator:
+        """Return reversed iterator without copy."""
+        return _OrderedSetReverseIterator.__new__(_OrderedSetReverseIterator, self)
+
+    def __reduce__(self):
+        items = list(self)
+        inst_dict = vars(self).copy()
+        return type(self), (items, ), inst_dict
+
+    def __repr__(self) -&gt; str:
+        """Implement of '!r' operator in string."""
+        if not self:
+            return f'{type(self).__name__}()'
+        return f'{type(self).__name__}({list(self)!r})'
+
+    def __eq__(self, other: Iterable[Any]) -&gt; bool:
+        """Implement of '==' operator."""
+        if isinstance(other, Set):
+            # Set is no ordered
+            return set(self) == set(other)
+        if isinstance(other, Iterable):
+            return len(self) == len(other) and list(self) == list(other)
+        return NotImplemented
+
+    def __le__(self, other: Iterable[Any]) -&gt; bool:
+        """Implement of '&lt;=' operator."""
+        if isinstance(other, (Set, OrderedSet)):
+            return len(self) &lt;= len(other) and set(self) &lt;= set(other)
+        elif isinstance(other, list):
+            return len(self) &lt;= len(other) and list(self) &lt;= list(other)
+        return NotImplemented
+
+    def __lt__(self, other: Iterable[Any]) -&gt; bool:
+        """Implement of '&lt;' operator."""
+        if isinstance(other, (Set, OrderedSet)):
+            return len(self) &lt; len(other) and set(self) &lt; set(other)
+        elif isinstance(other, list):
+            return len(self) &lt; len(other) and list(self) &lt; list(other)
+        return NotImplemented
+
+    def __ge__(self, other: Iterable[Any]) -&gt; bool:
+        """Implement of '&gt;=' operator."""
+        if isinstance(other, (Set, OrderedSet)):
+            return len(self) &gt;= len(other) and set(self) &gt;= set(other)
+        elif isinstance(other, list):
+            return len(self) &gt;= len(other) and list(self) &gt;= list(other)
+        return NotImplemented
+
+    def __gt__(self, other: Iterable[Any]) -&gt; bool:
+        """Implement of '&gt;' operator."""
+        if isinstance(other, (Set, OrderedSet)):
+            return len(self) &gt; len(other) and set(self) &gt; set(other)
+        elif isinstance(other, list):
+            return len(self) &gt; len(other) and list(self) &gt; list(other)
+        return NotImplemented
+</t>
+<t tx="leo.20210210095724.25">@path ./pyslvs/pyslvs/graph/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Planarity check function for Graph class.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from .graph cimport Graph
+
+cpdef bint is_planar(Graph g)
+</t>
+<t tx="leo.20210210095724.26">@path ./pyslvs/pyslvs/graph/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Planarity check function for Graph class.
+
+The algorithms references:
++ NetworkX
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from collections import defaultdict
+from libcpp.pair cimport pair
+from libcpp.list cimport list as clist
+from libcpp.map cimport map
+
+ctypedef pair[int, int] ipair
+
+
+cpdef bint is_planar(Graph g):
+    """Return true if the graph is a planar graph."""
+    cdef _LRPlanarity planarity_state = _LRPlanarity.__new__(_LRPlanarity, g)
+    return planarity_state.lr_planarity() is not None
+
+
+cdef inline _ConflictPair _stack_top(list l):
+    """Returns the conflict pair element on top of the stack."""
+    if not l:
+        return None
+    return l[-1]
+
+
+cdef class _LRPlanarity:
+    """A class to maintain the state during planarity check."""
+    cdef Graph g, DG
+    cdef _PlanarEmbedding embedding
+    cdef list s
+    cdef dict lowpt, lowpt2, nesting_depth, adjs
+    cdef dict ordered_adjs, stack_bottom, lowpt_edge, left_ref, right_ref
+    # default dict
+    cdef object height, parent_edge, ref, side
+
+    def __cinit__(self, Graph g):
+        # copy G without adding self-loops
+        self.g = Graph.__new__(Graph, set(g.edges))
+        # distance from tree root
+        self.height = defaultdict(lambda: None)
+        self.lowpt = {}  # height of lowest return point of an edge
+        self.lowpt2 = {}  # height of second lowest return point
+        self.nesting_depth = {}  # for nesting order
+        # None -&gt; missing edge
+        self.parent_edge = defaultdict(lambda: None)
+        # oriented DFS graph
+        self.DG = Graph.__new__(Graph, [])
+        self.DG.add_vertices(g.vertices)
+        self.adjs = {}
+        self.ordered_adjs = {}
+        self.ref = defaultdict(lambda: None)
+        self.side = defaultdict(lambda: 1)
+        # stack of conflict pairs
+        self.s = []
+        self.stack_bottom = {}
+        self.lowpt_edge = {}
+        self.left_ref = {}
+        self.right_ref = {}
+        self.embedding = _PlanarEmbedding.__new__(_PlanarEmbedding, [])
+
+    cdef _PlanarEmbedding lr_planarity(self):
+        """Execute the LR planarity test."""
+        if len(self.g.vertices) &gt; 2 and len(self.g.edges) &gt; 3 * len(self.g.vertices) - 6:
+            # graph is not planar
+            return None
+        # make adjacency lists for dfs
+        cdef int v
+        for v in self.g.vertices:
+            self.adjs[v] = list(self.g.adj[v])
+        # orientation of the graph by depth first search traversal
+        cdef clist[int] roots
+        for v in self.g.vertices:
+            if self.height[v] is None:
+                self.height[v] = 0
+                roots.push_back(v)
+                self.dfs_orientation(v)
+        # Free no longer used variables
+        self.g = None
+        self.lowpt2 = None
+        self.adjs = None
+        # testing
+        for v in self.DG.vertices:  # sort the adjacency lists by nesting depth
+            # note: this sorting leads to non linear time
+            self.ordered_adjs[v] = sorted(
+                [n2 for n1, n2 in self.DG.edges if n1 == v],
+                key=lambda x: self.nesting_depth[v, x]
+            )
+        for v in roots:
+            if not self.dfs_testing(v):
+                return None
+        # Free no longer used variables
+        self.height = None
+        self.lowpt = None
+        self.s = None
+        self.stack_bottom = None
+        self.lowpt_edge = None
+        for e in self.DG.edges:
+            self.nesting_depth[e] = self.sign(e) * self.nesting_depth[e]
+        self.embedding.add_vertices(self.DG.vertices)
+        cdef int previous_node, w
+        for v in self.DG.vertices:
+            # sort the adjacency lists again
+            self.ordered_adjs[v] = sorted(
+                [n2 for n1, n2 in self.DG.edges if n1 == v],
+                key=lambda x: self.nesting_depth[v, x]
+            )
+            # initialize the embedding
+            previous_node = -1
+            for w in self.ordered_adjs[v]:
+                self.embedding.add_half_edge_cw(v, w, previous_node)
+                previous_node = w
+        # Free no longer used variables
+        self.DG = None
+        self.nesting_depth = None
+        self.ref = None
+        # compute the complete embedding
+        for v in roots:
+            self.dfs_embedding(v)
+        return self.embedding
+
+    cdef bint dfs_testing(self, int v):
+        """Test for LR partition."""
+        # the recursion stack
+        cdef clist[int] dfs_stack = [v]
+        # index of next edge to handle in adjacency list of each node
+        cdef map[int, int] ind
+        # bintean to indicate whether to skip the initial work for an edge
+        skip_init = defaultdict(lambda: False)
+        cdef bint skip_final
+        cdef int w
+        while not dfs_stack.empty():
+            v = dfs_stack.back()
+            dfs_stack.pop_back()
+            e = self.parent_edge[v]
+            # to indicate whether to skip the final block after the for loop
+            skip_final = False
+            for w in self.ordered_adjs[v][ind[v]:]:
+                ei = (v, w)
+                if not skip_init[ei]:
+                    self.stack_bottom[ei] = _stack_top(self.s)
+                    if ei == self.parent_edge[w]:  # tree edge
+                        dfs_stack.push_back(v)  # revisit v after finishing w
+                        dfs_stack.push_back(w)  # visit w next
+                        skip_init[ei] = True  # don't redo this block
+                        skip_final = True  # skip final work after breaking
+                        break  # handle next node in dfs_stack (i.e. w)
+                    else:  # back edge
+                        self.lowpt_edge[ei] = ei
+                        self.s.append(_ConflictPair.__new__(_ConflictPair, None,
+                            _Interval.__new__(_Interval, ei, ei)))
+                # integrate new return edges
+                if self.lowpt[ei] &lt; self.height[v]:
+                    if w == self.ordered_adjs[v][0]:  # e_i has return edge
+                        self.lowpt_edge[e] = self.lowpt_edge[ei]
+                    else:  # add constraints of e_i
+                        if not self.add_constraints(ei, e):
+                            # graph is not planar
+                            return False
+                ind[v] += 1
+            if not skip_final:
+                # remove back edges returning to parent
+                if e is not None:  # v isn't root
+                    self.remove_back_edges(e)
+        return True
+
+    cdef void dfs_embedding(self, int v):
+        """Completes the embedding."""
+        # the recursion stack
+        cdef clist[int] dfs_stack = [v]
+        # index of next edge to handle in adjacency list of each node
+        cdef map[int, int] ind
+        cdef int w
+        while not dfs_stack.empty():
+            v = dfs_stack.back()
+            dfs_stack.pop_back()
+            for w in self.ordered_adjs[v][ind[v]:]:
+                ind[v] += 1
+                ei = (v, w)
+                if ei == self.parent_edge[w]:  # tree edge
+                    self.embedding.add_half_edge_first(w, v)
+                    self.left_ref[v] = w
+                    self.right_ref[v] = w
+                    dfs_stack.push_back(v)  # revisit v after finishing w
+                    dfs_stack.push_back(w)  # visit w next
+                    break  # handle next node in dfs_stack (i.e. w)
+                else:  # back edge
+                    if self.side[ei] == 1:
+                        self.embedding.add_half_edge_cw(w, v, self.right_ref[w])
+                    else:
+                        self.embedding.add_half_edge_ccw(w, v, self.left_ref[w])
+                        self.left_ref[w] = v
+
+    cdef void dfs_orientation(self, int v):
+        """Orient the graph by DFS, compute lowpoints and nesting order."""
+        # the recursion stack
+        cdef clist[int] dfs_stack = [v]
+        # index of next edge to handle in adjacency list of each node
+        cdef map[int, int] ind
+        # bintean to indicate whether to skip the initial work for an edge
+        skip_init = defaultdict(lambda: False)
+        cdef int w
+        while not dfs_stack.empty():
+            v = dfs_stack.back()
+            dfs_stack.pop_back()
+            e = self.parent_edge[v]
+            for w in self.adjs[v][ind[v]:]:
+                vw = (v, w)
+                if not skip_init[vw]:
+                    if (v, w) in self.DG.edges or (w, v) in self.DG.edges:
+                        ind[v] += 1
+                        continue  # the edge was already oriented
+                    self.DG.add_edge(v, w)  # orient the edge
+                    self.lowpt[vw] = self.height[v]
+                    self.lowpt2[vw] = self.height[v]
+                    if self.height[w] is None:  # (v, w) is a tree edge
+                        self.parent_edge[w] = vw
+                        self.height[w] = self.height[v] + 1
+                        dfs_stack.push_back(v)  # revisit v after finishing w
+                        dfs_stack.push_back(w)  # visit w next
+                        skip_init[vw] = True  # don't redo this block
+                        break  # handle next node in dfs_stack (i.e. w)
+                    else:  # (v, w) is a back edge
+                        self.lowpt[vw] = self.height[w]
+                # determine nesting graph
+                self.nesting_depth[vw] = 2 * self.lowpt[vw]
+                if self.lowpt2[vw] &lt; self.height[v]:  # chordal
+                    self.nesting_depth[vw] += 1
+                # update lowpoints of parent edge e
+                if e is not None:
+                    if self.lowpt[vw] &lt; self.lowpt[e]:
+                        self.lowpt2[e] = min(self.lowpt[e], self.lowpt2[vw])
+                        self.lowpt[e] = self.lowpt[vw]
+                    elif self.lowpt[vw] &gt; self.lowpt[e]:
+                        self.lowpt2[e] = min(self.lowpt2[e], self.lowpt[vw])
+                    else:
+                        self.lowpt2[e] = min(self.lowpt2[e], self.lowpt2[vw])
+                ind[v] += 1
+
+    cdef bint add_constraints(self, tuple ei, tuple e):
+        cdef _ConflictPair p = _ConflictPair.__new__(_ConflictPair, None, None)
+        # merge return edges of e_i into P.right
+        cdef _ConflictPair q
+        while True:
+            q = self.s.pop()
+            if not q.left.empty():
+                q.swap()
+            if not q.left.empty():  # not planar
+                return False
+            if self.lowpt[q.right.low] &gt; self.lowpt[e]:
+                # merge intervals
+                if p.right.empty():  # topmost interval
+                    p.right = q.right.copy()
+                else:
+                    self.ref[p.right.low] = q.right.high
+                p.right.low = q.right.low
+            else:  # align
+                self.ref[q.right.low] = self.lowpt_edge[e]
+            if _stack_top(self.s) == self.stack_bottom[ei]:
+                break
+        # merge conflicting return edges of e_1,...,e_i-1 into P.L
+        while (
+            _stack_top(self.s).left.conflicting(ei, self) or
+            _stack_top(self.s).right.conflicting(ei, self)
+        ):
+            q = self.s.pop()
+            if q.right.conflicting(ei, self):
+                q.swap()
+            if q.right.conflicting(ei, self):  # not planar
+                return False
+            # merge interval below lowpt(e_i) into P.R
+            self.ref[p.right.low] = q.right.high
+            if q.right.low is not None:
+                p.right.low = q.right.low
+            if p.left.empty():  # topmost interval
+                p.left = q.left.copy()
+            else:
+                self.ref[p.left.low] = q.left.high
+            p.left.low = q.left.low
+        if not (p.left.empty() and p.right.empty()):
+            self.s.append(p)
+        return True
+
+    cdef void _trim_interval(self, _Interval inter1, _Interval inter2, int u):
+        """Trim left or right interval."""
+        while inter1.high is not None and inter1.high[1] == u:
+            inter1.high = self.ref[inter1.high]
+        if inter1.high is None and inter1.low is not None:
+            # just emptied
+            self.ref[inter1.low] = inter2.low
+            self.side[inter1.low] = -1
+            inter1.low = None
+
+    cdef void remove_back_edges(self, tuple e):
+        cdef int u = e[0]
+        # trim back edges ending at parent u
+        # drop entire conflict pairs
+        cdef _ConflictPair p
+        while self.s and _stack_top(self.s).lowest(self) == self.height[u]:
+            p = self.s.pop()
+            if p.left.low is not None:
+                self.side[p.left.low] = -1
+        if self.s:  # one more conflict pair to consider
+            p = self.s.pop()
+            # trim left interval
+            self._trim_interval(p.left, p.right, u)
+            # trim right interval
+            self._trim_interval(p.right, p.left, u)
+            self.s.append(p)
+        # side of e is side of a highest return edge
+        if self.lowpt[e] &lt; self.height[u]:  # e has return edge
+            p = _stack_top(self.s)
+            hl = p.left.high
+            hr = p.right.high
+            if (hl is not None) and (hr is None or self.lowpt[hl] &gt; self.lowpt[hr]):
+                self.ref[e] = hl
+            else:
+                self.ref[e] = hr
+
+    cdef int sign(self, tuple e):
+        """Resolve the relative side of an edge to the absolute side."""
+        # the recursion stack
+        dfs_stack = [e]
+        # dict to remember reference edges
+        old_ref = defaultdict(lambda: None)
+        while dfs_stack:
+            e = dfs_stack.pop()
+            if self.ref[e] is not None:
+                dfs_stack.append(e)  # revisit e after finishing self.ref[e]
+                dfs_stack.append(self.ref[e])  # visit self.ref[e] next
+                old_ref[e] = self.ref[e]  # remember value of self.ref[e]
+                self.ref[e] = None
+            else:
+                self.side[e] *= self.side[old_ref[e]]
+        return self.side[e]
+
+
+cdef class _ConflictPair:
+    """Represents a different constraint between two intervals.
+
+    The edges in the left interval must have a different orientation than
+    the one in the right interval.
+    """
+    cdef _Interval left, right
+
+    def __cinit__(self, _Interval left, _Interval right):
+        if left is None:
+            self.left = _Interval.__new__(_Interval, None, None)
+        else:
+            self.left = left
+        if right is None:
+            self.right = _Interval.__new__(_Interval, None, None)
+        else:
+            self.right = right
+
+    cdef void swap(self):
+        """Swap left and right intervals"""
+        self.left, self.right = self.right, self.left
+
+    cdef int lowest(self, _LRPlanarity planarity_state):
+        """Return the lowest low point of a conflict pair"""
+        if self.left.empty():
+            return planarity_state.lowpt[self.right.low]
+        if self.right.empty():
+            return planarity_state.lowpt[self.left.low]
+        return min(
+            planarity_state.lowpt[self.left.low],
+            planarity_state.lowpt[self.right.low]
+        )
+
+
+cdef class _Interval:
+    """Represents a set of return edges.
+
+    All return edges in an interval induce a same constraint on the contained
+    edges, which means that all edges must either have a left orientation or
+    all edges must have a right orientation.
+    """
+    cdef tuple low, high
+
+    def __cinit__(self, tuple low, tuple high):
+        self.low = low
+        self.high = high
+
+    cdef bint empty(self):
+        """Check if the interval is empty"""
+        return self.low is self.high is None
+
+    cdef _Interval copy(self):
+        """Return a copy of this interval"""
+        return _Interval.__new__(_Interval, self.low, self.high)
+
+    cdef bint conflicting(self, tuple b, _LRPlanarity state):
+        """Return true if interval I conflicts with edge b"""
+        return not self.empty() and state.lowpt[self.high] &gt; state.lowpt[b]
+
+
+cdef class _PlanarEmbedding(Graph):
+    """Represents a planar graph with its planar embedding."""
+    cdef map[int, int] node_label
+    cdef map[ipair, ipair] edge_label
+
+    cdef void add_half_edge_cw(self, int start_node, int end_node, int reference_neighbor):
+        """Adds a half-edge from start_node to end_node.
+
+        edge_label[:, :, :] 0: cw
+        edge_label[:, :, :] 1: ccw
+        node_label[:]: first_nbr
+        """
+        self.add_edge(start_node, end_node)  # Add edge to graph
+        if reference_neighbor == -1:
+            # The start node has no neighbors
+            self.edge_label[ipair(start_node, end_node)].first = end_node
+            self.edge_label[ipair(start_node, end_node)].second = end_node
+            self.node_label[start_node] = end_node
+            return
+        # Get half-edge at the other side
+        cdef int cw_reference = self.edge_label[ipair(start_node, reference_neighbor)].first
+        # Alter half-edge data structures
+        self.edge_label[ipair(start_node, reference_neighbor)].first = end_node
+        self.edge_label[ipair(start_node, end_node)].first = cw_reference
+        self.edge_label[ipair(start_node, cw_reference)].second = end_node
+        self.edge_label[ipair(start_node, end_node)].second = reference_neighbor
+
+    cdef void add_half_edge_ccw(self, int start_node, int end_node, int reference_neighbor):
+        """Adds a half-edge from start_node to end_node."""
+        self.add_half_edge_cw(
+            start_node,
+            end_node,
+            self.edge_label[ipair(start_node, reference_neighbor)].second
+        )
+        cdef int s_f_label
+        if self.node_label.find(start_node) != self.node_label.end():
+            s_f_label = self.node_label[start_node]
+        else:
+            s_f_label = -1
+        if reference_neighbor == s_f_label:
+            # Update first neighbor
+            self.node_label[start_node] = end_node
+
+    cdef void add_half_edge_first(self, int start_node, int end_node):
+        """The added half-edge is inserted at the first position in the order."""
+        self.add_half_edge_ccw(start_node, end_node, self.node_label[start_node])
+</t>
+<t tx="leo.20210210095724.27">@path ./pyslvs/pyslvs/graph/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Structural synthesis.
+
+The algorithm reference:
++ On the Number Synthesis of Kinematic Chains
+    + author: Hong-Sen Yan, Yu-Ting Chiu
+    + Mechanism and Machine Theory, Volume 89, 2015, Pages 128-144, ISSN 0094-114X
+    + https://doi.org/10.1016/j.mechmachtheory.2014.08.012
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from time import process_time
+from logging import getLogger
+from collections import Counter
+cimport cython
+from libcpp.pair cimport pair
+from libcpp.vector cimport vector
+from libcpp.map cimport map
+from numpy import (
+    int16 as i16,
+    array as np_array,
+    zeros as np_zeros,
+    ones as np_ones,
+    sum as np_sum,
+    subtract as np_sub,
+    multiply as np_mul,
+    floor_divide as np_div,
+    any as np_any,
+    prod as np_prod,
+    repeat as np_repeat,
+    arange,
+)
+from .graph cimport Graph, link_assortment
+from .planar cimport is_planar
+
+ctypedef unsigned int uint
+ctypedef unsigned long long ullong
+ctypedef pair[int, int] ipair
+ctypedef map[int, int] imap
+
+logger = getLogger()
+
+
+@cython.boundscheck(False)
+@cython.wraparound(False)
+cdef short[:, :] _product(tuple pool, object stop_func):
+    """Product function as same as iteration tools.
+
+    The pool is created by range(n).
+    """
+    if not pool:
+        return np_array([], dtype=i16)
+    cdef short[:] tmp1
+    cdef short[:, :] tmp2
+    cdef short[:] array0 = arange(pool[0], dtype=i16)
+    cdef int n = np_prod(pool)
+    cdef short[:, :] out = np_zeros((n, len(pool)), dtype=i16)
+    cdef int array0_size = len(array0)
+    cdef int m = n / array0_size
+    tmp1 = np_repeat(array0, m)
+    out[:, 0] = tmp1
+    cdef int j
+    if pool[1:]:
+        tmp2 = _product(pool[1:], stop_func)
+        out[0:m, 1:] = tmp2
+        for j in range(1, array0_size):
+            if stop_func is not None and stop_func():
+                return out
+            out[j * m:(j + 1) * m, 1:] = out[0:m, 1:]
+    return out
+
+
+cdef short[:, :] _simple_product(int pool_size, int repeat, object stop_func):
+    return _product((pool_size,) * repeat + (1,), stop_func)
+
+
+cdef inline int _m_max(int nl, int nj) nogil:
+    """Find max number of joint on each link.
+
+    + nl &lt;= nj and nj &lt;= (2 * nl - 3)
+    + (2 * nl - 3) &lt;= nj and nj &lt;= (nl * (nl - 1) / 2)
+    + other exceptions (return -1).
+    """
+    if nl &lt;= nj &lt;= (2 * nl - 3):
+        return nj - nl + 2
+    if nl == nj == 0:
+        return -1
+    if 2 * nl - 3 &lt;= nj &lt;= &lt;double&gt;(nl * (nl - 1)) / 2:
+        return nl - 1
+    return -1
+
+
+cdef inline int _sum_factors(short[:] factors):
+    """F0*N2 + F1*N3 + F2*N4 + ... + Fn*N(n+2)"""
+    cdef int factor = 0
+    cdef int i
+    for i in range(len(factors)):
+        factor += factors[i] * (i + 2)
+    return factor
+
+
+cpdef list link_synthesis(int nl, int nj, object stop_func = None):
+    """Return link assortment by number of links `nl` and number of joints `nj`.
+
+    The check stop function `stop_func` object for GUI or subprocess,
+    return `True` to terminate this function.
+    """
+    result = []
+    cdef int m_max_v = _m_max(nl, nj)
+    if m_max_v == -1:
+        raise ValueError("incorrect mechanism.")
+
+    cdef int i, p
+    cdef short[:] symbols
+    for symbols in _simple_product(nl + 1, m_max_v - 2, stop_func):
+        nl_m_max = nl - np_sum(symbols)
+        if nl_m_max &lt; 0:
+            continue
+        symbols[-1] = nl_m_max
+        if _sum_factors(symbols) == nj * 2:
+            result.append(tuple(symbols))
+    return result
+
+
+cdef inline int _j_m(short[:] link_num):
+    """Return value of JM."""
+    cdef int num
+    cdef int i = 3
+    cdef float c = 0
+    for num in link_num[1:]:
+        c += &lt;double&gt;i / 2 * num
+        i += 1
+    return &lt;int&gt;c
+
+
+cdef inline int _j_m_p(int n_m) nogil:
+    """Return value of J'M. This is improved function.
+
+    + Origin equation:
+    if n_m % 2 == 0:
+        return &lt;int&gt;((3 * (n_m - 1) - 1) / 2)
+    else:
+        return &lt;int&gt;((3 * (n_m - 1) - 2) / 2)
+    """
+    # Number of multiple links.
+    if n_m &lt;= 1:
+        return 0
+    elif n_m == 2:
+        return 1
+    else:
+        return 3 * (n_m - 2)
+
+
+cpdef list contracted_link_synthesis(object link_num_list, object stop_func = None):
+    """Return contracted link assortment by link assortment `link_num_list`.
+
+    The check stop function `stop_func` object for GUI or subprocess,
+    return `True` to terminate this function.
+    """
+    cdef short[:] link_num
+    if len(link_num_list) == 1:
+        link_num = np_zeros(link_num_list[0], dtype=i16)
+        link_num[-1] = 1
+        return [tuple(link_num)]
+
+    link_num = np_array(link_num_list, dtype=i16)
+
+    # Contracted link
+    cdef int j_m_v = _j_m(link_num)
+    cdef int n_c_min = max(1, j_m_v - _j_m_p(sum(link_num[1:])))
+    cdef int n_c_max = min(link_num[0], j_m_v)
+
+    # i = NL2 - NC + 2
+    cdef int i_max = min(link_num[0], link_num[0] - n_c_min + 2)
+
+    # Matching formula
+    cdef int count, factor, index
+    cdef float last_factor
+    cdef short[:] m
+    cj_list = []
+    for m in _simple_product(link_num[0] + 1, i_max - 1, stop_func):
+        count = 0
+        index = 1
+        for factor in m[:-1]:
+            count +=  factor * index
+            index += 1
+
+        # Check if the last factor is a natural number.
+        last_factor = &lt;double&gt;(link_num[0] - count) / index
+        factor = &lt;int&gt;last_factor
+        if last_factor &lt; 0 or last_factor != factor:
+            continue
+
+        m[-1] = factor
+        if n_c_min &lt;= np_sum(m) &lt;= n_c_max:
+            cj_list.append(tuple(m))
+
+    return cj_list
+
+
+cdef inline short[:] _nonzero_index(short[:] array):
+    """Return the number of nonzero numbers."""
+    counter = []
+    cdef int i, n
+    for i, n in enumerate(array):
+        if n != 0:
+            counter.append(i)
+    return np_array(counter, dtype=i16)
+
+
+cdef inline ullong _factorial(int n):
+    """Return (n!)."""
+    cdef ullong ret = 1
+    cdef int i
+    for i in range(2, n + 1):
+        ret *= i
+    return ret
+
+
+cdef inline int _gcd(int a, int b) nogil:
+    """Return Greatest Common Divisor of a and b.
+
+    Only for positive numbers.
+    """
+    cdef int r
+    while b &gt; 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+
+
+cdef inline short[:] _labels(short[:] numbers, int index, int offset):
+    """Generate labels from numbers."""
+    cdef int i, num
+    labels = []
+    for num in numbers[offset:]:
+        for i in range(num):
+            labels.append(index)
+        index += 1
+    return np_array(labels, dtype=i16)
+
+
+cdef inline Graph _multigraph(short[:] counter, int n):
+    """Get multigraph from n x n matrix."""
+    edges = {}
+    cdef int c = 0
+    cdef int i, j
+    for i in range(n):
+        for j in range(n):
+            if i &gt;= j:
+                continue
+            edges[i, j] = counter[c]
+            c += 1
+    return Graph(Counter(edges).elements())
+
+
+@cython.boundscheck(False)
+cdef inline void _gauss_elimination(
+    list result,
+    short[:] limit,
+    short[:, :] f_matrix,
+    int n,
+    int var_count
+):
+    """Gauss elimination for (n, n + 1) matrix."""
+    cdef int i, j, d
+    cdef short[:] tmp1, tmp2
+    for j in range(var_count):
+        # Remove all coefficients of index [i] to zero
+        for i in range(n):
+            if f_matrix[i, j] != 0 and not np_any(f_matrix[i, :j]):
+                d = i
+                tmp2 = np_div(f_matrix[i, :], f_matrix[i, j])
+                break
+        else:
+            continue
+
+        for i in range(n):
+            if i == d or f_matrix[i, j] == 0:
+                continue
+            tmp1 = np_sub(f_matrix[i, :], np_mul(tmp2, f_matrix[i, j]))
+            f_matrix[i, :] = tmp1
+
+    # Answer
+    cdef short[:] answer = -np_ones(var_count, dtype=i16)
+
+    # Determined solution
+    cdef int c, k
+    for i in range(n):
+        c = 0
+        for j in range(var_count):
+            # Derivation (has answer)
+            if answer[j] != -1 and f_matrix[i, j] != 0:
+                f_matrix[i, -1] -= f_matrix[i, j] * answer[j]
+                f_matrix[i, j] = 0
+
+            # Nonzero coefficient
+            if f_matrix[i, j] != 0:
+                d = j
+                c += 1
+
+        if c != 1:
+            continue
+
+        j = d
+        k = f_matrix[i, j]
+        c = f_matrix[i, -1]
+        if k != 1:
+            if k &lt; 0:
+                k = -k
+                c = -c
+            if c &lt; 0:
+                return
+            d = _gcd(k, c)
+            k /= d
+            c /= d
+        if c &lt; 0:
+            return
+        answer[j] = c
+
+    # Result
+    _test_contracted_graph(_multigraph(answer, n), result)
+
+
+@cython.boundscheck(False)
+cdef void _nest_do(
+    list result,
+    short[:] answer,
+    short[:, :] f_matrix,
+    int i,
+    int n,
+    object stop_func
+):
+    """Nest do loop."""
+    if i &gt;= n:
+        # Result
+        if &lt;int&gt;np_sum(answer) == &lt;int&gt;np_sum(f_matrix[:, -1]) / 2:
+            _test_contracted_graph(_multigraph(answer, n), result)
+        return
+
+    cdef short[:] coefficients = _nonzero_index(f_matrix[i, :-1])
+    cdef int c = 0
+    cdef int j = -1
+    cdef int d
+    for d in coefficients:
+        if answer[d] == -1:
+            c += 1
+            j = d
+
+    if c == 0:
+        if &lt;int&gt;np_sum(np_mul(answer, f_matrix[i, :-1])) == f_matrix[i, -1]:
+            _nest_do(result, answer, f_matrix, i + 1, n, stop_func)
+        return
+    elif c == 1:
+        c = 0
+        for d in coefficients:
+            if answer[d] != -1:
+                c += answer[d] * f_matrix[i, d]
+        answer[j] = (f_matrix[i, -1] - c) / f_matrix[i, j]
+        _nest_do(result, answer, f_matrix, i + 1, n, stop_func)
+        return
+
+    cdef short[:] combine, answer_copy
+    for combine in _product((f_matrix[i, -1],) * c, stop_func):
+        if stop_func is not None and stop_func():
+            return
+
+        c = 0
+        d = 0
+        for j in coefficients:
+            if answer[j] == -1:
+                c += combine[d] * f_matrix[i, j]
+                d += 1
+            else:
+                c += answer[j] * f_matrix[i, j]
+        if c != f_matrix[i, -1]:
+            continue
+
+        answer_copy = answer.copy()
+        d = 0
+        for j in coefficients:
+            # Pass to answer
+            if answer_copy[j] == -1:
+                answer_copy[j] = combine[d]
+                d += 1
+        _nest_do(result, answer_copy, f_matrix, i + 1, n, stop_func)
+
+
+cdef inline bint _is_isomorphic(Graph g, list result):
+    """Return true if graph is isomorphic with result list."""
+    cdef Graph h
+    for h in result:
+        if g.is_isomorphic(h):
+            return True
+    return False
+
+
+cdef inline void _test_contracted_graph(Graph g, list result):
+    """Test the contracted graph."""
+    if not g.edges:
+        return
+    # All connected
+    if not g.is_connected():
+        return
+    # Cut link
+    if g.has_cut_link():
+        return
+    # Planar graph
+    if not is_planar(g):
+        return
+    # Isomorphism
+    if _is_isomorphic(g, result):
+        return
+
+    result.append(g)
+
+
+cdef inline void _test_graph(
+    Graph g,
+    list result,
+    uint no_degenerate
+):
+    """Test result graph."""
+    # Graph filter depending on degenerate option
+    if no_degenerate == 0 and not g.is_degenerate():
+        return
+    elif no_degenerate == 1 and g.is_degenerate():
+        return
+    # Isomorphism
+    if _is_isomorphic(g, result):
+        return
+    result.append(g)
+
+
+@cython.boundscheck(False)
+cdef inline void _contracted_graph(
+    list result,
+    short[:] limit,
+    object stop_func
+):
+    """Synthesis of contracted graphs."""
+    cdef int n = len(limit)
+    cdef int var_count = n * (n - 1) / 2
+    cdef short[:, :] f_matrix = np_zeros((n, var_count + 1), dtype=i16)
+    f_matrix[:, -1] = limit
+
+    # Equations
+    cdef int i, j, k, c
+    for i in range(n):
+        c = 0
+        for j in range(n):
+            for k in range(n):
+                if j &gt;= k:
+                    continue
+                if i in {j, k}:
+                    f_matrix[i, c] = 1
+                c += 1
+
+    if n &gt;= var_count:
+        # Fast solution by Gauss elimination.
+        _gauss_elimination(result, limit, f_matrix, n, var_count)
+    else:
+        # Nest do loop method.
+        _nest_do(result, -np_ones(var_count, dtype=i16), f_matrix, 0, n, stop_func)
+
+
+cdef inline void _dyad_insert(Graph g, frozenset edge, int amount):
+    """Insert dyad to the graph."""
+    if amount &lt; 1:
+        return
+
+    cdef int last_num = max(g.vertices) + 1
+    cdef int n1, n2
+    n1, n2 = edge
+
+    path = [n1]
+    path.extend(range(last_num, last_num + amount))
+    path.append(n2)
+
+    g.remove_edge(n1, n2)
+    g.add_path(path)
+
+
+cdef inline void _permute_combine(
+    short[:] limit,
+    list combine_list,
+    tuple pick_list,
+    object stop_func
+):
+    """Permutation of combined list."""
+    cdef int n = len(limit)
+    if n &lt; 1:
+        return
+
+    cdef vector[int] indices = range(n)
+    cdef short[:] cycles = np_zeros(n, dtype=i16)
+    cdef short[:] pool = limit
+    permute_list = set()
+    cdef int i, j
+    for i, j in enumerate(range(n, 0, -1)):
+        cycles[i] = j
+    permute_list.add(tuple(pool[indices[i]] for i in range(n)))
+    cdef vector[int].iterator it2 = indices.begin()
+
+    cdef int tmp
+    while True:
+        if stop_func is not None and stop_func():
+            break
+
+        for i in reversed(range(n)):
+            cycles[i] -= 1
+            if cycles[i] == 0:
+                tmp = indices[i]
+                indices.erase(it2 + i)
+                indices.push_back(tmp)
+                cycles[i] = n - i
+            else:
+                j = cycles[i]
+                tmp = indices[i]
+                indices[i] = indices[n - j]
+                indices[n - j] = tmp
+                permute_list.add(tuple(pool[indices[i]] for i in range(n)))
+                break
+        else:
+            break
+    for tmp_array in permute_list:
+        combine_list.append(tuple(zip(pick_list, tmp_array)))
+
+
+cdef inline list _contracted_links(tuple edges, short[:] limit, object stop_func):
+    """Combination of contracted links.
+
+    pool: edges
+    pick: contracted links
+
+    If the edge is not picked, it represent the joint is connected directly.
+    """
+    # Number of contracted links
+    cdef int pick_count = len(limit)
+    if pick_count &lt; 1:
+        return []
+
+    # Check over picked
+    pool_list = tuple([frozenset(edge) for edge in edges])
+    pool = Counter(pool_list)
+    # The list including required edge(s).
+    confirm_list = pool - Counter(set(pool_list))
+    # Simplified the pool
+    pool_list = tuple((pool - confirm_list).elements())
+    cdef int confirm_size = sum(confirm_list.values())
+    if confirm_size &gt; pick_count or pick_count &gt; len(edges):
+        return []
+
+    pick_count -= confirm_size
+    cdef int pool_size = len(pool_list)
+    cdef short[:] indices = np_zeros(pick_count, dtype=i16)
+    cdef int i
+    for i in range(pick_count):
+        indices[i] = i
+    pick_list = Counter()
+    combine_set = set()
+    # Combinations loop with number checking.
+    cdef int n1, n2
+    while True:
+        if stop_func is not None and stop_func():
+            break
+
+        # Combine
+        for i in range(pick_count):
+            pick_list[pool_list[indices[i]]] += 1
+
+        # Collecting
+        combine_set.add(tuple(pick_list.elements()))
+        # Initialize
+        pick_list.clear()
+        # Check combination is over.
+        for n1 in reversed(range(pick_count)):
+            if indices[n1] != n1 + pool_size - pick_count:
+                break
+        else:
+            break
+        # Next indicator
+        indices[n1] += 1
+        for n2 in range(n1 + 1, pick_count):
+            indices[n2] = indices[n2 - 1] + 1
+    combine_list = []
+    pool_list = tuple(confirm_list.elements())
+    for picked in combine_set:
+        _permute_combine(limit, combine_list, pool_list + picked, stop_func)
+    return combine_list
+
+
+cdef inline void _graph_atlas(
+    list result,
+    list contracted_graph,
+    short[:] limit,
+    uint no_degenerate,
+    object stop_func
+):
+    """Synthesis of atlas."""
+    cdef int n
+    cdef Graph cg, g
+    for cg in contracted_graph:
+        for combine in _contracted_links(cg.edges, limit, stop_func):
+            g = Graph.__new__(Graph, cg.edges)
+            for edge, n in combine:
+                _dyad_insert(g, edge, n)
+            _test_graph(g, result, no_degenerate)
+
+
+cdef inline list _loop_chain(int num):
+    """Loop chain of num."""
+    cdef int i
+    cdef int b = 0
+    chain = []
+    for i in range(1, num):
+        chain.append((b, i))
+        b = i
+    chain.append((0, b))
+    return chain
+
+
+cpdef list contracted_graph(object link_num_list, object stop_func = None):
+    """Generate contracted graphs by link assortment `link_num`.
+
+    The check stop function `stop_func` object for GUI or subprocess,
+    return `True` to terminate this function.
+    """
+    if not link_num_list:
+        return []
+
+    # Initial time
+    cdef double t0 = process_time()
+    cdef short[:] link_num = np_array(link_num_list, ndmin=1, dtype=i16)
+    logger.debug(f"Link assortment: {list(link_num)}")
+
+    # Multiple links
+    cdef short[:] m_link = _labels(link_num, 3, 1)
+
+    cdef imap m_limit, count
+    cdef int num
+    cdef int i = 0
+    for num in m_link:
+        m_limit[i] = num
+        count[i] = 0
+        i += 1
+
+    # Synthesis of contracted graphs
+    cg_list = []
+    _contracted_graph(cg_list, m_link, stop_func)
+    logger.debug(f"Contracted graph(s): {len(cg_list)}, time: {process_time() - t0}")
+    return cg_list
+
+
+cpdef list conventional_graph(
+    list cg_list,
+    object c_j_list,
+    uint no_degenerate = 1,
+    object stop_func = None
+):
+    """Generate conventional graphs by contracted graphs `cg_list` and
+    contracted link assortment `c_j_list`.
+
+    The degenerate setting `no_degenerate` has following option:
+
+    + `0`: No degenerate.
+    + `1`: Only degenerate.
+    + Else: All graphs.
+
+    The check stop function `stop_func` object for GUI or subprocess,
+    return `True` to terminate this function.
+    """
+    # Initial time
+    cdef double t0 = process_time()
+    logger.debug(f"Contracted link assortment: {list(c_j_list)}")
+
+    # Synthesis of contracted link and multiple link combination.
+    cdef short[:] c_j = np_array(c_j_list, ndmin=1, dtype=i16)
+    result = []
+    cdef int i, num
+    if not cg_list:
+        if 1 not in c_j_list:
+            return []
+        # Single loop - ring graph (special case)
+        i = 1
+        for num in c_j:
+            if num == 1:
+                break
+            i += 1
+        else:
+            raise ValueError("Invalid assortment!")
+        result.append(Graph.__new__(Graph, _loop_chain(i)))
+        logger.debug(f"Count: {len(result)}")
+        return result
+
+    # Multiple links
+    cdef short[:] m_link = np_array(link_assortment(cg_list[0]), ndmin=1, dtype=i16)
+    m_link = _labels(m_link, 3, 1)
+
+    # Synthesis of multiple links
+    _graph_atlas(result, cg_list, _labels(c_j, 1, 0), no_degenerate, stop_func)
+
+    # Return graph list and time
+    logger.debug(f"Count: {len(result)}, time: {process_time() - t0}")
+    return result
+</t>
+<t tx="leo.20210210095724.28">@path ./pyslvs/pyslvs/graph/
+@language unknown_language
+# -*- coding: utf-8 -*-
+</t>
+<t tx="leo.20210210095724.29"></t>
+<t tx="leo.20210210095724.30">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Differential Evolution
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from .utility cimport uint, rand_v, rand_i, ObjFunc, Algorithm
+
+ctypedef void (*Eq)(Differential, uint) nogil
+
+
+cdef enum Strategy:
+    STRATEGY0
+    STRATEGY1
+    STRATEGY2
+    STRATEGY3
+    STRATEGY4
+    STRATEGY5
+    STRATEGY6
+    STRATEGY7
+    STRATEGY8
+    STRATEGY9
+
+
+@cython.final
+cdef class Differential(Algorithm):
+    """The implementation of Differential Evolution."""
+    cdef Strategy strategy
+    cdef uint r1, r2, r3, r4, r5
+    cdef double F, CR
+    cdef double[:] tmp
+
+    def __cinit__(
+        self,
+        ObjFunc func not None,
+        dict settings not None,
+        object progress_fun=None,
+        object interrupt_fun=None
+    ):
+        """
+        settings = {
+            'strategy': int,
+            'NP': int,
+            'F': float,
+            'CR': float,
+            'max_gen': int or 'min_fit': float or 'max_time': float,
+            'report': int,
+        }
+        """
+        # strategy 0~9, choice what strategy to generate new member in temporary
+        cdef uint strategy = settings.get('strategy', STRATEGY1)
+        if strategy &gt; 9:
+            raise ValueError(f"invalid strategy: {strategy}")
+        self.strategy = &lt;Strategy&gt;strategy
+        # population size
+        # To start off np = 10*dim is a reasonable choice. Increase np if
+        # misconvergence
+        self.pop_num = settings.get('NP', 400)
+        # weight factor F is usually between 0.5 and 1 (in rare cases &gt; 1)
+        self.F = settings.get('F', 0.6)
+        if not (0.5 &lt;= self.F &lt;= 1):
+            raise ValueError('CR should be [0.5,1]')
+        # crossover possible CR in [0,1]
+        self.CR = settings.get('CR', 0.9)
+        if not (0 &lt;= self.CR &lt;= 1):
+            raise ValueError('CR should be [0,1]')
+        # the vector
+        self.r1 = self.r2 = self.r3 = self.r4 = self.r5 = 0
+        # generation pool
+        self.new_pop()
+        self.tmp = self.make_tmp()
+
+    cdef inline void initialize(self) nogil:
+        """Initial population."""
+        self.initialize_pop()
+        self.find_best()
+
+    cdef inline void generate_random_vector(self, uint i) nogil:
+        """Generate new vectors."""
+        self.r1 = self.r2 = self.r3 = self.r4 = self.r5 = i
+        while self.r1 == i:
+            self.r1 = rand_i(self.pop_num)
+        while self.r2 in {i, self.r1}:
+            self.r2 = rand_i(self.pop_num)
+        if self.strategy in {STRATEGY1, STRATEGY3, STRATEGY6, STRATEGY8}:
+            return
+        while self.r3 in {i, self.r1, self.r2}:
+            self.r3 = rand_i(self.pop_num)
+        if self.strategy in {STRATEGY2, STRATEGY7}:
+            return
+        while self.r4 in {i, self.r1, self.r2, self.r3}:
+            self.r4 = rand_i(self.pop_num)
+        if self.strategy in {STRATEGY4, STRATEGY9}:
+            return
+        while self.r5 in {i, self.r1, self.r2, self.r3, self.r4}:
+            self.r5 = rand_i(self.pop_num)
+
+    cdef void type1(self, Eq func) nogil:
+        cdef uint n = rand_i(self.dim)
+        cdef uint l_v = 0
+        while True:
+            func(self, n)
+            n = (n + 1) % self.dim
+            l_v += 1
+            if rand_v() &gt;= self.CR or l_v &gt;= self.dim:
+                break
+
+    cdef void type2(self, Eq func) nogil:
+        cdef uint n = rand_i(self.dim)
+        cdef uint l_v
+        for l_v in range(self.dim):
+            if rand_v() &lt; self.CR or l_v == self.dim - 1:
+                func(self, n)
+            n = (n + 1) % self.dim
+
+    cdef void eq1(self, uint n) nogil:
+        self.tmp[n] = self.best[n] + self.F * (
+            self.pool[self.r1, n] - self.pool[self.r2, n])
+
+    cdef void eq2(self, uint n) nogil:
+        self.tmp[n] = self.pool[self.r1, n] + self.F * (
+            self.pool[self.r2, n] - self.pool[self.r3, n])
+
+    cdef void eq3(self, uint n) nogil:
+        self.tmp[n] = (self.tmp[n] + self.F * (self.best[n] - self.tmp[n])
+                       + self.F * (self.pool[self.r1, n] - self.pool[self.r2, n]))
+
+    cdef void eq4(self, uint n) nogil:
+        self.tmp[n] = self.best[n] + self.F * (
+            self.pool[self.r1, n] + self.pool[self.r2, n]
+            - self.pool[self.r3, n] - self.pool[self.r4, n])
+
+    cdef void eq5(self, uint n) nogil:
+        self.tmp[n] = self.pool[self.r5, n] + self.F * (
+            self.pool[self.r1, n] + self.pool[self.r2, n]
+            - self.pool[self.r3, n] - self.pool[self.r4, n])
+
+    cdef inline void recombination(self, int i) nogil:
+        """use new vector, recombination the new one member to tmp."""
+        self.tmp[:] = self.pool[i, :]
+        if self.strategy == 1:
+            self.type1(Differential.eq1)
+        elif self.strategy == 2:
+            self.type1(Differential.eq2)
+        elif self.strategy == 3:
+            self.type1(Differential.eq3)
+        elif self.strategy == 4:
+            self.type1(Differential.eq4)
+        elif self.strategy == 5:
+            self.type1(Differential.eq5)
+        elif self.strategy == 6:
+            self.type2(Differential.eq1)
+        elif self.strategy == 7:
+            self.type2(Differential.eq2)
+        elif self.strategy == 8:
+            self.type2(Differential.eq3)
+        elif self.strategy == 9:
+            self.type2(Differential.eq4)
+        elif self.strategy == 0:
+            self.type2(Differential.eq5)
+
+    cdef inline bint over_bound(self, double[:] member) nogil:
+        """check the member's chromosome that is out of bound?"""
+        cdef uint i
+        for i in range(self.dim):
+            if not self.func.ub[i] &gt;= member[i] &gt;= self.func.lb[i]:
+                return True
+        return False
+
+    cdef inline void generation_process(self) nogil:
+        cdef uint i
+        cdef double tmp_f
+        # TODO: Grouping
+        for i in range(self.pop_num):
+            # Generate a new vector
+            self.generate_random_vector(i)
+            # Use the vector recombine the member to temporary
+            self.recombination(i)
+            # Check the one is out of bound
+            if self.over_bound(self.tmp):
+                continue
+            # Test
+            tmp_f = self.func.fitness(self.tmp)
+            # Self evolution
+            if tmp_f &gt; self.fitness[i]:
+                continue
+            self.assign_from(i, tmp_f, self.tmp)
+        self.find_best()
+</t>
+<t tx="leo.20210210095724.31">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Firefly Algorithm
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from cython.parallel cimport prange
+from libc.math cimport exp, sqrt
+from .utility cimport uint, rand_v, ObjFunc, Algorithm
+
+
+cdef double _distance(double[:] me, double[:] she, uint dim) nogil:
+    """Distance of two fireflies."""
+    cdef double dist = 0
+    cdef uint i
+    cdef double diff
+    for i in range(dim):
+        diff = me[i] - she[i]
+        dist += diff * diff
+    return sqrt(dist)
+
+
+@cython.final
+cdef class Firefly(Algorithm):
+    """The implementation of Firefly Algorithm."""
+    cdef double alpha, beta_min, beta0, gamma
+
+    def __cinit__(
+        self,
+        ObjFunc func not None,
+        dict settings not None,
+        object progress_fun=None,
+        object interrupt_fun=None
+    ):
+        """
+        settings = {
+            'n': int,
+            'alpha': float,
+            'beta_min': float,
+            'beta0': float,
+            'gamma': float,
+            'max_gen': int or 'min_fit': float or 'max_time': float,
+            'report': int,
+        }
+        """
+        # n, the population size of fireflies
+        self.pop_num = settings.get('n', 80)
+        # alpha, the step size
+        self.alpha = settings.get('alpha', 0.01)
+        # beta_min, the minimal attraction, must not less than this
+        self.beta_min = settings.get('beta_min', 0.2)
+        # beta0, the attraction of two firefly in 0 distance
+        self.beta0 = settings.get('beta0', 1.)
+        # gamma
+        self.gamma = settings.get('gamma', 1.)
+        # all fireflies, depended on population n
+        self.new_pop()
+
+    cdef inline void initialize(self) nogil:
+        """Initial population."""
+        self.initialize_pop()
+        self.set_best(0)
+
+    cdef inline void move_fireflies(self) nogil:
+        """Move fireflies."""
+        cdef bint is_move
+        cdef uint i, j, s
+        cdef double scale, tmp_v
+        for i in range(self.pop_num):
+            moved = False
+            for j in range(self.pop_num):
+                if i == j or self.fitness[i] &lt;= self.fitness[j]:
+                    continue
+                self.move_firefly(self.pool[i, :], self.pool[j, :])
+                moved = True
+            if moved:
+                continue
+            # Evaluate
+            for s in range(self.dim):
+                self.pool[i, s] = self.check(s, self.pool[i, s] + self.alpha * (
+                    self.func.ub[s] - self.func.lb[s]) * rand_v(-0.5, 0.5))
+
+    cdef inline void move_firefly(self, double[:] me, double[:] she) nogil:
+        """Move single firefly."""
+        cdef double r = _distance(me, she, self.dim)
+        cdef double beta = ((self.beta0 - self.beta_min)
+                            * exp(-self.gamma * r * r) + self.beta_min)
+        cdef uint s
+        for s in range(self.dim):
+            me[s] = self.check(s, me[s] + beta * (she[s] - me[s]) + self.alpha
+                               * (self.func.ub[s] - self.func.lb[s])
+                               * rand_v(-0.5, 0.5))
+
+    cdef inline double check(self, int s, double v) nogil:
+        """Check the bounds."""
+        if v &gt; self.func.ub[s]:
+            return self.func.ub[s]
+        elif v &lt; self.func.lb[s]:
+            return self.func.lb[s]
+        else:
+            return v
+
+    cdef inline void generation_process(self) nogil:
+        self.move_fireflies()
+        # Get fitness
+        cdef uint i
+        if self.parallel:
+            for i in prange(self.pop_num):
+                self.fitness[i] = self.func.fitness(self.pool[i, :])
+        else:
+            for i in range(self.pop_num):
+                self.fitness[i] = self.func.fitness(self.pool[i, :])
+        self.find_best()
+</t>
+<t tx="leo.20210210095724.32">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Real-coded Genetic Algorithm
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from cython.parallel cimport parallel
+from libc.math cimport pow
+from numpy import zeros, float64 as f64
+from .utility cimport uint, MAX_GEN, rand_v, rand_i, ObjFunc, Algorithm
+
+
+@cython.final
+cdef class Genetic(Algorithm):
+    """The implementation of Real-coded Genetic Algorithm."""
+    cdef double cross, mutate_f, win, delta
+    cdef double[:] new_fitness, tmp1, tmp2, tmp3, f_tmp
+    cdef double[:, :] new_pool
+
+    def __cinit__(
+        self,
+        ObjFunc func not None,
+        dict settings not None,
+        object progress_fun=None,
+        object interrupt_fun=None
+    ):
+        """
+        settings = {
+            'pop_num': int,
+            'cross': float,
+            'mutate': float,
+            'win': float,
+            'delta': float,
+            'max_gen': int or 'min_fit': float or 'max_time': float,
+            'report': int,
+        }
+        """
+        self.pop_num = settings.get('pop_num', 500)
+        self.cross = settings.get('cross', 0.95)
+        self.mutate_f = settings.get('mutate', 0.05)
+        self.win = settings.get('win', 0.95)
+        self.delta = settings.get('delta', 5.)
+        self.new_pop()
+        self.new_fitness = zeros(self.pop_num, dtype=f64)
+        self.new_pool = zeros((self.pop_num, self.dim), dtype=f64)
+        self.tmp1 = self.make_tmp()
+        self.tmp2 = self.make_tmp()
+        self.tmp3 = self.make_tmp()
+        self.f_tmp = zeros(3, dtype=f64)
+
+    cdef inline double check(self, int i, double v) nogil:
+        """If a variable is out of bound, replace it with a random value."""
+        if not self.func.ub[i] &gt;= v &gt;= self.func.lb[i]:
+            return rand_v(self.func.lb[i], self.func.ub[i])
+        return v
+
+    cdef inline void initialize(self) nogil:
+        self.initialize_pop()
+        self.set_best(0)
+
+    cdef inline void crossover(self) nogil:
+        cdef uint i, s
+        for i in range(0, self.pop_num - 1, 2):
+            if not rand_v() &lt; self.cross:
+                continue
+            for s in range(self.dim):
+                # first baby, half father half mother
+                self.tmp1[s] = 0.5 * self.pool[i, s] + 0.5 * self.pool[i + 1, s]
+                # second baby, three quarters of father and quarter of mother
+                self.tmp2[s] = self.check(s, 1.5 * self.pool[i, s]
+                                   - 0.5 * self.pool[i + 1, s])
+                # third baby, quarter of father and three quarters of mother
+                self.tmp3[s] = self.check(s, -0.5 * self.pool[i, s]
+                                   + 1.5 * self.pool[i + 1, s])
+            # evaluate new baby
+            self.f_tmp[0] = self.func.fitness(self.tmp1)
+            self.f_tmp[1] = self.func.fitness(self.tmp2)
+            self.f_tmp[2] = self.func.fitness(self.tmp3)
+            # bubble sort: smaller -&gt; larger
+            if self.f_tmp[0] &gt; self.f_tmp[1]:
+                self.f_tmp[0], self.f_tmp[1] = self.f_tmp[1], self.f_tmp[0]
+                self.tmp1, self.tmp2 = self.tmp2, self.tmp1
+            if self.f_tmp[0] &gt; self.f_tmp[2]:
+                self.f_tmp[0], self.f_tmp[2] = self.f_tmp[2], self.f_tmp[0]
+                self.tmp1, self.tmp3 = self.tmp3, self.tmp1
+            if self.f_tmp[1] &gt; self.f_tmp[2]:
+                self.f_tmp[1], self.f_tmp[2] = self.f_tmp[2], self.f_tmp[1]
+                self.tmp2, self.tmp3 = self.tmp3, self.tmp2
+            # replace first two baby to parent, another one will be
+            self.assign_from(i, self.f_tmp[0], self.tmp1)
+            self.assign_from(i + 1, self.f_tmp[1], self.tmp2)
+
+    cdef inline double get_delta(self, double y) nogil:
+        cdef double r
+        if self.stop_at == MAX_GEN and self.stop_at_i &gt; 0:
+            r = &lt;double&gt;self.func.gen / self.stop_at_i
+        else:
+            r = 1
+        return y * rand_v() * pow(1.0 - r, self.delta)
+
+    cdef inline void mutate(self) nogil:
+        cdef uint i, s
+        for i in range(self.pop_num):
+            if not rand_v() &lt; self.mutate_f:
+                continue
+            s = rand_i(self.dim)
+            if rand_v() &lt; 0.5:
+                self.pool[i, s] += self.get_delta(self.func.ub[s]
+                                                  - self.pool[i, s])
+            else:
+                self.pool[i, s] -= self.get_delta(self.pool[i, s]
+                                                  - self.func.lb[s])
+            # Get fitness
+            if self.parallel:
+                with parallel():
+                    self.fitness[i] = self.func.fitness(self.pool[i, :])
+            else:
+                self.fitness[i] = self.func.fitness(self.pool[i, :])
+        self.find_best()
+
+    cdef inline void select(self) nogil:
+        """roulette wheel selection"""
+        cdef uint i, j, k
+        for i in range(self.pop_num):
+            j = rand_i(self.pop_num)
+            k = rand_i(self.pop_num)
+            if self.fitness[j] &gt; self.fitness[k] and rand_v() &lt; self.win:
+                self.new_fitness[i] = self.fitness[k]
+                self.new_pool[i, :] = self.pool[k, :]
+            else:
+                self.new_fitness[i] = self.fitness[j]
+                self.new_pool[i, :] = self.pool[j, :]
+        # in this stage, new_chromosome is select finish
+        # now replace origin chromosome
+        self.fitness[:] = self.new_fitness
+        self.pool[:] = self.new_pool
+        # select random one chromosome to be best chromosome, make best chromosome still exist
+        self.assign_from(rand_i(self.pop_num), self.best_f, self.best)
+
+    cdef inline void generation_process(self) nogil:
+        self.select()
+        self.crossover()
+        self.mutate()
+</t>
+<t tx="leo.20210210095724.33">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Test objective function for algorithms.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from cython.parallel cimport prange
+from libc.math cimport exp
+from numpy import array, zeros, float64 as f64, random
+from .utility cimport uint, ObjFunc
+
+
+@cython.final
+cdef class TestObj(ObjFunc):
+    """Test objective function.
+
+    f(x) = x1^2 + 8*x2
+    """
+
+    def __cinit__(self):
+        self.ub = array([100, 100], dtype=f64)
+        self.lb = array([0, 0], dtype=f64)
+
+    cdef double target(self, double[:] v) nogil:
+        return v[0] * v[0] + 8 * v[1]
+
+    cdef double fitness(self, double[:] v) nogil:
+        return self.target(v)
+
+    cpdef object result(self, double[:] v):
+        return tuple(v), self.target(v)
+
+
+cdef double[:] _radial_basis(double[:, :] x,  double[:] beta, double theta,
+                        bint parallel) nogil:
+    cdef double[:] y
+    with gil:
+        y = zeros(x.shape[0])
+    cdef double r = 0
+    cdef uint i, j, d
+    if parallel:
+        for i in prange(x.shape[0]):
+            for j in range(x.shape[0]):
+                r = 0
+                for d in range(x.shape[1]):
+                    r += (x[j, d] - x[i, d]) ** 2
+                r = r ** 0.5
+                y[i] += beta[j] * exp(-(r * theta) ** 2)
+    else:
+        for i in range(x.shape[0]):
+            for j in range(x.shape[0]):
+                r = 0
+                for d in range(x.shape[1]):
+                    r += (x[j, d] - x[i, d]) ** 2
+                r = r ** 0.5
+                y[i] += beta[j] * exp(-(r * theta) ** 2)
+    return y
+
+
+def with_mp():
+    _radial_basis(array([random.rand(1000) for d in range(5)]).T,
+          random.rand(1000), 10, True)
+
+
+def without_mp():
+    _radial_basis(array([random.rand(1000) for d in range(5)]).T,
+          random.rand(1000), 10, False)
+</t>
+<t tx="leo.20210210095724.34">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""Teaching Learning Based Optimization
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+cimport cython
+from libc.math cimport round
+from .utility cimport uint, rand_v, rand_i, ObjFunc, Algorithm
+
+
+@cython.final
+cdef class TeachingLearning(Algorithm):
+    """The implementation of Teaching Learning Based Optimization."""
+    cdef double[:] tmp
+
+    def __cinit__(
+        self,
+        ObjFunc func not None,
+        dict settings not None,
+        object progress_fun=None,
+        object interrupt_fun=None
+    ):
+        """
+        settings = {
+            'class_size': int,
+            'max_gen': int or 'min_fit': float or 'max_time': float,
+            'report': int,
+        }
+        """
+        self.pop_num = settings.get('class_size', 50)
+        self.new_pop()
+        self.tmp = self.make_tmp()
+
+    cdef inline void initialize(self) nogil:
+        """Initial population: Sorted students."""
+        self.initialize_pop()
+        self.find_best()
+
+    cdef inline void teaching(self, uint i) nogil:
+        """Teaching phase. The last best is the teacher."""
+        cdef double tf = round(1 + rand_v())
+        cdef uint s, j
+        cdef double mean
+        for s in range(self.dim):
+            mean = 0
+            for j in range(self.pop_num):
+                mean += self.pool[j, s]
+            mean /= self.dim
+            self.tmp[s] = self.pool[i, s] + rand_v(1, self.dim) * (
+                self.best[s] - tf * mean)
+            if self.tmp[s] &lt; self.func.lb[s]:
+                self.tmp[s] = self.func.lb[s]
+            elif self.tmp[s] &gt; self.func.ub[s]:
+                self.tmp[s] = self.func.ub[s]
+        cdef double f_new = self.func.fitness(self.tmp)
+        if f_new &lt; self.fitness[i]:
+            self.pool[i, :] = self.tmp
+            self.fitness[i] = f_new
+        if self.fitness[i] &lt; self.best_f:
+            self.set_best(i)
+
+    cdef inline void learning(self, uint i) nogil:
+        """Learning phase."""
+        cdef uint j = rand_i(self.pop_num - 1)
+        if j &gt;= i:
+            j += 1
+        cdef uint s
+        cdef double diff
+        for s in range(self.dim):
+            if self.fitness[j] &lt; self.fitness[i]:
+                diff = self.pool[i, s] - self.pool[j, s]
+            else:
+                diff = self.pool[j, s] - self.pool[i, s]
+            self.tmp[s] = self.pool[i, s] + diff * rand_v(1, self.dim)
+            if self.tmp[s] &lt; self.func.lb[s]:
+                self.tmp[s] = self.func.lb[s]
+            elif self.tmp[s] &gt; self.func.ub[s]:
+                self.tmp[s] = self.func.ub[s]
+        cdef double f_new = self.func.fitness(self.tmp)
+        if f_new &lt; self.fitness[i]:
+            self.pool[i, :] = self.tmp
+            self.fitness[i] = f_new
+        if self.fitness[i] &lt; self.best_f:
+            self.set_best(i)
+
+    cdef inline void generation_process(self) nogil:
+        """The process of each generation."""
+        cdef uint i
+        for i in range(self.pop_num):
+            self.teaching(i)
+            self.learning(i)
+</t>
+<t tx="leo.20210210095724.35">@path ./pyslvs/pyslvs/metaheuristics/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""The callable class of the validation in algorithm.
+The 'utility' module should be loaded when using sub-class.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libc.time cimport time_t
+from libcpp.list cimport list as clist
+
+ctypedef unsigned int uint
+
+cdef enum Task:
+    MAX_GEN
+    MIN_FIT
+    MAX_TIME
+    SLOW_DOWN
+
+cdef packed struct Report:
+    uint gen
+    double fitness
+    double time
+
+cdef double rand_v(double lower = *, double upper = *) nogil
+cdef uint rand_i(uint upper) nogil
+
+
+cdef class ObjFunc:
+    cdef uint gen
+    cdef double[:] ub
+    cdef double[:] lb
+
+    cdef double fitness(self, double[:] v) nogil
+    cpdef object result(self, double[:] v)
+
+
+cdef class Algorithm:
+    cdef bint parallel
+    cdef uint pop_num, dim, stop_at_i, rpt
+    cdef Task stop_at
+    cdef double stop_at_f, best_f
+    cdef double[:] best, fitness
+    cdef double[:, :] pool
+    cdef time_t time_start
+    cdef clist[Report] fitness_time
+    cdef object progress_fun, interrupt_fun
+    cdef public ObjFunc func
+
+    # Chromosome
+    cdef void new_pop(self)
+    cdef double[:] make_tmp(self)
+    cdef void assign(self, uint i, uint j) nogil
+    cdef void assign_from(self, uint i, double f, double[:] v) nogil
+    cdef void set_best(self, uint i) nogil
+    cdef void find_best(self) nogil
+
+    cdef void initialize_pop(self) nogil
+    cdef void initialize(self) nogil
+    cdef void generation_process(self) nogil
+    cdef void report(self) nogil
+    cpdef list history(self)
+    cpdef object run(self)
+</t>
+<t tx="leo.20210210095724.6"></t>
+<t tx="leo.20210210095724.8"></t>
+<t tx="leo.20210210095724.9">@path ./pyslvs/pyslvs/
+@language unknown_language
+# -*- coding: utf-8 -*-
+# cython: language_level=3
+
+"""Wrapper header of BFGS algorithm.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from libcpp.list cimport list as clist
+from libcpp.vector cimport vector
+from libcpp.map cimport map
+from .sketch_solve cimport Point, Line, Constraint
+from .expression cimport VLink
+
+cdef class SolverSystem:
+    # SolverSystem(object vpoints, dict inputs = None, dict data_dict = None)
+
+    cdef list vpoints
+    cdef dict vlinks
+    cdef dict inputs
+    cdef dict data_dict
+
+    cdef clist[double] params
+    cdef clist[double] constants
+    cdef vector[Point] points
+    cdef map[int, int] sliders
+    cdef vector[Point] slider_bases
+    cdef vector[Point] slider_slots
+    cdef clist[Line] slider_lines
+
+    cdef clist[Constraint] cons_list
+    cdef clist[Line] handles
+    cdef clist[double] inputs_angle  # For editing angles
+    cdef clist[double] data_values  # For editing custom values
+
+    cpdef bint same_points(self, object vpoints_)
+    cpdef frozenset show_inputs(self)
+    cpdef frozenset show_data(self)
+    cdef Point *point_ptr(self, int i, VLink vlink)
+    cdef void build_expression(self)
+    cdef bint check_known(self, int i)
+    cpdef void set_inputs(self, dict inputs)
+    cpdef void set_data(self, dict data_dict)
+    cpdef list solve(self)
+</t>
+<t tx="leo.20210210095725.1">@path ./pyslvs/pyslvs/metaheuristics/
+@language cython
+# -*- coding: utf-8 -*-
+# cython: language_level=3, cdivision=True, boundscheck=False, wraparound=False
+# cython: initializedcheck=False, nonecheck=False
+
+"""The callable class of the validation in algorithm.
+The 'utility' module should be loaded when using sub-class of base classes.
+
+author: Yuan Chang
+copyright: Copyright (C) 2016-2020
+license: AGPL
+email: pyslvs@gmail.com
+"""
+
+from numpy import zeros, float64 as f64
+from cython.parallel cimport prange
+from libc.math cimport HUGE_VAL
+from libc.stdlib cimport rand, srand, RAND_MAX
+from libc.time cimport time, difftime
+
+
+cdef inline double rand_v(double lower = 0., double upper = 1.) nogil:
+    """Random real value between lower &lt;= r &lt;= upper."""
+    return lower + &lt;double&gt;rand() / RAND_MAX * (upper - lower)
+
+
+cdef inline uint rand_i(uint upper) nogil:
+    """A random integer between 0 &lt;= r &lt; upper."""
+    return rand() % upper
+
+
+cdef class ObjFunc:
+    """Objective function base class.
+
+    It is used to build the objective function for Meta-heuristic Algorithms.
+    """
+
+    cdef double fitness(self, double[:] v) nogil:
+        with gil:
+            raise NotImplementedError
+
+    cpdef object result(self, double[:] v):
+        """Return the result from the variable list `v`."""
+        raise NotImplementedError
+
+
+cdef class Algorithm:
+    """Algorithm base class.
+
+    It is used to build the Meta-heuristic Algorithms.
+    """
+
+    def __cinit__(
+        self,
+        ObjFunc func not None,
+        dict settings not None,
+        object progress_fun=None,
+        object interrupt_fun=None
+    ):
+        """Generic settings."""
+        srand(time(NULL))
+        # object function
+        self.func = func
+        self.stop_at_i = 0
+        self.stop_at_f = 0.
+        if 'max_gen' in settings:
+            self.stop_at = MAX_GEN
+            self.stop_at_i = settings['max_gen']
+        elif 'min_fit' in settings:
+            self.stop_at = MIN_FIT
+            self.stop_at_f = settings['min_fit']
+        elif 'max_time' in settings:
+            self.stop_at = MAX_TIME
+            self.stop_at_f = settings['max_time']
+        elif 'slow_down' in settings:
+            self.stop_at = SLOW_DOWN
+            self.stop_at_f = 1 - settings['slow_down']
+        else:
+            raise ValueError("please give 'max_gen', 'min_fit' or 'max_time' limit")
+        self.rpt = settings.get('report', 0)
+        if self.rpt &lt;= 0:
+            self.rpt = 10
+        self.parallel = settings.get('parallel', False)
+        self.progress_fun = progress_fun
+        self.interrupt_fun = interrupt_fun
+        self.dim = len(self.func.ub)
+        if self.dim != len(self.func.lb):
+            raise ValueError("length of upper and lower bounds must be equal")
+        self.best_f = HUGE_VAL
+        self.best = zeros(self.dim, dtype=f64)
+        # setup benchmark
+        self.func.gen = 0
+        self.time_start = 0
+        self.fitness_time = []
+
+    cdef void new_pop(self):
+        """New population."""
+        self.fitness = zeros(self.pop_num, dtype=f64)
+        self.pool = zeros((self.pop_num, self.dim), dtype=f64)
+
+    cdef double[:] make_tmp(self):
+        """Make new chromosome."""
+        return zeros(self.dim, dtype=f64)
+
+    cdef void assign(self, uint i, uint j) nogil:
+        """Copy value from j to i."""
+        self.fitness[i] = self.fitness[j]
+        self.pool[i, :] = self.pool[j, :]
+
+    cdef void assign_from(self, uint i, double f, double[:] v) nogil:
+        """Copy value from tmp."""
+        self.fitness[i] = f
+        self.pool[i, :] = v
+
+    cdef void set_best(self, uint i) nogil:
+        """Set as best."""
+        self.best_f = self.fitness[i]
+        self.best[:] = self.pool[i, :]
+
+    cdef void find_best(self) nogil:
+        """Find the best."""
+        cdef uint best = 0
+        cdef uint i
+        for i in range(0, self.pop_num):
+            if self.fitness[i] &lt; self.fitness[best]:
+                best = i
+        if self.fitness[best] &lt; self.best_f:
+            self.set_best(best)
+
+    cdef void initialize_pop(self) nogil:
+        """Initialize population."""
+        cdef uint i, s
+        if self.parallel:
+            for i in prange(self.pop_num):
+                for s in range(self.dim):
+                    self.pool[i, s] = rand_v(self.func.lb[s], self.func.ub[s])
+                self.fitness[i] = self.func.fitness(self.pool[i, :])
+        else:
+            for i in range(self.pop_num):
+                for s in range(self.dim):
+                    self.pool[i, s] = rand_v(self.func.lb[s], self.func.ub[s])
+                self.fitness[i] = self.func.fitness(self.pool[i, :])
+
+    cdef void initialize(self) nogil:
+        """Initialize function."""
+        with gil:
+            raise NotImplementedError
+
+    cdef void generation_process(self) nogil:
+        """The process of each generation."""
+        with gil:
+            raise NotImplementedError
+
+    cdef inline void report(self) nogil:
+        """Report generation, fitness and time."""
+        self.fitness_time.push_back(Report(
+            self.func.gen,
+            self.best_f,
+            difftime(time(NULL), self.time_start),
+        ))
+
+    cpdef list history(self):
+        """Return the history of the process.
+
+        The first value is generation (iteration);
+        the second value is fitness;
+        the third value is time in second.
+        """
+        ret = []
+        cdef Report report
+        for report in self.fitness_time:
+            ret.append((report.gen, report.fitness, report.time))
+        return ret
+
+    cpdef object run(self):
+        """Run and return the result and convergence history.
+
+        The first place of `return` is came from
+        calling [`ObjFunc.result()`](#objfuncresult).
+
+        The second place of `return` is a list of generation data,
+        which type is `Tuple[int, float, float]]`.
+        The first of them is generation,
+        the second is fitness, and the last one is time in second.
+        """
+        # Swap upper and lower bound if reversed
+        for i in range(len(self.func.ub)):
+            if self.func.ub[i] &lt; self.func.lb[i]:
+                self.func.ub[i], self.func.lb[i] = self.func.lb[i], self.func.ub[i]
+        # Start
+        self.time_start = time(NULL)
+        self.initialize()
+        self.report()
+        # Iterations
+        cdef double diff, best_f
+        cdef double last_diff = 0
+        while True:
+            best_f = self.best_f
+            self.func.gen += 1
+            self.generation_process()
+            if self.func.gen % self.rpt == 0:
+                self.report()
+            if self.stop_at == MAX_GEN:
+                if self.func.gen &gt;= self.stop_at_i &gt; 0:
+                    break
+            elif self.stop_at == MIN_FIT:
+                if self.best_f &lt;= self.stop_at_f:
+                    break
+            elif self.stop_at == MAX_TIME:
+                if difftime(time(NULL), self.time_start) &gt;= self.stop_at_f &gt; 0:
+                    break
+            elif self.stop_at == SLOW_DOWN:
+                diff = best_f - self.best_f
+                if last_diff &gt; 0 and diff / last_diff &gt;= self.stop_at_f:
+                    break
+                last_diff = diff
+            # progress
+            if self.progress_fun is not None:
+                self.progress_fun(self.func.gen, f"{self.best_f:.04f}")
+            # interrupt
+            if self.interrupt_fun is not None and self.interrupt_fun():
+                break
+        self.report()
+        return self.func.result(self.best)
+</t>
+<t tx="leo.20210210095725.2">@path ./pyslvs/pyslvs/metaheuristics/
+@language unknown_language
+# -*- coding: utf-8 -*-
+</t>
+<t tx="leo.20210210095901.1"></t>
+<t tx="leo.20210210095901.10">@path ./pyslvs/pyslvs/bfgs_solver/
+/*
+ *  Created on: July 24, 2019
+ *  Author: KmolYuan
+ */
+
+#include "calc.h"
+#include &lt;cmath&gt;
+
+///////////////////////////////////////////////////////////////////////
+/// constraint defines (these make writing constraint equations easier)
+///////////////////////////////////////////////////////////////////////
+
+#define P1 con-&gt;point1
+#define P1_x (*P1-&gt;x)
+#define P1_y (*P1-&gt;y)
+#define P2 con-&gt;point2
+#define P2_x (*P2-&gt;x)
+#define P2_y (*P2-&gt;y)
+#define L1 con-&gt;line1
+#define L1_P1 L1-&gt;p1
+#define L1_P1_x (*L1_P1-&gt;x)
+#define L1_P1_y (*L1_P1-&gt;y)
+#define L1_P2 L1-&gt;p2
+#define L1_P2_x (*L1_P2-&gt;x)
+#define L1_P2_y (*L1_P2-&gt;y)
+#define L2 con-&gt;line2
+#define L2_P1 L2-&gt;p1
+#define L2_P1_x (*L2_P1-&gt;x)
+#define L2_P1_y (*L2_P1-&gt;y)
+#define L2_P2 L2-&gt;p2
+#define L2_P2_x (*L2_P2-&gt;x)
+#define L2_P2_y (*L2_P2-&gt;y)
+#define ANGLE (*con-&gt;parameter)
+#define DISTANCE fabs(ANGLE)
+
+namespace {
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.11">auto point_on_point(Constraint *con) -&gt; double {
+    // Hopefully avoid this constraint,
+    // make coincident points use the same parameters
+    auto dx = P2_x - P1_x;
+    auto dy = P2_y - P1_y;
+    return dx * dx + dy * dy;
+}
+
+</t>
+<t tx="leo.20210210095901.12">auto p2p_distance(Constraint *con) -&gt; double {
+    auto tmp = hypot(P2_x - P1_x, P2_y - P1_y) - DISTANCE;
+    return tmp * tmp * 100;
+}
+
+</t>
+<t tx="leo.20210210095901.13">auto point_on_line(Constraint *con) -&gt; double {
+    auto dx = L1_P2_x - L1_P1_x;
+    auto dy = L1_P2_y - L1_P1_y;
+    @others
+}
+}  // namespace
+
+</t>
+<t tx="leo.20210210095901.14">    auto t =
+        ((P1_x - L1_P1_x) * dx + (P1_y - L1_P1_y) * dy) / (dx * dx + dy * dy);
+    dx = (L1_P1_x + dx * t) - P1_x;
+    dy = (L1_P1_y + dy * t) - P1_y;
+    return (dx * dx + dy * dy) * 1e-3;
+}
+
+auto internal_angle(Constraint *con) -&gt; double {
+    @others
+</t>
+<t tx="leo.20210210095901.15">    auto tmp = atan2(L2_P2_y - L2_P1_y, L2_P2_x - L2_P1_x)
+               - atan2(L1_P2_y - L1_P1_y, L1_P2_x - L1_P1_x) - ANGLE;
+    return tmp * tmp;
+}
+
+auto line_internal_angle(Constraint *con) -&gt; double {
+    auto tmp = sin(atan2(L1_P2_y - L1_P1_y, L1_P2_x - L1_P1_x) - ANGLE);
+    return tmp * tmp;
+</t>
+<t tx="leo.20210210095901.16">auto calc(Constraint *cons, size_t cons_len) -&gt; double {
+    auto error = 0.;
+    for (auto i = 0u; i &lt; cons_len; i++) {
+        auto con = cons + i;
+        switch (con-&gt;type) {
+            case POINT_ON_POINT:
+                error += point_on_point(con);
+                break;
+            case P2P_DISTANCE:
+                error += p2p_distance(con);
+                break;
+            case POINT_ON_LINE:
+                error += point_on_line(con);
+                break;
+            case INTERNAL_ANGLE:
+                error += internal_angle(con);
+                break;
+            case LINE_INTERNAL_ANGLE:
+                error += line_internal_angle(con);
+                break;
+        }
+    }
+    return error;
+}
+</t>
+<t tx="leo.20210210095901.17">@path ./pyslvs/pyslvs/bfgs_solver/
+#ifndef CLAC_H
+#define CLAC_H
+
+/*
+ *  Created on: July 24, 2019
+ *  Author: KmolYuan
+ */
+
+#include "solve.h"
+
+enum {
+    // Geometric Constraint types
+    POINT_ON_POINT,
+    POINT_ON_LINE,
+    INTERNAL_ANGLE,
+    P2P_DISTANCE,
+    LINE_INTERNAL_ANGLE,
+};
+
+double calc(Constraint *, size_t);
+
+#endif  // CLAC_H
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.18">@path ./pyslvs/pyslvs/bfgs_solver/
+/*
+ * Create on: Jun 6, 2019
+ * Author: KmolYuan
+ * These functions make writing constraint easier
+ */
+
+#include "calc.h"
+
+namespace {
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.19">auto p2p_distance_constraint(unsigned type, Point *point1, Point *point2,
+                             double *value) -&gt; Constraint {
+    auto con = Constraint{};
+    con.type = type;
+    con.point1 = point1;
+    con.point2 = point2;
+    con.parameter = value;
+    return con;
+}
+
+</t>
+<t tx="leo.20210210095901.2"></t>
+<t tx="leo.20210210095901.20">auto point_line_constraint(unsigned type, Point *point1, Line *line1)
+    -&gt; Constraint {
+    auto con = Constraint{};
+    con.type = type;
+    con.point1 = point1;
+    con.line1 = line1;
+    return con;
+}
+
+</t>
+<t tx="leo.20210210095901.21">auto line_constraint(unsigned type, Line *line1, double *value) -&gt; Constraint {
+    auto con = Constraint{};
+    con.type = type;
+    con.line1 = line1;
+    con.parameter = value;
+    return con;
+}
+
+</t>
+<t tx="leo.20210210095901.22">auto angle_constraint(unsigned type, Line *line1, Line *line2, double *value)
+    -&gt; Constraint {
+    auto con = Constraint{};
+    con.type = type;
+    con.line1 = line1;
+    con.line2 = line2;
+    con.parameter = value;
+    return con;
+}
+}  // namespace
+
+</t>
+<t tx="leo.20210210095901.23">auto point_on_point(Point *point1, Point *point2) -&gt; Constraint {
+    auto con = Constraint{};
+    con.type = POINT_ON_POINT;
+    con.point1 = point1;
+    con.point2 = point2;
+    return con;
+}
+
+</t>
+<t tx="leo.20210210095901.24">auto p2p_distance(Point *point1, Point *point2, double *value) -&gt; Constraint {
+    return p2p_distance_constraint(P2P_DISTANCE, point1, point2, value);
+}
+
+[[maybe_unused]] auto point_on_line(Point *point1, Line *line1) -&gt; Constraint {
+    return point_line_constraint(POINT_ON_LINE, point1, line1);
+}
+
+</t>
+<t tx="leo.20210210095901.25">auto internal_angle(Line *line1, Line *line2, double *value) -&gt; Constraint {
+    return angle_constraint(INTERNAL_ANGLE, line1, line2, value);
+}
+
+[[maybe_unused]] auto line_internal_angle(Line *line1, double *value)
+    -&gt; Constraint {
+    return line_constraint(LINE_INTERNAL_ANGLE, line1, value);
+}
+</t>
+<t tx="leo.20210210095901.26">@path ./pyslvs/pyslvs/bfgs_solver/
+/*
+ *  Created on: Jun 8, 2009
+ *  Author: jgeorge
+ *  Contributor: KmolYuan
+ */
+
+#include "derivatives.h"
+
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.27">void derivatives(double **x, double *grad, size_t x_len, Constraint *cons,
+                 size_t cons_len) {
+    for (auto i = 0u; i &lt; cons_len; i++) {
+        auto con = cons + i;
+        switch (con-&gt;type) {
+            //////////////////////////////////////
+            /// Point on Point GeoConstraint derivative
+            //////////////////////////////////////
+            case POINT_ON_POINT: {
+                // Derivative with respect to p1x
+                auto position = size_t(con-&gt;point1-&gt;x - x[0]);
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] += 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to p1y
+                position = con-&gt;point1-&gt;y - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] += 2 * (*con-&gt;point1-&gt;y - *con-&gt;point2-&gt;y);
+
+                // Derivative with respect to p2x
+                position = con-&gt;point2-&gt;x - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to p2y
+                position = con-&gt;point2-&gt;y - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * (*con-&gt;point1-&gt;y - *con-&gt;point2-&gt;y);
+                break;
+            }
+            //////////////////////////////////////
+            /// Point to Point Distance GeoConstraint derivative
+            //////////////////////////////////////
+            case P2P_DISTANCE: {
+                // Derivative with respect to p1x
+                auto position = size_t(con-&gt;point1-&gt;x - x[0]);
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] += 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to p1y
+                position = con-&gt;point1-&gt;y - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] += 2 * (*con-&gt;point1-&gt;y - *con-&gt;point2-&gt;y);
+
+                // Derivative with respect to p2x
+                position = con-&gt;point2-&gt;x - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to p2y
+                position = con-&gt;point2-&gt;y - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * (*con-&gt;point1-&gt;y - *con-&gt;point2-&gt;y);
+
+                // Derivative with respect to DISTANCE
+                position = con-&gt;parameter - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * *con-&gt;parameter;
+                break;
+            }
+            //////////////////////////////////////
+            /// Point on line GeoConstraint derivatives
+            //////////////////////////////////////
+            case POINT_ON_LINE: {
+                // Derivative with respect to p1x
+                auto position = size_t(con-&gt;point1-&gt;x - x[0]);
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] += 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to p2x
+                position = con-&gt;point2-&gt;x - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * (*con-&gt;point1-&gt;x - *con-&gt;point2-&gt;x);
+
+                // Derivative with respect to DISTANCE
+                position = con-&gt;parameter - x[0];
+                if (position &gt;= 0 &amp;&amp; position &lt; x_len)
+                    grad[position] -= 2 * *con-&gt;parameter;
+                break;
+            }
+        }
+    }
+}
+</t>
+<t tx="leo.20210210095901.28">@path ./pyslvs/pyslvs/bfgs_solver/
+/*
+ *  Created on: July 12, 2020
+ *  Author: KmolYuan
+ */
+
+#ifndef DERIVATIVES_H
+#define DERIVATIVES_H
+
+#include "calc.h"
+
+void derivatives(double **, double *, size_t, Constraint *, size_t);
+
+#endif  // DERIVATIVES_H
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.29">@path ./pyslvs/pyslvs/bfgs_solver/
+/* ============================================================================
+ * Name        : SolverPointers.cpp
+ * Author      : Jonathan George
+ * Contributor : KmolYuan
+ *============================================================================*/
+
+#include &lt;cmath&gt;
+#include &lt;iostream&gt;
+#include "derivatives.h"
+
+using namespace std;
+
+// Show coordinates
+@others
+@language c
+@tabwidth -4
+@ignore
+</t>
+<t tx="leo.20210210095901.30">auto printpoints(Point *points, size_t N) {
+    for (auto i = 0u; i &lt; N; i++)
+        cout &lt;&lt; "Point " &lt;&lt; i &lt;&lt; ": (" &lt;&lt; *points[i].x &lt;&lt; ", " &lt;&lt; *points[i].y
+             &lt;&lt; ")" &lt;&lt; endl;
+}
+
+</t>
+<t tx="leo.20210210095901.31">auto main() -&gt; int {
+    // Input a parameter list
+    double parameters[] = {0, 0, 5, 0, 6, 5, 6, 5};
+    const size_t param_count = sizeof(parameters) / sizeof(*parameters);
+    // Make a list of pointers of parameters
+    auto pparameters = new double *[param_count];
+    for (int i = 0; i &lt; param_count; i++)
+        pparameters[i] = &amp;parameters[i];
+    // Input a constant parameter list
+    double constants[] = {30, 10, 24, M_PI * 0.5};
+
+    // Create geometric objects and constraints with pointers
+    Point points[] = {
+        {pparameters[0], pparameters[1]}, {pparameters[2], pparameters[3]},
+        {pparameters[4], pparameters[5]}, {pparameters[6], pparameters[7]},
+        {&amp;constants[0], &amp;constants[1]},
+    };
+    Line lines[] = {
+        {&amp;points[0], &amp;points[1]},
+        {&amp;points[1], &amp;points[2]},
+    };
+    Constraint cons[] = {
+        internal_angle(&amp;lines[0], &amp;lines[1], &amp;constants[3]),
+        cout &lt;&lt; "A good Solution was found." &lt;&lt; endl;
+    else
+        cout &lt;&lt; "No valid Solutions were found from this start point." &lt;&lt; endl;
+    printpoints(points, point_count);
+
+    double gradF[point_count] = {0};
+    derivatives(pparameters, gradF, point_count, cons, cons_count);
+    for (int i = 0; i &lt; point_count; i++)
+        cout &lt;&lt; "GradF[" &lt;&lt; i &lt;&lt; "]: " &lt;&lt; gradF[i] &lt;&lt; endl;
+    delete[] pparameters;
+    return 0;
+}
+</t>
+<t tx="leo.20210210095901.32">@path ./pyslvs/pyslvs/bfgs_solver/
+/*
+ * solve.cpp
+ *
+ *  Created on: May 4, 2009
+ *  Author: Jonathan George
+ *  Contributor: KmolYuan
+ */
+
+#include "solve.h"
+#include &lt;cmath&gt;
+#include &lt;vector&gt;
+#include "calc.h"
+
+#define EPS 1e-20
+#define MAX_ITER 50
+#define PERT_MAG 1e-6
+#define PERT_MIN 1e-10
+#define CONVERGENCE_ROUGH 1e-8
+#define CONVERGENCE_FINE 1e-10
+#define VALID_SOLUTION_FINE 1e-12
+#define VALID_SOLUTION_ROUGH 1e-4
+
+// Dynamic arrays
+using array1d = std::vector&lt;double&gt;;
+using array2d = std::vector&lt;array1d&gt;;
+
+namespace {
+@others
+@language c
+@tabwidth -4
+@ignore
+</t>
+<t tx="leo.20210210095901.33">auto cal_grad(double *param, Constraint *cons, size_t cons_len, double pert)
+    -&gt; double {
+    auto tmp = *param;
+    *param = tmp - pert;
+    auto first = calc(cons, cons_len);
+    *param = tmp + pert;
+    auto second = calc(cons, cons_len);
+    *param = tmp;
+    return 0.5 * (second - first) / pert;
+}
+}  // namespace
+
+</t>
+<t tx="leo.20210210095901.34">auto solve(double **param, size_t param_len, Constraint *cons, size_t cons_len,
+           bool is_fine) -&gt; bool {
+    // Save the original parameters for later
+    auto param_origin = array1d(param_len);
+    for (auto i = 0u; i &lt; param_len; i++)
+        param_origin[i] = *param[i];
+    // Calculate Function at the starting point:
+    auto f0 = calc(cons, cons_len);
+    if (f0 &lt; EPS)
+        return true;
+
+    // Calculate the gradient at the starting point:
+    // The gradient vector (1xn)
+    auto grad = array1d(param_len);
+    auto pert = f0 * PERT_MAG;
+    // The norm of the gradient vector
+    for (auto j = 0u; j &lt; param_len; j++)
+        grad[j] = cal_grad(param[j], cons, cons_len, pert);
+
+    // Estimate the norm of n
+    // Initialize n and calculate s
+    // The current search direction
+    auto s = array1d(param_len);
+    // The estimate of the Hessian inverse
+    auto n = array2d(param_len, array1d(param_len));
+    for (auto i = 0u; i &lt; param_len; i++)
+        for (auto j = 0u; j &lt; param_len; j++) {
+            if (i == j) {
+                n[i][j] = 1;
+                // Calculate the initial search vector
+                s[i] = -grad[i];
+                continue;
+            }
+            n[i][j] = 0;
+        }
+
+    // Initial search vector multiplier
+    auto alpha = 1.;
+    // Storage for the previous design variables
+    auto x_old = array1d(param_len);
+    for (auto i = 0u; i &lt; param_len; i++)
+        // Copy last values to x_old
+        x_old[i] = *param[i];
+
+    ///////////////////////////////////////////////////////
+    /// Start of line search
+    ///////////////////////////////////////////////////////
+    // Make the initial position alpha1
+    auto alpha1 = 0.;
+    auto f1 = f0;
+    // Take a step of alpha=1 as alpha2
+    auto alpha2 = 1.;
+    for (auto i = 0u; i &lt; param_len; i++)
+        // calculate the new x
+        *param[i] = x_old[i] + alpha2 * s[i];
+    auto f2 = calc(cons, cons_len);
+
+    // Take a step of alpha 3 that is 2*alpha2
+    auto alpha3 = alpha * 2;
+    for (auto i = 0u; i &lt; param_len; i++)
+        // calculate the new x
+        *param[i] = x_old[i] + alpha3 * s[i];
+    auto f3 = calc(cons, cons_len);
+
+    // Now reduce or lengthen alpha2 and alpha3 until the minimum is
+    // Bracketed by the triplet f1&gt;f2&lt;f3
+    while (f2 &gt; f1 || f2 &gt; f3)
+        if (f2 &gt; f1) {
+            // If f2 is greater than f1 then we shorten alpha2 and alpha3 closer
+            // to f1 Effectively both are shortened by a factor of two
+            alpha3 = alpha2;
+            f3 = f2;
+            alpha2 *= 0.5;
+            for (auto i = 0u; i &lt; param_len; i++)
+                // calculate the new x
+                *param[i] = x_old[i] + alpha2 * s[i];
+            f2 = calc(cons, cons_len);
+        } else if (f2 &gt; f3) {
+            // If f2 is greater than f3 then we length alpah2 and alpha3 closer
+            // to f1 Effectively both are lengthened by a factor of two
+            alpha2 = alpha3;
+            f2 = f3;
+            alpha3 *= 2;
+            for (auto i = 0u; i &lt; param_len; i++)
+                // calculate the new x
+                *param[i] = x_old[i] + alpha3 * s[i];
+            f3 = calc(cons, cons_len);
+        }
+    // get the alpha for the minimum f of the quadratic approximation
+    auto alpha_s =
+    for (auto i = 0u; i &lt; param_len; i++)
+        // calculate the new x
+        *param[i] = x_old[i] + alpha_s * s[i];
+    auto fnew = calc(cons, cons_len);
+
+    /////////////////////////////////////
+    /// end of line search
+    /////////////////////////////////////
+    auto delta_x = array1d(param_len);
+    auto grad_new = array1d(param_len);
+    auto gamma = array1d(param_len);
+    auto gn = array1d(param_len);  // gamma' @ n
+    auto first_second = array2d(param_len, array1d(param_len));
+    // delta_x @ gamma' @ n
+    auto dgn = array2d(param_len, array1d(param_len));
+    // gamma' @ delta_x
+    auto gd = array2d(param_len, array1d(param_len));
+    // n @ gamma @ delta_x
+    auto ngd = array2d(param_len, array1d(param_len));
+    // Calculate delta_x
+    for (auto i = 0u; i &lt; param_len; i++)
+        // Calculate the difference in x for the Hessian update
+        delta_x[i] = *param[i] - x_old[i];
+
+    auto iterations = 1u;
+    auto delta_x_norm = 1.;
+    while (delta_x_norm &gt; (is_fine ? CONVERGENCE_FINE : CONVERGENCE_ROUGH)
+           &amp;&amp; fnew &gt; EPS &amp;&amp; iterations &lt; MAX_ITER * param_len) {
+        //////////////////////////////////////////////////////////////////////
+        /// Start of main loop!!!!
+        //////////////////////////////////////////////////////////////////////
+        auto bottom = 0.;
+        pert = fnew * PERT_MAG;
+        if (pert &lt; PERT_MIN)
+            pert = PERT_MIN;
+        for (auto i = 0u; i &lt; param_len; i++) {
+            grad_new[i] = cal_grad(param[i], cons, cons_len, pert);
+            // Calculate the change in the gradient
+            gamma[i] = grad_new[i] - grad[i];
+            bottom += delta_x[i] * gamma[i];
+        }
+        // make sure that bottom is never 0
+        if (bottom == 0.)
+            bottom = 1e-10;
+        // calculate all (1xn)@(nxn)
+        for (auto i = 0u; i &lt; param_len; i++) {
+            gn[i] = 0;
+            for (auto j = 0u; j &lt; param_len; j++)
+                // This is gn transpose
+                gn[i] += gamma[j] * n[i][j];
+        }
+        // calculate all (1xn)@(nx1)
+        auto gng = 0.;  // gamma' @ n @ gamma
+        for (auto i = 0u; i &lt; param_len; i++)
+            gng += gn[i] * gamma[i];
+        // Calculate the first term
+        auto first_term = 1 + gng / bottom;
+        // Calculate all (nx1)@(1xn) matrices
+        for (auto i = 0u; i &lt; param_len; i++)
+            for (auto j = 0u; j &lt; param_len; j++) {
+                first_second[i][j] =
+                    delta_x[j] * delta_x[i] / bottom * first_term;
+                dgn[i][j] = delta_x[i] * gn[j];
+                gd[i][j] = gamma[i] * delta_x[j];
+            }
+        // Calculate all (nxn)@(nxn) matrices
+        for (auto i = 0u; i &lt; param_len; i++)
+            for (auto j = 0u; j &lt; param_len; j++) {
+                ngd[i][j] = 0;
+                for (auto k = 0u; k &lt; param_len; k++)
+                    ngd[i][j] += n[i][k] * gd[k][j];
+            }
+        // Now calculate the BFGS update on n
+        for (auto i = 0u; i &lt; param_len; i++)
+            for (auto j = 0u; j &lt; param_len; j++)
+                n[i][j] +=
+                    first_second[i][j] - (dgn[i][j] + ngd[i][j]) / bottom;
+        // Calculates
+        for (auto i = 0u; i &lt; param_len; i++) {
+            s[i] = 0;
+            for (auto j = 0u; j &lt; param_len; j++)
+                s[i] += -n[i][j] * grad_new[j];
+        }
+        // copy newest values to the x_old
+        for (auto i = 0u; i &lt; param_len; i++)
+            x_old[i] = *param[i];  // Copy last values to x_old
+
+        ///////////////////////////////////////////////////////
+        /// Start of line search
+        ///////////////////////////////////////////////////////
+        // Make the initial position alpha1
+        alpha1 = 0;
+        f1 = fnew;
+
+        // Take a step of alpha=1 as alpha2
+        alpha2 = 1;
+        for (auto i = 0u; i &lt; param_len; i++)
+            // calculate the new x
+            *param[i] = x_old[i] + alpha2 * s[i];
+        f2 = calc(cons, cons_len);
+
+        // Take a step of alpha 3 that is 2*alpha2
+        alpha3 = alpha2 * 2;
+        for (auto i = 0u; i &lt; param_len; i++)
+            // calculate the new x
+            *param[i] = x_old[i] + alpha3 * s[i];
+        f3 = calc(cons, cons_len);
+
+        // Now reduce or lengthen alpha2 and alpha3 until the minimum is
+        // Bracketed by the triplet f1&gt;f2&lt;f3
+        while (f2 &gt; f1 || f2 &gt; f3)
+            if (f2 &gt; f1) {
+                // If f2 is greater than f1 then we shorten alpha2 and alpha3
+                // closer to f1 Effectively both are shortened by a factor of
+                // two
+                alpha3 = alpha2;
+                f3 = f2;
+                alpha2 *= 0.5;
+                for (auto i = 0u; i &lt; param_len; i++)
+                    // calculate the new x
+                    *param[i] = x_old[i] + alpha2 * s[i];
+                f2 = calc(cons, cons_len);
+            } else if (f2 &gt; f3) {
+                // If f2 is greater than f3 then we length alpah2 and alpha3
+                // closer to f1 Effectively both are lengthened by a factor of
+                // two
+                alpha2 = alpha3;
+                f2 = f3;
+                alpha3 *= 2;
+                for (auto i = 0u; i &lt; param_len; i++)
+                    // calculate the new x
+                    *param[i] = x_old[i] + alpha3 * s[i];
+                f3 = calc(cons, cons_len);
+            }
+
+        // get the alpha for the minimum f of the quadratic approximation
+        alpha_s =
+            alpha2 + (alpha2 - alpha1) * (f1 - f3) / (3 * (f1 - 2 * f2 + f3));
+
+        // Guarantee that the new alpha_s is within the bracket
+        if (alpha_s &gt;= alpha3 || alpha_s &lt;= alpha1)
+            alpha_s = alpha2;
+
+        if (std::isnan(alpha_s))
+            alpha_s = 0;
+
+        // Set the values to alpha_s
+        for (auto i = 0u; i &lt; param_len; i++)
+            // calculate the new x
+            *param[i] = x_old[i] + alpha_s * s[i];
+        fnew = calc(cons, cons_len);
+
+        /////////////////////////////////////
+        /// end of line search
+        ////////////////////////////////////
+        delta_x_norm = 0;
+        for (auto i = 0u; i &lt; param_len; i++) {
+            // Calculate the difference in x for the hessian update
+            delta_x[i] = *param[i] - x_old[i];
+            delta_x_norm += delta_x[i] * delta_x[i];
+            grad[i] = grad_new[i];
+        }
+        delta_x_norm = sqrt(delta_x_norm);
+        iterations += 1;
+        /////////////////////////////////////////////////////////////
+        /// End of Main loop
+        /////////////////////////////////////////////////////////////
+    }
+    // End of function
+    if (fnew &lt; (is_fine ? VALID_SOLUTION_FINE : VALID_SOLUTION_ROUGH))
+        return true;
+    // Replace the bad numbers with the last result
+    for (auto i = 0u; i &lt; param_len; i++)
+        *param[i] = param_origin[i];
+    return false;
+}
+</t>
+<t tx="leo.20210210095901.35">@path ./pyslvs/pyslvs/bfgs_solver/
+#ifndef SOLVE_H
+#define SOLVE_H
+
+/*
+ *  Created on: May 4, 2009
+ *  Author: Jonathan
+ *  Contributor: KmolYuan
+ */
+
+#ifdef __cplusplus
+#include &lt;cstddef&gt;
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.36">extern "C" {
+#else
+#include &lt;stdbool.h&gt;
+#include &lt;stddef.h&gt;
+#endif
+
+///////////////////////////////////////
+/// Position Expression data
+///////////////////////////////////////
+
+struct Point {
+    double *x, *y;
+};
+
+struct Line {
+    Point *p1, *p2;
+};
+
+struct Constraint {
+    unsigned type;
+    Point *point1, *point2;
+    Line *line1, *line2;
+    double *parameter;
+};
+
+///////////////////////////////////////
+/// Functions (for safe access of members)
+///////////////////////////////////////
+
+// Geometric Constraints
+Constraint point_on_point(Point *, Point *);
+Constraint p2p_distance(Point *, Point *, double *);
+#ifdef __cplusplus
+[[maybe_unused]]
+#endif
+Constraint point_on_line(Point *, Line *);
+Constraint internal_angle(Line *, Line *, double *);
+#ifdef __cplusplus
+[[maybe_unused]]
+#endif
+Constraint line_internal_angle(Line *, double *);
+bool solve(double **, size_t, Constraint *, size_t, bool);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // SOLVE_H
+</t>
+<t tx="leo.20210210095901.39"></t>
+<t tx="leo.20210210095901.40">@path ./pyslvs/pyslvs/tinycadlib/
+#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+#include "solver.h"
+
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.41">int main() {
+    @others
+}
+</t>
+<t tx="leo.20210210095901.42">auto stack = Stack{
+    {false, PLA, Sym{L_LABEL, 0}, Sym{I_LABEL, 0},
+        Sym{P_LABEL, 0}, Sym{}, Sym{}, Sym{P_LABEL, 1}},
+};
+</t>
+<t tx="leo.20210210095901.43">auto join_pos = JointPos{
+    {{P_LABEL, 0}, {0, 0}},
+    {{P_LABEL, 1}, {0, 0}},
+};
+</t>
+<t tx="leo.20210210095901.44">auto param = Param{
+    {{I_LABEL, 0}, 90. / 180 * M_PI},
+    {{L_LABEL, 0}, 10.},
+};
+auto solver = ExprSolver(stack, join_pos, param);
+solver.solve();
+for (auto[_, pos] : solver.joint_pos)
+    std::cout &lt;&lt; pos.x &lt;&lt; ", " &lt;&lt; pos.y &lt;&lt; std::endl;
+</t>
+<t tx="leo.20210210095901.45">@path ./pyslvs/pyslvs/tinycadlib/
+//
+// Created by KmolYuan on 2020/10/12.
+//
+
+#include "solver.h"
+#include &lt;cmath&gt;
+#include &lt;utility&gt;
+
+namespace {
+    @others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.46">auto distance(double x1, double y1, double x2, double y2) -&gt; double {
+    return hypot(x1 - x2, y1 - y2);
+}
+
+</t>
+<t tx="leo.20210210095901.47">    auto slope_angle(double x1, double y1, double x2, double y2) -&gt; double {
+        return atan2(y1 - y2, x1 - x2);
+    }
+}
+
+</t>
+<t tx="leo.20210210095901.48">auto cpxy(CCoord c1, double x, double y) -&gt; CCoord {
+    return {c1.x + x, c1.y + y};
+}
+
+</t>
+<t tx="leo.20210210095901.49">auto cppp(CCoord c1, CCoord c2, CCoord c3) -&gt; CCoord {
+    auto length = distance(c1.x, c1.y, c2.x, c2.y);
+    auto alpha = slope_angle(c2.x, c2.y, c1.x, c1.y);
+    return {c3.x + length * cos(alpha), c3.y + length * sin(alpha)};
+}
+
+</t>
+<t tx="leo.20210210095901.50">auto cplap(CCoord c1, double d0, double a0, CCoord c2, bool inverse) -&gt; CCoord {
+    auto a1 = atan2(c2.y - c1.y, c2.x - c1.x);
+    a1 += inverse ? -a0 : a0;
+    return {c1.x + d0 * cos(a1), c1.y + d0 * sin(a1)};
+}
+
+</t>
+<t tx="leo.20210210095901.51">auto cpllp(CCoord c1, double d0, double d1, CCoord c2, bool inverse) -&gt; CCoord {
+    auto dx = c2.x - c1.x;
+    auto dy = c2.y - c1.y;
+    auto d = distance(c1.x, c1.y, c2.x, c2.y);
+    if (d &gt; d0 + d1)
+        return {NAN, NAN};
+    if (d &lt; fabs(d0 - d1))
+        return {NAN, NAN};
+    if (d == 0 &amp;&amp; d0 == d1)
+        return {NAN, NAN};
+    auto a = (d0 * d0 - d1 * d1 + d * d) / (2 * d);
+    auto h = sqrt(d0 * d0 - a * a);
+    auto xm = c1.x + a * dx / d;
+    auto ym = c1.y + a * dy / d;
+    if (inverse)
+        return {xm + h * dy / d, ym - h * dx / d};
+    else
+        return {xm - h * dy / d, ym + h * dx / d};
+}
+
+</t>
+<t tx="leo.20210210095901.52">auto cplpp(CCoord c1, double d0, CCoord c2, CCoord c3, bool inverse) -&gt; CCoord {
+    auto line_mag = distance(c2.x, c2.y, c3.x, c3.y);
+    auto dx = c3.x - c2.x;
+    auto dy = c3.y - c2.y;
+    auto u = ((c1.x - c2.x) * dx + (c1.y - c2.y) * dy) / (line_mag * line_mag);
+    auto inter = CCoord{c2.x + u * dx, c2.y + u * dy};
+    auto d = distance(c1.x, c1.y, inter.x, inter.y);
+    if (d &gt; d0)
+        return {NAN, NAN};
+    else if (d == d0)
+        return inter;
+    d = sqrt(d0 * d0 - d * d) / line_mag;
+    dx *= d;
+    dy *= d;
+    if (inverse)
+        return {inter.x - dx, inter.y - dy};
+    else
+        return {inter.x + dx, inter.y + dy};
+}
+
+</t>
+<t tx="leo.20210210095901.53">auto cpalp(CCoord c1, double a0, double d0, CCoord c2, bool inverse) -&gt; CCoord {
+    a0 += slope_angle(c2.x, c2.y, c1.x, c1.y);
+    auto tan_a = tan(a0);
+    auto tan2_a = tan_a * tan_a;
+    auto tan2_a1 = tan2_a + 1;
+    auto c1l = c1.x - c1.y / tan_a;
+    auto c1c2x = c1.x - c2.x;
+    auto c1c2y = c1.y - c2.y;
+    auto sq = sqrt(d0 * d0 * tan2_a1 - c1c2x * c1c2x * tan2_a - c1c2y * c1c2y + 2 * tan_a * c1c2y * c1c2x);
+    auto cx = c1l - (c1l - c2.y * tan_a - c2.x + (inverse ? -sq : sq)) / tan2_a1;
+    return {cx, tan_a * (cx - c1.x) + c1.y};
+}
+
+
+/// Constructure of solver core.
+/// Check the link length override options.
+ExprSolver::ExprSolver(Stack stack, JointPos joint_pos, Param param) :
+    stack(std::move(stack)),
+    param(std::move(param)),
+    joint_pos(std::move(joint_pos)) {}
+
+</t>
+<t tx="leo.20210210095901.54">auto ExprSolver::solve() -&gt; bool {
+    for (auto expr : stack) {
+        auto &amp;c = joint_pos[expr.target];
+        switch (expr.func) {
+            case PXY:
+                c = cpxy(joint_pos[expr.c1],
+                         param[expr.v1],
+                         param[expr.v2]);
+                break;
+            case PPP:
+                c = cppp(joint_pos[expr.c1],
+                         joint_pos[expr.c2],
+                         joint_pos[expr.c3]);
+                break;
+            case PLA:
+                c = cplap(joint_pos[expr.c1],
+                          param[expr.v1],
+                          param[expr.v2],
+                          joint_pos[expr.c1],
+                          expr.op);
+                break;
+            case PLAP:
+                c = cplap(joint_pos[expr.c1],
+                          param[expr.v1],
+                          param[expr.v2],
+                          joint_pos[expr.c2],
+                          expr.op);
+                break;
+            case PLLP:
+                c = cpllp(joint_pos[expr.c1],
+                          param[expr.v1],
+                          param[expr.v2],
+                          joint_pos[expr.c2],
+                          expr.op);
+                break;
+            case PLPP:
+                c = cplpp(joint_pos[expr.c1],
+                          param[expr.v1],
+                          joint_pos[expr.c2],
+                          joint_pos[expr.c3],
+                          expr.op);
+                break;
+            case PALP:
+                c = cpalp(joint_pos[expr.c1],
+                          param[expr.v1],
+                          param[expr.v2],
+                          joint_pos[expr.c2],
+                          expr.op);
+        }
+        if (std::isnan(c.x) || std::isnan(c.y))
+            return false;
+    }
+    return true;
+}
+</t>
+<t tx="leo.20210210095901.55">@path ./pyslvs/pyslvs/tinycadlib/
+#ifndef SOLVER_H
+#define SOLVER_H
+
+#include &lt;utility&gt;
+#include &lt;vector&gt;
+#include &lt;map&gt;
+#include "swappable_pair.hpp"
+
+enum Label {
+    P_LABEL,
+    L_LABEL,
+    I_LABEL,
+    A_LABEL,
+    S_LABEL,
+};
+
+enum Func {
+    PXY,
+    PPP,
+    PLA,
+    PLAP,
+    PLLP,
+    PLPP,
+    PALP,
+};
+
+using Sym = std::pair&lt;int, int&gt;;
+
+struct CCoord {
+    double x, y;
+};
+
+auto cpxy(CCoord c1, double x, double y) -&gt; CCoord;
+auto cppp(CCoord c1, CCoord c2, CCoord c3) -&gt; CCoord;
+auto cplap(CCoord c1, double d0, double a0, CCoord c2, bool inverse) -&gt; CCoord;
+auto cpllp(CCoord c1, double d0, double d1, CCoord c2, bool inverse) -&gt; CCoord;
+auto cplpp(CCoord c1, double d0, CCoord c2, CCoord c3, bool inverse) -&gt; CCoord;
+auto cpalp(CCoord c1, double a0, double d0, CCoord c2, bool inverse) -&gt; CCoord;
+
+struct Expr {
+    bool op;
+    Func func;
+    Sym v1, v2, c1, c2, c3, target;
+};
+
+using Stack = std::vector&lt;Expr&gt;;
+using JointPos = std::map&lt;Sym, CCoord&gt;;
+using LinkLen = std::map&lt;SwappablePair, double&gt;;
+using Param = std::map&lt;Sym, double&gt;;
+
+@others
+@language c
+@tabwidth -4
+</t>
+<t tx="leo.20210210095901.6"></t>
+<t tx="leo.20210210095901.8"></t>
+<t tx="leo.20210210095901.9"></t>
+<t tx="leo.20210210095902.1">class ExprSolver {
+    Stack stack;
+    // Link length for P_LABEL.
+    Param param;
+
+public:
+    JointPos joint_pos;
+
+    ExprSolver() = default;
+    ExprSolver(Stack stack, JointPos joint_pos, Param param);
+
+    auto solve() -&gt; bool;
+};
+
+#endif //SOLVER_H
+</t>
+<t tx="leo.20210210095902.2">@path ./pyslvs/pyslvs/tinycadlib/
+@language unknown_language
+#ifndef SWAPPABLE_PAIR_HPP
+#define SWAPPABLE_PAIR_HPP
+
+struct SwappablePair {
+    int first, second;
+
+    inline auto operator==(const SwappablePair &amp;rhs) const -&gt; bool {
+        return (first == rhs.first &amp;&amp; second == rhs.second) ||
+               (first == rhs.second &amp;&amp; second == rhs.first);
+    }
+
+    inline auto operator!=(const SwappablePair &amp;rhs) const -&gt; bool {
+        return !this-&gt;operator==(rhs);
+    }
+
+    inline auto operator&lt;(const SwappablePair &amp;rhs) const -&gt; bool {
+        return this-&gt;operator!=(rhs) &amp;&amp; (first &lt; rhs.first || second &lt; rhs.second);
+    }
+};
+
+#endif //SWAPPABLE_PAIR_HPP
+</t>
 </tnodes>
 </leo_file>
