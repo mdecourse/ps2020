@@ -1,0 +1,9 @@
+[submodule "pymadcad"]
+	path = pymadcad
+	url = https://github.com/mdecourse/pymadcad.git
+[submodule "ngsolve"]
+	path = ngsolve
+	url = https://github.com/mdecourse/ngsolve.git
+[submodule "webots"]
+	path = webots
+	url = https://github.com/mdecourse/webots.git

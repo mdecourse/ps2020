@@ -10,6 +10,10 @@
 <v t="leo.20210209143811.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20210209143811.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
+<v t="leo.20210306054728.1"><vh>bike suspension</vh>
+<v t="leo.20210306054740.1"><vh>terminology</vh></v>
+<v t="leo.20210315195710.1"><vh>evaluation</vh></v>
+</v>
 <v t="leo.20210209143646.1"><vh>importer</vh></v>
 <v t="leo.20210209143921.1"><vh>all .py files</vh>
 <v t="leo.20210209143921.2"><vh>@path ./</vh>
@@ -1698,6 +1702,13 @@
 </v>
 </v>
 <v t="leo.20210209144326.1"><vh>recursive importer</vh></v>
+<v t="leo.20210315212234.1"><vh>metaheristics examples</vh></v>
+<v t="leo.20210315212305.1"><vh>@path downloads/examples</vh>
+<v t="leo.20210315212700.1"><vh>@button setup</vh></v>
+<v t="leo.20210315212331.1"><vh>@edit setup.py</vh></v>
+<v t="leo.20210315212441.1"><vh>@edit testobj.pyx</vh></v>
+<v t="leo.20210315212516.1"><vh>@edit rga_test.py</vh></v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="leo.20210209143646.1">'''Recursively import all python files in a directory and clean the result.'''
@@ -73572,5 +73583,95 @@ struct SwappablePair {
 
 #endif //SWAPPABLE_PAIR_HPP
 </t>
+<t tx="leo.20210306054728.1"></t>
+<t tx="leo.20210306054740.1">For a bicycle suspension system, the Instantaneous Center (IC) is the point that the rear axle is rotating around at any given instant.
+
+The placement of the IC at any given point can play a big part in how the bike behaves with regard to chain tension (pedaling), and how much chain growth occurs.
+
+chain tension (pedaling)
+
+chain growth
+
+Imagine a single pivot bike with the pivot located along the centerline of the seat-tube. If that pivot is above the chain-line, the bike will exhibit anti-squat (the suspension extends) characteristics when the chain is under tension while pedaling. 
+
+bump absorption, aka plushness</t>
+<t tx="leo.20210315195710.1">https://www.bikeradar.com/features/the-ultimate-guide-to-mountain-bike-rear-suspension-systems/
+
+https://linkagedesign.blogspot.com/2050/01/antidote-carbonjack-29-2020.html
+
+https://mbaction.com/garage-files-leverage-ratio/
+
+https://bikerumor.com/2018/10/04/suspension-tech-what-is-anti-rise/
+
+https://polebicycles.com/what-is-anti-squat-and-pedal-kickback/
+
+https://www.bikechecker.com/
+
+https://www.pinkbike.com/news/definitions-what-is-anti-squat.html</t>
+<t tx="leo.20210315212234.1"># setup.py
+# python setup.py build_ext --inplace
+
+from distutils.core import setup
+from distutils.extension import Extension
+from Cython.Distutils import build_ext
+
+setup(
+  name = 'Test app',
+  ext_modules=[
+    Extension('test',
+              sources=['testobj.pyx'],
+              extra_compile_args=['-Wno-cpp', '-std=c++17', '-fopenmp', '-DMS_WIN64'],
+              language='c++')
+    ],
+  cmdclass = {'build_ext': build_ext}
+)
+
+'''
+# test.obj.pyx
+cimport cython
+from numpy import array, float64 as f64
+from pyslvs.metaheuristics.utility cimport ObjFunc
+
+@cython.final
+cdef class TestObj(ObjFunc):
+    """
+    f(x) = x1^2 + 8*x2
+    """
+
+    def __cinit__(self):
+        self.ub = array([100, 100], dtype=f64)
+        self.lb = array([0, 0], dtype=f64)
+
+    cdef double fitness(self, double[:] v) nogil:
+        return v[0] * v[0] + 8 * v[1]
+
+    cpdef object result(self, double[:] v):
+        """x = (0, 0)"""
+        return tuple(v)
+'''
+'''
+# rga_test.py
+from numpy import array
+from matplotlib.pyplot import plot, show
+from pyslvs.metaheuristics import AlgorithmType, ALGORITHM
+#from pyslvs.metaheuristics.test import TestObj
+from test import TestObj
+
+t = AlgorithmType.RGA
+settings = {'min_fit': 1e-20, 'report': 10, 'parallel': False}
+a = ALGORITHM[t](TestObj(), settings)
+# Show answer
+ans = a.run()
+# Plot convergance graph
+h = array(a.history())
+plot(h[:, 0], h[:, 1], 'ro-')
+show()
+'''</t>
+<t tx="leo.20210315212305.1"></t>
+<t tx="leo.20210315212700.1">@language python
+import os
+
+os.system("python setup.py build_ext --inplace")
+g.es("setup 執行完畢")</t>
 </tnodes>
 </leo_file>
